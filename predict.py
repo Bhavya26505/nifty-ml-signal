@@ -7,7 +7,7 @@ from datetime import datetime, date, timedelta
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 import xgboost as xgb
-import google.generativeai as genai
+from google import genai
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -395,8 +395,8 @@ gemini_summary     = ""
 try:
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if api_key:
-        genai.configure(api_key=api_key)
-        gmodel = genai.GenerativeModel('gemini-1.5-flash')
+        client = genai.Client(api_key=api_key)
+
 
         prompt = f"""You are a professional Indian equity market analyst.
 Analyse today's NIFTY 50 data and give prediction for tomorrow.
@@ -449,7 +449,10 @@ ACTION: [Recommended action based on signal]
 
 DISCLAIMER: Algorithmic analysis for educational purposes only. Not SEBI-registered investment advice."""
 
-        response       = gmodel.generate_content(prompt)
+        response       = client.models.generate_content(
+            model='gemini-2.0-flash',
+            contents=prompt
+        )
         raw_response   = response.text.strip()
         gemini_analysis = raw_response
 
