@@ -449,10 +449,20 @@ ACTION: [Recommended action based on signal]
 
 DISCLAIMER: Algorithmic analysis for educational purposes only. Not SEBI-registered investment advice."""
 
-        response       = client.models.generate_content(
-            model='gemini-2.0-flash',
-            contents=prompt
-        )
+        import time
+        for attempt in range(3):
+            try:
+                response = client.models.generate_content(
+                    model='gemini-2.0-flash',
+                    contents=prompt
+                )
+                break
+            except Exception as retry_err:
+                if '429' in str(retry_err) and attempt < 2:
+                    print(f"    Rate limit hit, waiting 30s... (attempt {attempt+1})")
+                    time.sleep(30)
+                else:
+                    raise retry_err
         raw_response   = response.text.strip()
         gemini_analysis = raw_response
 
