@@ -1,0 +1,35 @@
+name: Fetch News Every 2 Hours
+
+on:
+  schedule:
+    - cron: '30 3,5,7,9,11,13,15 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests feedparser
+
+      - name: Run news fetcher
+        run: python fetch_news.py
+
+      - name: Commit and push news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --staged --quiet || git commit -m "News update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
