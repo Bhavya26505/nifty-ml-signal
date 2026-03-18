@@ -309,9 +309,10 @@ df_model = df.dropna(subset=['Target_Direction','Target_Close'] + valid_features
 
 X       = df_model[valid_features].values[:-1]
 y_dir   = df_model['Target_Direction'].values[:-1]
-y_close = df_model['Target_Close'].values[:-1]
-y_high  = df_model['Target_High'].values[:-1]
-y_low   = df_model['Target_Low'].values[:-1]
+# Train on % change from today's close — removes historical mean bias
+y_close = ((df_model['Target_Close'] - df_model['Close']) / df_model['Close'] * 100).values[:-1]
+y_high  = ((df_model['Target_High']  - df_model['Close']) / df_model['Close'] * 100).values[:-1]
+y_low   = ((df_model['Target_Low']   - df_model['Close']) / df_model['Close'] * 100).values[:-1]
 
 # Handle any remaining nans/infs in X
 X = np.nan_to_num(X, nan=0.0, posinf=0.0, neginf=0.0)
@@ -382,11 +383,57 @@ latest_sc  = sc.transform(latest_X)
 prob_up    = float(clf.predict_proba(latest_sc)[0][1])
 prob_down  = round(1 - prob_up, 4)
 prob_up    = round(prob_up, 4)
-pred_close = round(float(reg_close.predict(latest_sc)[0]), 2)
-pred_high  = round(float(reg_high.predict(latest_sc)[0]), 2)
-pred_low   = round(float(reg_low.predict(latest_sc)[0]), 2)
-pred_change     = round(pred_close - close_price, 2)
-pred_change_pct = round((pred_change / close_price) * 100, 2)
+# Predict price CHANGE % instead of absolute price
+# This removes historical mean bias from the regressor
+# Regressors now output % change — convert back to price
+pred_close_pct_raw = float(reg_close.predict(latest_sc)[0])
+pred_high_pct_raw  = float(reg_high.predict(latest_sc)[0])
+pred_low_pct_raw   = float(reg_low.predict(latest_sc)[0])
+
+pred_close_raw = close_price * (1 + pred_close_pct_raw/100)
+pred_high_raw  = close_price * (1 + pred_high_pct_raw/100)
+pred_low_raw   = close_price * (1 + pred_low_pct_raw/100)
+```
+
+---
+
+Commit the changes then run the workflow again. After the fix the output should look like:
+```
+Signal      : LONG ↑
+Today       : ₹23,777
+Pred Close  : ₹23,890 — ₹23,950  (above today since LONG)
+Pred Range  : ₹23,680 — ₹24,050
+
+# Calculate as percentage change from today
+pred_close_pct = (pred_close_raw - close_price) / close_price * 100
+pred_high_pct  = (pred_high_raw  - close_price) / close_price * 100
+pred_low_pct   = (pred_low_raw   - close_price) / close_price * 100
+
+# Consistency check — signal must align with direction
+# If LONG but regressor predicts below today, use ATR-based estimate
+if signal in ('LONG', ) and pred_close_raw < close_price:
+    # Model says up but regressor says down — trust classifier
+    # Use ATR-based estimate: typically 0.3% to 0.8% move
+    atr_pct = atr / close_price * 100
+    pred_change_pct = round(abs(atr_pct) * 0.5, 2)   # conservative upside
+    pred_close      = round(close_price * (1 + pred_change_pct/100), 2)
+    pred_high       = round(close_price * (1 + atr_pct * 0.8 / 100), 2)
+    pred_low        = round(close_price * (1 - atr_pct * 0.3 / 100), 2)
+elif signal == 'SHORT' and pred_close_raw > close_price:
+    # Model says down but regressor says up — trust classifier
+    atr_pct = atr / close_price * 100
+    pred_change_pct = round(-abs(atr_pct) * 0.5, 2)
+    pred_close      = round(close_price * (1 + pred_change_pct/100), 2)
+    pred_high       = round(close_price * (1 + atr_pct * 0.3 / 100), 2)
+    pred_low        = round(close_price * (1 - atr_pct * 0.8 / 100), 2)
+else:
+    # Regressor and classifier agree — use regressor output
+    pred_close      = round(pred_close_raw, 2)
+    pred_high       = round(pred_high_raw, 2)
+    pred_low        = round(pred_low_raw, 2)
+    pred_change_pct = round((pred_close - close_price) / close_price * 100, 2)
+
+pred_change = round(pred_close - close_price, 2)
 
 # Signal with confidence bands
 if prob_up > 0.60:
