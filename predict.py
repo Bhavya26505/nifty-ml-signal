@@ -399,10 +399,7 @@ pred_low_raw   = close_price * (1 + pred_low_pct_raw/100)
 
 Commit the changes then run the workflow again. After the fix the output should look like:
 ```
-Signal      : LONG ↑
-Today       : ₹23,777
-Pred Close  : ₹23,890 — ₹23,950  (above today since LONG)
-Pred Range  : ₹23,680 — ₹24,050
+
 
 # Calculate as percentage change from today
 pred_close_pct = (pred_close_raw - close_price) / close_price * 100
