@@ -576,7 +576,6 @@ function renderNews(d) {
 }
 
 // ── Load live ticker via allorigins ───────────────────────────
-
 const TICKERS = [
   {sym:'^NSEI',   label:'NIFTY 50'},
   {sym:'^NSEBANK',label:'BANKNIFTY'},
@@ -586,40 +585,23 @@ const TICKERS = [
   {sym:'^VIX',    label:'VIX'},
 ];
 
-// ✅ FIXED FUNCTION
 async function loadTicker() {
   const items = await Promise.allSettled(
     TICKERS.map(async t => {
       try {
         const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${encodeURIComponent(t.sym)}`;
-
-        // ✅ FIX: use corsproxy instead of allorigins
-        const proxy = `https://corsproxy.io/?${encodeURIComponent(url)}`;
-
-        const r = await fetch(proxy, {
-          signal: AbortSignal.timeout(8000)
-        });
-
-        if (!r.ok) throw new Error("Network error");
-
-        const data = await r.json();
-
-        if (!data || !data.quoteResponse) return null;
-
-        const q = data.quoteResponse.result?.[0];
+        const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+        const r = await fetch(proxy, {signal: AbortSignal.timeout(8000)});
+        const w = await r.json();
+        const q = JSON.parse(w.contents)?.quoteResponse?.result?.[0];
         if (!q) return null;
-
         return {
           label: t.label,
-          price: q.regularMarketPrice ?? 0,
-          diff:  q.regularMarketChange ?? 0,
-          pct:   q.regularMarketChangePercent ?? 0
+          price: q.regularMarketPrice,
+          diff:  q.regularMarketChange,
+          pct:   q.regularMarketChangePercent
         };
-
-      } catch (err) {
-        console.warn("Ticker failed:", t.sym);
-        return null;
-      }
+      } catch { return null; }
     })
   );
 
@@ -627,53 +609,6 @@ async function loadTicker() {
     .filter(r => r.status==='fulfilled' && r.value)
     .map(r => r.value);
 
-  // ML Signal fallback
-  if (signalData?.prediction) {
-    tickers.push({
-      label: 'ML SIGNAL',
-      price: signalData.prediction.signal,
-      diff:  signalData.prediction.prob_up,
-      pct:   null,
-      isSignal: true
-    });
-  }
-
-  // Fallback UI
-  if (!tickers.length) {
-    const sig = signalData?.prediction;
-    document.getElementById('ticker-inner').innerHTML = sig
-      ? `<div class="ti">
-          <span class="ti-name">ML SIGNAL</span>
-          <span class="ti-price ${sig.signal==='LONG'?'up':sig.signal==='SHORT'?'down':'flat'}">${sig.signal}</span>
-          <span class="ti-chg ${sig.signal==='LONG'?'up':'down'}">P(UP) ${sig.prob_up}%</span>
-        </div>`.repeat(8)
-      : '<div class="loading">Live prices loading...</div>';
-    return;
-  }
-
-  // Render ticker
-  const str = tickers.map(t => {
-    if (t.isSignal) {
-      const cls = t.price==='LONG'?'up':t.price==='SHORT'?'down':'flat';
-      return `<div class="ti">
-        <span class="ti-name">${t.label}</span>
-        <span class="ti-price ${cls}">${t.price}</span>
-        <span class="ti-chg ${cls}">P(UP) ${t.diff}%</span>
-      </div>`;
-    }
-
-    const cls = t.diff>=0?'up':'down';
-    const sym = t.diff>=0?'▲+':'▼';
-
-    return `<div class="ti">
-      <span class="ti-name">${t.label}</span>
-      <span class="ti-price">${t.price?.toLocaleString('en-IN',{maximumFractionDigits:2})}</span>
-      <span class="ti-chg ${cls}">${sym}${Math.abs(t.pct).toFixed(2)}%</span>
-    </div>`;
-  }).join('');
-
-  document.getElementById('ticker-inner').innerHTML = str + str;
-}
   // Also add ML signal to ticker
   if (signalData?.prediction) {
     tickers.push({
