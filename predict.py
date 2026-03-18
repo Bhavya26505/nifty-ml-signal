@@ -368,22 +368,39 @@ if os.path.exists("news.json"):
         with open("news.json", "r") as f:
             news_data = json.load(f)
         today_str = date.today().strftime("%Y-%m-%d")
-        if news_data.get("date") == today_str:
-            headlines      = news_data.get("headlines", [])
-            news_count     = len(headlines)
-            news_sentiment = news_data.get("sentiment_score", "MIXED")
-            top_headlines  = headlines[-15:]
-            headline_text  = "\n".join([
-                f"- [{h.get('fetched_at','')[:16]}] {h['title']}"
-                for h in top_headlines
-            ])
-            news_context = (
-                f"Today's market news ({news_count} headlines, "
-                f"overall sentiment: {news_sentiment}):\n{headline_text}"
-            )
-            print(f"    {news_count} headlines loaded — {news_sentiment}")
-        else:
-            print("    news.json is from different date")
+        headlines_today     = news_data.get("today_headlines", [])
+        headlines_yesterday = news_data.get("yesterday_headlines", [])
+        headlines_week      = news_data.get("week_headlines", [])
+        news_count          = news_data.get("total_headlines", 0)
+        news_sentiment      = news_data.get("sentiment_score", "MIXED")
+
+        # Build structured context for Gemini
+        today_text = "\n".join([
+            f"  [{h.get('age','today')}] {h['title']} ({h.get('source','')})"
+            for h in headlines_today[:10]
+        ])
+        yesterday_text = "\n".join([
+            f"  [{h.get('age','yesterday')}] {h['title']} ({h.get('source','')})"
+            for h in headlines_yesterday[:8]
+        ])
+        week_text = "\n".join([
+            f"  [{h.get('age','')}] {h['title']} ({h.get('source','')})"
+            for h in headlines_week[:5]
+        ])
+
+        news_context = f"""Market news context (overall sentiment: {news_sentiment}):
+
+TODAY'S NEWS ({len(headlines_today)} headlines):
+{today_text if today_text else '  No headlines yet for today'}
+
+YESTERDAY'S NEWS ({len(headlines_yesterday)} headlines):
+{yesterday_text if yesterday_text else '  No headlines from yesterday'}
+
+THIS WEEK'S BACKGROUND ({len(headlines_week)} headlines):
+{week_text if week_text else '  No additional weekly headlines'}"""
+
+        top_headlines = headlines_today + headlines_yesterday
+        print(f"    {news_count} total headlines — {len(headlines_today)} today — {len(headlines_yesterday)} yesterday — {news_sentiment}")
     except Exception as e:
         print(f"    news.json read error: {e}")
 
