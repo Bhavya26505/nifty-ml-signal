@@ -1,8 +1,8 @@
-name: Fetch News Every 2 Hours
+name: Fetch News Every 2 Hours 24/7
 
 on:
   schedule:
-    - cron: '30 3,5,7,9,11,13,15 * * 1-5'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests feedparser
+        run: pip install requests feedparser python-dateutil
 
       - name: Run news fetcher
         run: python fetch_news.py
