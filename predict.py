@@ -11,96 +11,49 @@ from google import genai
 import warnings
 warnings.filterwarnings('ignore')
 
-print("=" * 65)
-print("  NIFTY 50 ML PREDICTION — FULL GLOBAL + MACRO MODEL")
-print("=" * 65)
+print("=" * 60)
+print("  NIFTY 50 ML PREDICTION SYSTEM — FULL MODEL")
+print("=" * 60)
 
 # ══════════════════════════════════════════════════════════════
-# STEP 1 — LOAD COMPLETE DATASET
+# STEP 1 — LOAD 25-YEAR HISTORICAL DATA
 # ══════════════════════════════════════════════════════════════
-print("\n[1/7] Loading complete dataset...")
+print("\n[1/7] Loading 25-year historical data...")
 
-df_base = pd.read_excel("NIFTY_Complete_Dataset.xlsx")
-df_base.columns = [c.strip() for c in df_base.columns]
-df_base['Date'] = pd.to_datetime(df_base['Date'])
-df_base = df_base.sort_values('Date').reset_index(drop=True)
-print(f"    Base dataset : {len(df_base)} rows | {df_base.columns.tolist()[:7]}")
+df_hist = pd.read_excel(
+    "NIFTY50_combined_25years.xlsx",
+    parse_dates=['Date']
+)
+df_hist = df_hist.sort_values('Date').reset_index(drop=True)
+df_hist.set_index('Date', inplace=True)
+df_hist.rename(columns={
+    'Shares Traded': 'Volume',
+    'Turnover (₹ Cr)': 'Turnover'
+}, inplace=True)
+df_hist = df_hist[['Open','High','Low','Close','Volume']].dropna()
+print(f"    Loaded {len(df_hist)} days — {df_hist.index[0].date()} to {df_hist.index[-1].date()}")
 
 # ══════════════════════════════════════════════════════════════
-# STEP 2 — FETCH FRESH LIVE DATA FROM YFINANCE
+# STEP 2 — FETCH FRESH DATA FROM YFINANCE
 # ══════════════════════════════════════════════════════════════
-print("\n[2/7] Fetching fresh live data...")
+print("\n[2/7] Fetching fresh live data from Yahoo Finance...")
 
-def fetch_yf(symbol, period="400d", col_name=None):
-    try:
-        df = yf.download(symbol, period=period, interval="1d", progress=False)
-        df.columns = df.columns.get_level_values(0)
-        df = df[['Open','High','Low','Close','Volume']].dropna()
-        df.index = pd.to_datetime(df.index)
-        if col_name:
-            df = df[['Close']].rename(columns={'Close': col_name})
-        return df
-    except Exception as e:
-        print(f"    Warning: could not fetch {symbol}: {e}")
-        return pd.DataFrame()
+try:
+    live = yf.download("^NSEI", period="400d", interval="1d", progress=False)
+    live.columns = live.columns.get_level_values(0)
+    live = live[['Open','High','Low','Close','Volume']].dropna()
 
-# NIFTY
-nifty_live = fetch_yf("^NSEI", "400d")
-# Global indices
-sp500_live  = fetch_yf("^GSPC",   "400d", "SP500_Close_live")
-nasdaq_live = fetch_yf("^NDX",    "400d", "Nasdaq_Close_live")
-crude_live  = fetch_yf("CL=F",    "400d", "Crude_Close_live")
-usdinr_live = fetch_yf("USDINR=X","400d", "USDINR_Close_live")
-vix_live    = fetch_yf("^VIX",    "400d", "VIX_global_live")
+    # Merge: historical base + fresh live rows, remove duplicates
+    df_combined = pd.concat([df_hist, live])
+    df_combined = df_combined[~df_combined.index.duplicated(keep='last')]
+    df_combined = df_combined.sort_index()
+    print(f"    Combined dataset: {len(df_combined)} days")
+    print(f"    Latest date     : {df_combined.index[-1].date()}")
+except Exception as e:
+    print(f"    yfinance failed ({e}) — using historical data only")
+    df_combined = df_hist.copy()
 
-# Merge fresh data on top of base dataset
-if len(nifty_live) > 0:
-    nifty_live_df = nifty_live.reset_index().rename(columns={'index':'Date','Date':'Date'})
-    nifty_live_df.columns = ['Date'] + [c for c in nifty_live_df.columns if c != 'Date']
-
-    # Rename NIFTY columns to match base
-    nifty_live_df = nifty_live.reset_index()
-    nifty_live_df.columns = ['Date','Open','High','Low','Close','Volume']
-    nifty_live_df['Shares Traded'] = nifty_live_df['Volume']
-    nifty_live_df['Turnover (₹ Cr)'] = 0
-
-    # Add global data to live rows
-    for live_df, col in [
-        (sp500_live,  'SP500_Close'),
-        (nasdaq_live, 'Nasdaq_Close'),
-        (crude_live,  'Crude_Close'),
-        (usdinr_live, 'USDINR_Close'),
-    ]:
-        if len(live_df) > 0:
-            live_df2 = live_df.reset_index()
-            live_df2.columns = ['Date', col]
-            nifty_live_df = nifty_live_df.merge(live_df2, on='Date', how='left')
-            nifty_live_df[col] = nifty_live_df[col].ffill()
-
-    # Add VIX (use India proxy columns)
-    if len(vix_live) > 0:
-        vix_df = vix_live.reset_index()
-        vix_df.columns = ['Date','VIX_Close']
-        nifty_live_df = nifty_live_df.merge(vix_df, on='Date', how='left')
-        nifty_live_df['VIX_Close'] = nifty_live_df['VIX_Close'].ffill()
-
-    # Combine base + live, remove duplicates (keep live version)
-    df_combined = pd.concat([df_base, nifty_live_df], sort=False)
-    df_combined = df_combined.drop_duplicates('Date', keep='last')
-    df_combined = df_combined.sort_values('Date').reset_index(drop=True)
-
-    # Forward fill macro annual columns for new rows
-    macro_cols = [c for c in df_base.columns if c.startswith('macro_')]
-    for col in macro_cols:
-        if col in df_combined.columns:
-            df_combined[col] = df_combined[col].ffill()
-
-    print(f"    Combined     : {len(df_combined)} rows (base {len(df_base)} + {len(df_combined)-len(df_base)} new live rows)")
-else:
-    df_combined = df_base.copy()
-    print("    Using base dataset only (yfinance unavailable)")
-
-# Current price info
+# Latest price info
 close_price      = float(df_combined['Close'].iloc[-1])
 open_price       = float(df_combined['Open'].iloc[-1])
 high_price       = float(df_combined['High'].iloc[-1])
@@ -111,22 +64,90 @@ daily_change_pct = round((daily_change / prev_close) * 100, 2)
 week_52_high     = float(df_combined['Close'].tail(252).max())
 week_52_low      = float(df_combined['Close'].tail(252).min())
 
-print(f"    Latest close : ₹{close_price:,.2f} ({daily_change_pct:+.2f}%)")
-print(f"    Latest date  : {df_combined['Date'].iloc[-1].date()}")
+print(f"    Close  : ₹{close_price:,.2f}")
+print(f"    Change : {daily_change:+.2f} ({daily_change_pct:+.2f}%)")
 
 # ══════════════════════════════════════════════════════════════
-# STEP 3 — ENGINEER ALL FEATURES
+# STEP 3 — LOAD MACRO FACTORS
 # ══════════════════════════════════════════════════════════════
-print("\n[3/7] Engineering features...")
+print("\n[3/7] Loading macro factors...")
+
+def parse_macro_sheet(sheet_df):
+    d = sheet_df.copy()
+    d.columns = ['Indicator'] + list(d.iloc[0, 1:].values)
+    d = d.iloc[1:].reset_index(drop=True)
+    d = d[d['Indicator'].notna()].set_index('Indicator').T
+    d.index = pd.to_numeric(d.index, errors='coerce')
+    d = d.dropna(how='all')
+    d.index = d.index.astype(int)
+    return d.apply(pd.to_numeric, errors='coerce')
+
+macro_dict = {}
+try:
+    macro_sheets = pd.read_excel(
+        "India_Macro_Factors_2000_2025.xlsx",
+        sheet_name=None
+    )
+    macro_gdp  = parse_macro_sheet(macro_sheets['GDP & Growth'])
+    macro_mon  = parse_macro_sheet(macro_sheets['Monetary Policy'])
+    macro_ext  = parse_macro_sheet(macro_sheets['External Sector'])
+    macro_bank = parse_macro_sheet(macro_sheets['Banking & Credit'])
+    macro_ind  = parse_macro_sheet(macro_sheets['Industry & Production'])
+
+    macro_all = pd.concat([macro_gdp, macro_mon, macro_ext, macro_bank, macro_ind], axis=1)
+    macro_all = macro_all.loc[:, ~macro_all.columns.duplicated()]
+
+    # Get latest available year's macro values
+    latest_year = macro_all.index.max()
+    latest_macro = macro_all.loc[latest_year]
+
+    # Map key macro indicators — use exact column names from your file
+    repo_col  = [c for c in macro_all.columns if 'Repo' in str(c) and 'Reverse' not in str(c)]
+    gdp_col   = [c for c in macro_all.columns if 'Real GDP' in str(c) or 'GDP Growth' in str(c)]
+    inr_col   = [c for c in macro_all.columns if 'USD' in str(c) and 'INR' in str(c)]
+    cpi_col   = [c for c in macro_all.columns if 'CPI' in str(c) or 'Inflation' in str(c)]
+    credit_col= [c for c in macro_all.columns if 'Credit Growth' in str(c) or 'Bank Credit' in str(c)]
+    iip_col   = [c for c in macro_all.columns if 'IIP' in str(c)]
+    fiscal_col= [c for c in macro_all.columns if 'Fiscal Deficit' in str(c)]
+    cad_col   = [c for c in macro_all.columns if 'Current Account' in str(c)]
+
+    macro_dict = {
+        'macro_repo_rate'    : float(latest_macro[repo_col[0]])   if repo_col   else 6.25,
+        'macro_gdp_growth'   : float(latest_macro[gdp_col[0]])    if gdp_col    else 6.5,
+        'macro_usd_inr'      : float(latest_macro[inr_col[0]])    if inr_col    else 85.0,
+        'macro_cpi'          : float(latest_macro[cpi_col[0]])    if cpi_col    else 4.5,
+        'macro_credit_growth': float(latest_macro[credit_col[0]]) if credit_col else 12.0,
+        'macro_iip_growth'   : float(latest_macro[iip_col[0]])    if iip_col    else 5.0,
+        'macro_fiscal_deficit': float(latest_macro[fiscal_col[0]])if fiscal_col else 5.0,
+        'macro_cad'          : float(latest_macro[cad_col[0]])    if cad_col    else -1.5,
+    }
+    # Fill NaN with sensible defaults
+    macro_dict = {k: (v if not np.isnan(v) else 0.0) for k, v in macro_dict.items()}
+    print(f"    Macro data loaded — year {latest_year}")
+    for k, v in macro_dict.items():
+        print(f"    {k:<28}: {v}")
+
+except Exception as e:
+    print(f"    Macro load failed ({e}) — using defaults")
+    macro_dict = {
+        'macro_repo_rate'    : 6.25,
+        'macro_gdp_growth'   : 6.5,
+        'macro_usd_inr'      : 85.0,
+        'macro_cpi'          : 4.5,
+        'macro_credit_growth': 12.0,
+        'macro_iip_growth'   : 5.0,
+        'macro_fiscal_deficit': 5.0,
+        'macro_cad'          : -1.5,
+    }
+
+# ══════════════════════════════════════════════════════════════
+# STEP 4 — ENGINEER ALL FEATURES
+# ══════════════════════════════════════════════════════════════
+print("\n[4/7] Engineering features...")
 
 df = df_combined.copy()
-
-# ── NIFTY technical features ─────────────────────────────────
-df['Daily_Return']    = df['Close'].pct_change() * 100
-df['Log_Return']      = np.log(df['Close'] / df['Close'].shift(1)) * 100
-df['HL_Range']        = (df['High'] - df['Low']) / df['Close'] * 100
-df['OC_Range']        = (df['Close'] - df['Open']) / df['Open'] * 100
-df['Gap_Open']        = (df['Open'] - df['Close'].shift(1)) / df['Close'].shift(1) * 100
+df['Daily_Return']  = df['Close'].pct_change() * 100
+df['Log_Return']    = np.log(df['Close'] / df['Close'].shift(1)) * 100
 
 for w in [5, 10, 20, 50, 200]:
     df[f'MA_{w}'] = df['Close'].rolling(w).mean()
@@ -134,310 +155,172 @@ for w in [5, 10, 20, 50, 200]:
 df['EMA_12'] = df['Close'].ewm(span=12, adjust=False).mean()
 df['EMA_26'] = df['Close'].ewm(span=26, adjust=False).mean()
 
-# RSI
 delta = df['Close'].diff()
 gain  = delta.clip(lower=0).rolling(14).mean()
 loss  = (-delta.clip(upper=0)).rolling(14).mean()
-df['RSI_14'] = 100 - (100 / (1 + gain / loss.replace(0, 1e-10)))
+df['RSI_14'] = 100 - (100 / (1 + gain / loss))
 
-# MACD
 df['MACD']        = df['EMA_12'] - df['EMA_26']
 df['MACD_Signal'] = df['MACD'].ewm(span=9, adjust=False).mean()
 df['MACD_Hist']   = df['MACD'] - df['MACD_Signal']
 
-# Bollinger Bands
 ma20  = df['Close'].rolling(20).mean()
 std20 = df['Close'].rolling(20).std()
-df['BB_Upper']  = ma20 + 2 * std20
-df['BB_Lower']  = ma20 - 2 * std20
-df['BB_PctB']   = (df['Close'] - df['BB_Lower']) / (df['BB_Upper'] - df['BB_Lower'] + 1e-10)
-df['BB_Width']  = (df['BB_Upper'] - df['BB_Lower']) / ma20 * 100
+df['BB_Upper'] = ma20 + 2 * std20
+df['BB_Lower'] = ma20 - 2 * std20
+df['BB_PctB']  = (df['Close'] - df['BB_Lower']) / (df['BB_Upper'] - df['BB_Lower'])
 
-# Volatility & momentum
-df['Volatility_10']  = df['Daily_Return'].rolling(10).std()
-df['Volatility_20']  = df['Daily_Return'].rolling(20).std()
-df['Volatility_60']  = df['Daily_Return'].rolling(60).std()
-df['ATR']            = (df['High'] - df['Low']).rolling(14).mean()
-df['Volume_MA20']    = df['Close'].rolling(20).mean()
-df['Volume_Ratio']   = df['Daily_Return'].rolling(5).std() / (df['Volatility_20'] + 1e-10)
-df['Mom_5']          = df['Close'] / df['Close'].shift(5)  - 1
-df['Mom_10']         = df['Close'] / df['Close'].shift(10) - 1
-df['Mom_20']         = df['Close'] / df['Close'].shift(20) - 1
-df['Mom_60']         = df['Close'] / df['Close'].shift(60) - 1
+df['Volatility_20'] = df['Daily_Return'].rolling(20).std()
+df['Volatility_60'] = df['Daily_Return'].rolling(60).std()
+df['ATR']           = (df['High'] - df['Low']).rolling(14).mean()
+df['Volume_MA20']   = df['Volume'].rolling(20).mean()
+df['Volume_Ratio']  = df['Volume'] / df['Volume_MA20']
+df['Mom_5']         = df['Close'] / df['Close'].shift(5)  - 1
+df['Mom_20']        = df['Close'] / df['Close'].shift(20) - 1
 
-# Return lags
 for lag in [1, 2, 3, 5, 10, 20]:
     df[f'Return_Lag_{lag}'] = df['Daily_Return'].shift(lag)
 
-# Market regime
-df['Bull_Regime']    = (df['MA_50'] > df['MA_200']).astype(int)
-df['Above_MA20']     = (df['Close'] > df['MA_20']).astype(int)
-df['Above_MA50']     = (df['Close'] > df['MA_50']).astype(int)
-df['Pct_From_52W_H'] = (df['Close'] - df['Close'].rolling(252).max()) / df['Close'].rolling(252).max() * 100
-df['Pct_From_52W_L'] = (df['Close'] - df['Close'].rolling(252).min()) / df['Close'].rolling(252).min() * 100
+df['Bull_Regime'] = (df['MA_50'] > df['MA_200']).astype(int)
+df['Month']       = df.index.month
+df['DayOfWeek']   = df.index.dayofweek
 
-# Calendar
-df['Month']      = df['Date'].dt.month
-df['DayOfWeek']  = df['Date'].dt.dayofweek
-df['WeekOfYear'] = df['Date'].dt.isocalendar().week.astype(int)
-df['IsMonthEnd'] = (df['Date'].dt.is_month_end).astype(int)
+# Add macro features as constant columns for current year
+for k, v in macro_dict.items():
+    df[k] = v
 
-# ── India VIX features ───────────────────────────────────────
-if 'VIX_Close' in df.columns:
-    df['VIX_Level']      = df['VIX_Close']
-    df['VIX_Change']     = df['VIX_Close'].pct_change() * 100
-    df['VIX_MA10']       = df['VIX_Close'].rolling(10).mean()
-    df['VIX_Regime']     = (df['VIX_Close'] > 20).astype(int)
-    df['VIX_Spike']      = (df['VIX_Change'] > 15).astype(int)
-    df['VIX_Relief']     = (df['VIX_Change'] < -10).astype(int)
-
-# ── Global market features (PREVIOUS day — no lookahead) ─────
-# SP500
-if 'SP500_Close' in df.columns:
-    df['SP500_Return_1d']  = df['SP500_Close'].pct_change().shift(1) * 100
-    df['SP500_Return_5d']  = df['SP500_Close'].pct_change(5).shift(1) * 100
-    df['SP500_MA20']       = df['SP500_Close'].rolling(20).mean().shift(1)
-    df['SP500_Regime']     = (df['SP500_Close'].shift(1) > df['SP500_MA20']).astype(int)
-
-# NASDAQ
-if 'Nasdaq_Close' in df.columns:
-    df['Nasdaq_Return_1d'] = df['Nasdaq_Close'].pct_change().shift(1) * 100
-    df['Nasdaq_Return_5d'] = df['Nasdaq_Close'].pct_change(5).shift(1) * 100
-
-# Crude Oil
-if 'Crude_Close' in df.columns:
-    df['Crude_Return_1d']  = df['Crude_Close'].pct_change().shift(1) * 100
-    df['Crude_Return_5d']  = df['Crude_Close'].pct_change(5).shift(1) * 100
-    df['Crude_MA20']       = df['Crude_Close'].rolling(20).mean().shift(1)
-    df['Crude_Regime']     = (df['Crude_Close'].shift(1) > df['Crude_MA20']).astype(int)
-
-# USD/INR
-if 'USDINR_Close' in df.columns:
-    df['USDINR_Return_1d'] = df['USDINR_Close'].pct_change().shift(1) * 100
-    df['USDINR_MA20']      = df['USDINR_Close'].rolling(20).mean().shift(1)
-    df['INR_Weakening']    = (df['USDINR_Close'].shift(1) > df['USDINR_MA20']).astype(int)
-
-# Rolling correlation NIFTY vs SP500 (20-day)
-if 'SP500_Close' in df.columns:
-    nifty_ret  = df['Close'].pct_change()
-    sp500_ret  = df['SP500_Close'].pct_change()
-    df['Corr_NIFTY_SP500_20'] = nifty_ret.rolling(20).corr(sp500_ret)
-
-# ── Annual macro features ─────────────────────────────────────
-macro_cols = [c for c in df.columns if c.startswith('macro_')]
-print(f"    Macro cols   : {len(macro_cols)} — {macro_cols}")
-
-# Fill any remaining macro nulls
-for col in macro_cols:
-    df[col] = df[col].ffill().bfill()
-
-# Clean dataset
-df = df.replace([np.inf, -np.inf], np.nan)
-df = df.dropna(subset=['Close', 'RSI_14', 'MACD_Hist', 'BB_PctB'])
-
-print(f"    After feature engineering: {len(df)} rows")
+df = df.dropna()
+print(f"    Features ready — {len(df)} trading days")
 
 # ══════════════════════════════════════════════════════════════
-# STEP 4 — DEFINE FEATURE COLUMNS
-# ══════════════════════════════════════════════════════════════
-
-# Technical features
-tech_features = [
-    # Price action
-    'Log_Return', 'HL_Range', 'OC_Range', 'Gap_Open',
-    # Momentum
-    'RSI_14', 'BB_PctB', 'BB_Width', 'MACD_Hist',
-    'Mom_5', 'Mom_10', 'Mom_20', 'Mom_60',
-    # Volatility
-    'Volatility_10', 'Volatility_20', 'Volatility_60', 'ATR',
-    # Return lags
-    'Return_Lag_1', 'Return_Lag_2', 'Return_Lag_3',
-    'Return_Lag_5', 'Return_Lag_10',
-    # Regime
-    'Bull_Regime', 'Above_MA20', 'Above_MA50',
-    'Pct_From_52W_H', 'Pct_From_52W_L',
-    # Calendar
-    'Month', 'DayOfWeek', 'IsMonthEnd',
-]
-
-# VIX features
-vix_features = []
-for col in ['VIX_Level','VIX_Change','VIX_Regime','VIX_Spike','VIX_Relief']:
-    if col in df.columns and df[col].notna().sum() > 1000:
-        vix_features.append(col)
-
-# Global features
-global_features = []
-for col in ['SP500_Return_1d','SP500_Return_5d','SP500_Regime',
-            'Nasdaq_Return_1d','Nasdaq_Return_5d',
-            'Crude_Return_1d','Crude_Return_5d','Crude_Regime',
-            'USDINR_Return_1d','INR_Weakening',
-            'Corr_NIFTY_SP500_20']:
-    if col in df.columns and df[col].notna().sum() > 1000:
-        global_features.append(col)
-
-all_features = tech_features + vix_features + global_features + macro_cols
-
-# Remove features with too many nulls
-valid_features = []
-for f in all_features:
-    if f in df.columns:
-        null_pct = df[f].isnull().mean()
-        if null_pct < 0.3:
-            valid_features.append(f)
-        else:
-            print(f"    Dropped {f} ({null_pct:.1%} null)")
-
-print(f"    Tech features   : {len(tech_features)}")
-print(f"    VIX features    : {len(vix_features)}")
-print(f"    Global features : {len(global_features)}")
-print(f"    Macro features  : {len(macro_cols)}")
-print(f"    Total valid     : {len(valid_features)}")
-
-# ══════════════════════════════════════════════════════════════
-# STEP 5 — TRAIN MODELS
+# STEP 5 — TRAIN TWO MODELS
 # ══════════════════════════════════════════════════════════════
 print("\n[5/7] Training models...")
 
-# Targets
+tech_features = [
+    'Log_Return', 'RSI_14', 'BB_PctB', 'MACD_Hist',
+    'Volume_Ratio', 'Volatility_20', 'Mom_5', 'Mom_20',
+    'Return_Lag_1', 'Return_Lag_2', 'Return_Lag_3',
+    'Return_Lag_5', 'Month', 'DayOfWeek', 'Bull_Regime',
+    'ATR', 'Volatility_60', 'MA_50', 'MA_200',
+]
+macro_features = list(macro_dict.keys())
+all_features   = tech_features + macro_features
+
+# ── Model A: Direction Classifier (next day up/down) ─────────
 df['Target_Direction'] = (df['Close'].shift(-1) > df['Close']).astype(int)
-df['Target_Close']     = df['Close'].shift(-1)
-df['Target_High']      = df['High'].shift(-1)
-df['Target_Low']       = df['Low'].shift(-1)
 
-df_model = df.dropna(subset=['Target_Direction','Target_Close'] + valid_features)
+# ── Model B: Price Regressor (next day close) ────────────────
+df['Target_Close'] = df['Close'].shift(-1)
+df['Target_High']  = df['High'].shift(-1)
+df['Target_Low']   = df['Low'].shift(-1)
 
-X       = df_model[valid_features].values[:-1]
+df_model = df.dropna(subset=['Target_Direction', 'Target_Close'])
+
+X = df_model[all_features].values[:-1]
 y_dir   = df_model['Target_Direction'].values[:-1]
-# Train on % change from today's close — removes historical mean bias
-y_close = ((df_model['Target_Close'] - df_model['Close']) / df_model['Close'] * 100).values[:-1]
-y_high  = ((df_model['Target_High']  - df_model['Close']) / df_model['Close'] * 100).values[:-1]
-y_low   = ((df_model['Target_Low']   - df_model['Close']) / df_model['Close'] * 100).values[:-1]
-
-# Handle any remaining nans/infs in X
-X = np.nan_to_num(X, nan=0.0, posinf=0.0, neginf=0.0)
+y_close = df_model['Target_Close'].values[:-1]
+y_high  = df_model['Target_High'].values[:-1]
+y_low   = df_model['Target_Low'].values[:-1]
 
 sc = StandardScaler()
 X_sc = sc.fit_transform(X)
 
-# ── Direction classifier ──────────────────────────────────────
+# Train classifier
 clf = xgb.XGBClassifier(
     n_estimators=400, max_depth=4, learning_rate=0.04,
-    subsample=0.8, colsample_bytree=0.75,
-    min_child_weight=3, gamma=0.1,
+    subsample=0.8, colsample_bytree=0.8,
     eval_metric='logloss', random_state=42, verbosity=0
 )
 clf.fit(X_sc, y_dir)
 
-# Walk-forward accuracy check — last 252 days
-split = max(len(X) - 252, int(len(X) * 0.85))
-X_tr, X_te = X[:split], X[split:]
-y_tr, y_te = y_dir[:split], y_dir[split:]
-sc_check = StandardScaler()
+# Quick accuracy check on last 252 days (1 year)
+split = max(len(X) - 252, int(len(X) * 0.8))
 clf_check = xgb.XGBClassifier(
     n_estimators=400, max_depth=4, learning_rate=0.04,
-    subsample=0.8, colsample_bytree=0.75,
+    subsample=0.8, colsample_bytree=0.8,
     eval_metric='logloss', random_state=42, verbosity=0
 )
-clf_check.fit(sc_check.fit_transform(X_tr), y_tr)
-recent_acc = accuracy_score(y_te, clf_check.predict(sc_check.transform(X_te)))
-print(f"    Direction model  — recent 1Y accuracy: {recent_acc*100:.2f}%")
+clf_check.fit(sc.transform(X[:split]), y_dir[:split])
+check_acc = accuracy_score(y_dir[split:], clf_check.predict(sc.transform(X[split:])))
+print(f"    Direction model — recent 1Y accuracy: {check_acc*100:.2f}%")
 
-# ── Price regressors ─────────────────────────────────────────
+# Train close price regressor
 reg_close = xgb.XGBRegressor(
     n_estimators=400, max_depth=5, learning_rate=0.04,
-    subsample=0.8, colsample_bytree=0.75,
-    random_state=42, verbosity=0
-)
-reg_high = xgb.XGBRegressor(
-    n_estimators=300, max_depth=4, learning_rate=0.05,
-    subsample=0.8, colsample_bytree=0.75,
-    random_state=42, verbosity=0
-)
-reg_low = xgb.XGBRegressor(
-    n_estimators=300, max_depth=4, learning_rate=0.05,
-    subsample=0.8, colsample_bytree=0.75,
+    subsample=0.8, colsample_bytree=0.8,
     random_state=42, verbosity=0
 )
 reg_close.fit(X_sc, y_close)
-reg_high.fit(X_sc, y_high)
-reg_low.fit(X_sc, y_low)
-print(f"    All 4 models trained on {len(X):,} samples | {len(valid_features)} features")
 
-# ── Feature importance (top 10) ──────────────────────────────
-importances = clf.feature_importances_
-top_idx = np.argsort(importances)[::-1][:10]
-print(f"    Top 10 features by importance:")
-for i in top_idx:
-    print(f"      {valid_features[i]:<35} {importances[i]:.4f}")
+# Train high regressor
+reg_high = xgb.XGBRegressor(
+    n_estimators=300, max_depth=4, learning_rate=0.05,
+    subsample=0.8, colsample_bytree=0.8,
+    random_state=42, verbosity=0
+)
+reg_high.fit(X_sc, y_high)
+
+# Train low regressor
+reg_low = xgb.XGBRegressor(
+    n_estimators=300, max_depth=4, learning_rate=0.05,
+    subsample=0.8, colsample_bytree=0.8,
+    random_state=42, verbosity=0
+)
+reg_low.fit(X_sc, y_low)
+
+print(f"    All 4 models trained ({len(X):,} samples)")
 
 # ══════════════════════════════════════════════════════════════
-# STEP 6 — PREDICT TOMORROW
+# STEP 6 — GENERATE TOMORROW'S PREDICTION
 # ══════════════════════════════════════════════════════════════
 print("\n[6/7] Generating tomorrow's prediction...")
 
-latest_row = df[valid_features].iloc[[-1]]
-latest_X   = np.nan_to_num(latest_row.values, nan=0.0, posinf=0.0, neginf=0.0)
-latest_sc  = sc.transform(latest_X)
+latest    = df[all_features].iloc[[-1]]
+latest_sc = sc.transform(latest)
 
-prob_up    = float(clf.predict_proba(latest_sc)[0][1])
-prob_down  = round(1 - prob_up, 4)
-prob_up    = round(prob_up, 4)
-# Predict price CHANGE % instead of absolute price
-# This removes historical mean bias from the regressor
-# Regressors now output % change — convert back to price
-pred_close_pct_raw = float(reg_close.predict(latest_sc)[0])
-pred_high_pct_raw  = float(reg_high.predict(latest_sc)[0])
-pred_low_pct_raw   = float(reg_low.predict(latest_sc)[0])
+# Direction
+prob_up   = float(clf.predict_proba(latest_sc)[0][1])
+prob_down = round(1 - prob_up, 4)
+prob_up_r = round(prob_up, 4)
 
-pred_close_raw = close_price * (1 + pred_close_pct_raw/100)
-pred_high_raw  = close_price * (1 + pred_high_pct_raw/100)
-pred_low_raw   = close_price * (1 + pred_low_pct_raw/100)
+# Price predictions
+pred_close = round(float(reg_close.predict(latest_sc)[0]), 2)
+pred_high  = round(float(reg_high.predict(latest_sc)[0]), 2)
+pred_low   = round(float(reg_low.predict(latest_sc)[0]), 2)
 
-# Calculate as percentage change from today
-pred_close_pct = (pred_close_raw - close_price) / close_price * 100
-pred_high_pct  = (pred_high_raw  - close_price) / close_price * 100
-pred_low_pct   = (pred_low_raw   - close_price) / close_price * 100
+# Price change prediction
+pred_change     = round(pred_close - close_price, 2)
+pred_change_pct = round((pred_change / close_price) * 100, 2)
 
-# Consistency check — signal must align with direction
-# If LONG but regressor predicts below today, use ATR-based estimate
-if signal in ('LONG', ) and pred_close_raw < close_price:
-    # Model says up but regressor says down — trust classifier
-    # Use ATR-based estimate: typically 0.3% to 0.8% move
-    atr_pct = atr / close_price * 100
-    pred_change_pct = round(abs(atr_pct) * 0.5, 2)   # conservative upside
-    pred_close      = round(close_price * (1 + pred_change_pct/100), 2)
-    pred_high       = round(close_price * (1 + atr_pct * 0.8 / 100), 2)
-    pred_low        = round(close_price * (1 - atr_pct * 0.3 / 100), 2)
-elif signal == 'SHORT' and pred_close_raw > close_price:
-    # Model says down but regressor says up — trust classifier
-    atr_pct = atr / close_price * 100
-    pred_change_pct = round(-abs(atr_pct) * 0.5, 2)
-    pred_close      = round(close_price * (1 + pred_change_pct/100), 2)
-    pred_high       = round(close_price * (1 + atr_pct * 0.3 / 100), 2)
-    pred_low        = round(close_price * (1 - atr_pct * 0.8 / 100), 2)
-else:
-    # Regressor and classifier agree — use regressor output
-    pred_close      = round(pred_close_raw, 2)
-    pred_high       = round(pred_high_raw, 2)
-    pred_low        = round(pred_low_raw, 2)
-    pred_change_pct = round((pred_close - close_price) / close_price * 100, 2)
-
-pred_change = round(pred_close - close_price, 2)
-
-# Signal with confidence bands
+# Confidence band logic (from your validated walk-forward results)
 if prob_up > 0.60:
-    signal = "LONG";  action = "BUY / HOLD — Nifty ETF (NIFTYBEES)"; hist_acc = 60.3; confidence = "STRONG"
+    signal        = "LONG"
+    action        = "BUY / HOLD — Nifty ETF (NIFTYBEES)"
+    hist_accuracy = 60.3
+    confidence    = "STRONG"
 elif prob_up < 0.40:
-    signal = "SHORT"; action = "SHORT Nifty Futures / Exit longs";    hist_acc = 55.4; confidence = "STRONG"
+    signal        = "SHORT"
+    action        = "SHORT Nifty Futures / Exit longs"
+    hist_accuracy = 55.4
+    confidence    = "STRONG"
 elif prob_up > 0.55:
-    signal = "LONG";  action = "MILD BUY — small position only";       hist_acc = 54.1; confidence = "MILD"
+    signal        = "LONG"
+    action        = "MILD BUY — small position only"
+    hist_accuracy = 54.1
+    confidence    = "MILD"
 elif prob_up < 0.45:
-    signal = "SHORT"; action = "MILD SHORT — small position only";     hist_acc = 47.5; confidence = "MILD"
+    signal        = "SHORT"
+    action        = "MILD SHORT — small position only"
+    hist_accuracy = 47.5
+    confidence    = "MILD"
 else:
-    signal = "FLAT";  action = "Park in Liquid Fund / FD (~6% p.a.)"; hist_acc = 50.0; confidence = "NEUTRAL"
+    signal        = "FLAT"
+    action        = "Park in Liquid Fund / FD (~6% p.a.)"
+    hist_accuracy = 50.0
+    confidence    = "NEUTRAL"
 
-# Key indicators for output
+# Key indicators
 rsi       = round(float(df['RSI_14'].iloc[-1]), 2)
 bb_pctb   = round(float(df['BB_PctB'].iloc[-1]), 3)
 macd_hist = round(float(df['MACD_Hist'].iloc[-1]), 2)
@@ -449,31 +332,26 @@ ma50      = round(float(df['MA_50'].iloc[-1]), 2)
 ma200     = round(float(df['MA_200'].iloc[-1]), 2)
 bb_upper  = round(float(df['BB_Upper'].iloc[-1]), 2)
 bb_lower  = round(float(df['BB_Lower'].iloc[-1]), 2)
+vol_ratio = round(float(df['Volume_Ratio'].iloc[-1]), 2)
 atr       = round(float(df['ATR'].iloc[-1]), 2)
-vix_val   = round(float(df['VIX_Level'].iloc[-1]), 2) if 'VIX_Level' in df.columns else None
-vix_chg   = round(float(df['VIX_Change'].iloc[-1]), 2) if 'VIX_Change' in df.columns else None
-sp500_ret = round(float(df['SP500_Return_1d'].iloc[-1]), 2) if 'SP500_Return_1d' in df.columns else None
-ndx_ret   = round(float(df['Nasdaq_Return_1d'].iloc[-1]), 2) if 'Nasdaq_Return_1d' in df.columns else None
-crude_ret = round(float(df['Crude_Return_1d'].iloc[-1]), 2) if 'Crude_Return_1d' in df.columns else None
-usdinr_ret= round(float(df['USDINR_Return_1d'].iloc[-1]), 2) if 'USDINR_Return_1d' in df.columns else None
 
-rsi_note  = "OVERSOLD" if rsi < 30 else "OVERBOUGHT" if rsi > 70 else "NEUTRAL"
-macd_note = "BULLISH"  if macd_hist > 0 else "BEARISH"
-regime    = "BULL"     if bull else "BEAR"
+rsi_note  = "OVERSOLD"   if rsi < 30  else "OVERBOUGHT" if rsi > 70 else "NEUTRAL"
+macd_note = "BULLISH"    if macd_hist > 0 else "BEARISH"
+regime    = "BULL"       if bull else "BEAR"
 
 # Next trading day
 next_day = date.today() + timedelta(days=1)
-if next_day.weekday() == 5: next_day += timedelta(days=2)
-elif next_day.weekday() == 6: next_day += timedelta(days=1)
+if next_day.weekday() == 5:
+    next_day += timedelta(days=2)
+elif next_day.weekday() == 6:
+    next_day += timedelta(days=1)
 next_day_str = next_day.strftime("%d %b %Y (%A)")
 
-print(f"    Signal      : {signal} ({confidence})")
-print(f"    P(UP)       : {prob_up*100:.1f}%")
-print(f"    Pred Close  : ₹{pred_close:,.2f} ({pred_change_pct:+.2f}%)")
-print(f"    Pred Range  : ₹{pred_low:,.2f} — ₹{pred_high:,.2f}")
-print(f"    VIX         : {vix_val} ({vix_chg:+.1f}%)" if vix_val else "    VIX: N/A")
-print(f"    SP500 (prev): {sp500_ret:+.2f}%" if sp500_ret is not None else "    SP500: N/A")
-print(f"    Nasdaq (prev): {ndx_ret:+.2f}%" if ndx_ret is not None else "    Nasdaq: N/A")
+print(f"    Signal        : {signal} ({confidence})")
+print(f"    P(UP)         : {prob_up_r*100:.1f}%")
+print(f"    Pred Close    : ₹{pred_close:,.2f} ({pred_change_pct:+.2f}%)")
+print(f"    Pred Range    : ₹{pred_low:,.2f} — ₹{pred_high:,.2f}")
+print(f"    For           : {next_day_str}")
 
 # ══════════════════════════════════════════════════════════════
 # STEP 7 — NEWS + GEMINI ANALYSIS
@@ -495,8 +373,8 @@ if os.path.exists("news.json"):
         headlines_week      = news_data.get("week_headlines", [])
         news_count          = news_data.get("total_headlines", 0)
         news_sentiment      = news_data.get("sentiment_score", "MIXED")
-        top_headlines       = headlines_today + headlines_yesterday
 
+        # Build structured context for Gemini
         today_text = "\n".join([
             f"  [{h.get('age','today')}] {h['title']} ({h.get('source','')})"
             for h in headlines_today[:10]
@@ -506,9 +384,10 @@ if os.path.exists("news.json"):
             for h in headlines_yesterday[:8]
         ])
         week_text = "\n".join([
-            f"  [{h.get('age','')}] {h['title']}"
+            f"  [{h.get('age','')}] {h['title']} ({h.get('source','')})"
             for h in headlines_week[:5]
         ])
+
         news_context = f"""Market news context (overall sentiment: {news_sentiment}):
 
 TODAY'S NEWS ({len(headlines_today)} headlines):
@@ -517,44 +396,29 @@ TODAY'S NEWS ({len(headlines_today)} headlines):
 YESTERDAY'S NEWS ({len(headlines_yesterday)} headlines):
 {yesterday_text if yesterday_text else '  No headlines from yesterday'}
 
-THIS WEEK ({len(headlines_week)} headlines):
+THIS WEEK'S BACKGROUND ({len(headlines_week)} headlines):
 {week_text if week_text else '  No additional weekly headlines'}"""
-        print(f"    {news_count} headlines — {news_sentiment}")
+
+        top_headlines = headlines_today + headlines_yesterday
+        print(f"    {news_count} total headlines — {len(headlines_today)} today — {len(headlines_yesterday)} yesterday — {news_sentiment}")
     except Exception as e:
-        print(f"    news.json error: {e}")
+        print(f"    news.json read error: {e}")
 
 gemini_analysis    = "Sentiment analysis not available."
-gemini_summary     = ""
 gemini_bull_points = []
 gemini_bear_points = []
+gemini_summary     = ""
 
 try:
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if api_key:
         client = genai.Client(api_key=api_key)
 
-        # Build global context string
-        global_ctx = ""
-        if sp500_ret is not None:
-            global_ctx += f"\n- S&P 500 (previous session): {sp500_ret:+.2f}%"
-        if ndx_ret is not None:
-            global_ctx += f"\n- NASDAQ 100 (previous session): {ndx_ret:+.2f}%"
-        if crude_ret is not None:
-            global_ctx += f"\n- Crude Oil WTI (previous session): {crude_ret:+.2f}%"
-        if usdinr_ret is not None:
-            global_ctx += f"\n- USD/INR change: {usdinr_ret:+.2f}%"
-        if vix_val is not None:
-            global_ctx += f"\n- India VIX: {vix_val:.2f} (change: {vix_chg:+.1f}%, {'FEAR SPIKE' if vix_val > 20 else 'elevated' if vix_val > 16 else 'calm'})"
-
-        macro = {}
-        for col in macro_cols:
-            if col in df.columns:
-                macro[col] = round(float(df[col].iloc[-1]), 2)
 
         prompt = f"""You are a professional Indian equity market analyst.
 Analyse today's NIFTY 50 data and give prediction for tomorrow.
 
-TODAY'S NIFTY 50:
+TODAY'S MARKET:
 - Close: ₹{close_price:,.2f} | Change: {daily_change_pct:+.2f}%
 - 52W High: ₹{week_52_high:,.2f} | 52W Low: ₹{week_52_low:,.2f}
 
@@ -562,42 +426,43 @@ TECHNICAL INDICATORS:
 - RSI (14): {rsi} — {rsi_note}
 - BB %B: {bb_pctb} ({'oversold zone' if bb_pctb < 0.2 else 'overbought zone' if bb_pctb > 0.8 else 'mid range'})
 - MACD Histogram: {macd_hist} — {macd_note}
-- ATR: {atr} | Volatility 20D: {vol_20}%
+- ATR: {atr} (daily volatility measure)
 - 5D Momentum: {mom_5:+.2f}% | 20D Momentum: {mom_20:+.2f}%
+- Volume Ratio: {vol_ratio}x vs 20D average
+- Volatility 20D: {vol_20}%
 - MA50: ₹{ma50:,.2f} | MA200: ₹{ma200:,.2f}
+- BB Upper: ₹{bb_upper:,.2f} | BB Lower: ₹{bb_lower:,.2f}
 - Market Regime: {regime} (MA50 {'>' if bull else '<'} MA200)
 
-GLOBAL MARKET SIGNALS (PREVIOUS SESSION):{global_ctx if global_ctx else ' Data unavailable'}
+INDIA MACRO FACTORS (latest):
+- RBI Repo Rate: {macro_dict['macro_repo_rate']}%
+- GDP Growth: {macro_dict['macro_gdp_growth']}%
+- CPI Inflation: {macro_dict['macro_cpi']}%
+- USD/INR: {macro_dict['macro_usd_inr']}
+- Bank Credit Growth: {macro_dict['macro_credit_growth']}%
+- IIP Growth: {macro_dict['macro_iip_growth']}%
+- Fiscal Deficit: {macro_dict['macro_fiscal_deficit']}% of GDP
 
-INDIA MACRO CONTEXT:
-- RBI Repo Rate: {macro.get('macro_repo_rate', 'N/A')}%
-- GDP Growth: {macro.get('macro_gdp_growth', 'N/A')}%
-- CPI Inflation: {macro.get('macro_cpi', 'N/A')}%
-- Fiscal Deficit: {macro.get('macro_fiscal_deficit', 'N/A')}% of GDP
-- Bank Credit Growth: {macro.get('macro_credit_growth', 'N/A')}%
-- G-Sec 10Y Yield: {macro.get('macro_gsec_10y', 'N/A')}%
-- IIP Growth: {macro.get('macro_iip_growth', 'N/A')}%
-- USD/INR (annual): {macro.get('macro_usdinr_ye', macro.get('macro_cad_gdp', 'N/A'))}
-
-ML MODEL — TOMORROW'S PREDICTION ({next_day_str}):
+ML MODEL PREDICTION FOR TOMORROW ({next_day_str}):
 - Signal: {signal} ({confidence} confidence)
-- P(UP tomorrow): {prob_up*100:.1f}% | P(DOWN): {prob_down*100:.1f}%
+- P(UP tomorrow): {prob_up_r*100:.1f}%
+- P(DOWN tomorrow): {prob_down*100:.1f}%
 - Predicted Close: ₹{pred_close:,.2f} ({pred_change_pct:+.2f}%)
 - Predicted Range: ₹{pred_low:,.2f} — ₹{pred_high:,.2f}
-- Historical accuracy at this confidence: {hist_acc}%
-- Model trained on: {len(X):,} days | {len(valid_features)} features
+- Historical accuracy at this confidence: {hist_accuracy}%
+- Model trained on: 25 years of NIFTY data + India macro factors
 
 {news_context}
 
 Respond in EXACTLY this format:
 
-SUMMARY: [2 sentences — today's technical + global picture driving the ML signal]
+SUMMARY: [2 sentences — today's technical picture and what is driving the ML signal]
 
 BULL_CASE: [1 sentence — strongest reason market could go up tomorrow]
 
 BEAR_CASE: [1 sentence — biggest risk that could push market down tomorrow]
 
-ACTION: [{action}]
+ACTION: [Recommended action based on signal]
 
 DISCLAIMER: Algorithmic analysis for educational purposes only. Not SEBI-registered investment advice."""
 
@@ -611,22 +476,21 @@ DISCLAIMER: Algorithmic analysis for educational purposes only. Not SEBI-registe
                 break
             except Exception as retry_err:
                 if '429' in str(retry_err) and attempt < 2:
-                    print(f"    Rate limit — waiting 30s (attempt {attempt+1})")
+                    print(f"    Rate limit hit, waiting 30s... (attempt {attempt+1})")
                     time.sleep(30)
                 else:
                     raise retry_err
+        raw_response   = response.text.strip()
+        gemini_analysis = raw_response
 
-        raw = response.text.strip()
-        gemini_analysis = raw
-
-        for line in raw.split('\n'):
+        for line in raw_response.split('\n'):
             line = line.strip()
             if line.startswith('SUMMARY:'):
-                gemini_summary = line.replace('SUMMARY:','').strip()
+                gemini_summary = line.replace('SUMMARY:', '').strip()
             elif line.startswith('BULL_CASE:'):
-                gemini_bull_points = [line.replace('BULL_CASE:','').strip()]
+                gemini_bull_points = [line.replace('BULL_CASE:', '').strip()]
             elif line.startswith('BEAR_CASE:'):
-                gemini_bear_points = [line.replace('BEAR_CASE:','').strip()]
+                gemini_bear_points = [line.replace('BEAR_CASE:', '').strip()]
 
         print("    Gemini analysis complete")
     else:
@@ -644,17 +508,17 @@ today_label = date.today().strftime("%d %b %Y")
 gen_at      = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
 output = {
-    "date":             today_label,
-    "generated_at":     gen_at,
-    "next_trading_day": next_day_str,
+    "date":              today_label,
+    "generated_at":      gen_at,
+    "next_trading_day":  next_day_str,
     "market": {
-        "close":        close_price,
-        "open":         open_price,
-        "high":         high_price,
-        "low":          low_price,
-        "prev_close":   prev_close,
-        "change":       daily_change,
-        "change_pct":   daily_change_pct,
+        "close":       close_price,
+        "open":        open_price,
+        "high":        high_price,
+        "low":         low_price,
+        "prev_close":  prev_close,
+        "change":      daily_change,
+        "change_pct":  daily_change_pct,
         "week_52_high": week_52_high,
         "week_52_low":  week_52_low
     },
@@ -662,9 +526,9 @@ output = {
         "signal":          signal,
         "confidence":      confidence,
         "action":          action,
-        "prob_up":         round(prob_up * 100, 1),
+        "prob_up":         round(prob_up_r * 100, 1),
         "prob_down":       round(prob_down * 100, 1),
-        "hist_accuracy":   hist_acc,
+        "hist_accuracy":   hist_accuracy,
         "pred_close":      pred_close,
         "pred_high":       pred_high,
         "pred_low":        pred_low,
@@ -672,33 +536,24 @@ output = {
         "pred_change_pct": pred_change_pct
     },
     "indicators": {
-        "rsi_14":        rsi,
-        "rsi_note":      rsi_note,
-        "bb_pctb":       bb_pctb,
-        "macd_hist":     macd_hist,
-        "macd_note":     macd_note,
-        "volatility_20": vol_20,
-        "momentum_5d":   mom_5,
-        "momentum_20d":  mom_20,
-        "atr":           atr,
-        "bull_regime":   bull,
-        "regime":        regime,
-        "ma_50":         ma50,
-        "ma_200":        ma200,
-        "bb_upper":      bb_upper,
-        "bb_lower":      bb_lower,
-        "vix":           vix_val,
-        "vix_change_pct": vix_chg
+        "rsi_14":         rsi,
+        "rsi_note":       rsi_note,
+        "bb_pctb":        bb_pctb,
+        "macd_hist":      macd_hist,
+        "macd_note":      macd_note,
+        "volatility_20":  vol_20,
+        "momentum_5d":    mom_5,
+        "momentum_20d":   mom_20,
+        "volume_ratio":   vol_ratio,
+        "atr":            atr,
+        "bull_regime":    bull,
+        "regime":         regime,
+        "ma_50":          ma50,
+        "ma_200":         ma200,
+        "bb_upper":       bb_upper,
+        "bb_lower":       bb_lower
     },
-    "global_signals": {
-        "sp500_return_1d":  sp500_ret,
-        "nasdaq_return_1d": ndx_ret,
-        "crude_return_1d":  crude_ret,
-        "usdinr_return_1d": usdinr_ret,
-        "vix_level":        vix_val,
-        "vix_change_pct":   vix_chg
-    },
-    "macro": {k: round(float(df[k].iloc[-1]),2) for k in macro_cols if k in df.columns},
+    "macro": macro_dict,
     "news": {
         "count":     news_count,
         "sentiment": news_sentiment,
@@ -711,13 +566,11 @@ output = {
         "bear_points": gemini_bear_points
     },
     "model_info": {
-        "training_days":      len(X),
-        "features_used":      len(valid_features),
-        "tech_features":      len(tech_features),
-        "vix_features":       len(vix_features),
-        "global_features":    len(global_features),
-        "macro_features":     len(macro_cols),
-        "recent_1y_accuracy": round(recent_acc * 100, 2)
+        "training_days":    len(X),
+        "features_used":    len(all_features),
+        "tech_features":    len(tech_features),
+        "macro_features":   len(macro_features),
+        "recent_1y_accuracy": round(check_acc * 100, 2)
     }
 }
 
@@ -725,17 +578,15 @@ with open("signal.json", "w") as f:
     json.dump(output, f, indent=2)
 
 print()
-print("=" * 65)
-print(f"  DATE        : {today_label}")
-print(f"  FOR         : {next_day_str}")
-print(f"  SIGNAL      : {signal} ({confidence})")
-print(f"  P(UP)       : {prob_up*100:.1f}%")
-print(f"  PRED CLOSE  : ₹{pred_close:,.2f} ({pred_change_pct:+.2f}%)")
-print(f"  PRED RANGE  : ₹{pred_low:,.2f} — ₹{pred_high:,.2f}")
-print(f"  VIX         : {vix_val}")
-print(f"  SP500 (prev): {sp500_ret}")
-print(f"  FEATURES    : {len(valid_features)} total")
-print(f"  TRAINED ON  : {len(X):,} days")
-print(f"  RECENT ACC  : {recent_acc*100:.2f}%")
-print("=" * 65)
+print("=" * 60)
+print(f"  DATE      : {today_label}")
+print(f"  FOR       : {next_day_str}")
+print(f"  SIGNAL    : {signal} ({confidence})")
+print(f"  P(UP)     : {prob_up_r*100:.1f}%")
+print(f"  PRED CLOSE: ₹{pred_close:,.2f} ({pred_change_pct:+.2f}%)")
+print(f"  PRED RANGE: ₹{pred_low:,.2f} — ₹{pred_high:,.2f}")
+print(f"  NEWS      : {news_count} headlines ({news_sentiment})")
+print(f"  FEATURES  : {len(all_features)} ({len(tech_features)} tech + {len(macro_features)} macro)")
+print(f"  TRAINED ON: {len(X):,} days")
+print("=" * 60)
 print("Done.")
