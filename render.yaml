@@ -2,10 +2,6 @@ services:
   - type: web
     name: niftyedge
     runtime: static
-    buildCommand: echo "static site"
-    staticPublishPath: .
+    buildCommand: ""
+    staticPublishPath: "."
     pullRequestPreviewsEnabled: false
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
