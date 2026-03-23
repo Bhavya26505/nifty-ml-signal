@@ -1,0 +1,47 @@
+name: Hourly Intraday Signal
+
+on:
+  schedule:
+    # Run every hour from 9:15 AM to 3:30 PM IST (3:45 UTC to 10:00 UTC) Mon-Fri
+    - cron: '45 3 * * 1-5'
+    - cron: '45 4 * * 1-5'
+    - cron: '45 5 * * 1-5'
+    - cron: '45 6 * * 1-5'
+    - cron: '45 7 * * 1-5'
+    - cron: '45 8 * * 1-5'
+    - cron: '45 9 * * 1-5'
+    - cron: '0 10 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  hourly-signal:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install upstox-python-sdk requests pandas numpy scikit-learn google-genai openpyxl
+
+      - name: Run hourly pipeline
+        env:
+          UPSTOX_ACCESS_TOKEN: ${{ secrets.UPSTOX_ACCESS_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python upstox_hourly.py
+
+      - name: Commit and push hourly_signal.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add hourly_signal.json
+          git diff --staged --quiet || git commit -m "Hourly signal $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
