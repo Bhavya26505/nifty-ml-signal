@@ -18,14 +18,14 @@ import time
 # ══════════════════════════════════════════════
 # FILL THESE IN — your Upstox app credentials
 # ══════════════════════════════════════════════
-API_KEY      = 46c61475-c41b-4acd-a3e9-89a11b6f7ae9        # from upstox developer app
-API_SECRET   = jhhd6tyaqm    # from upstox developer app
+API_KEY      = "46c61475-c41b-4acd-a3e9-89a11b6f7ae9"        # from upstox developer app
+API_SECRET   = "jhhd6tyaqm"    # from upstox developer app
 REDIRECT_URI = "http://127.0.0.1:5000/callback"
 
 # ══════════════════════════════════════════════
 # FILL THIS IN — your GitHub details
 # ══════════════════════════════════════════════
-GITHUB_TOKEN = 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 # see instructions below
+GITHUB_TOKEN = "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" # see instructions below
 GITHUB_OWNER = "Bhavya26505"
 GITHUB_REPO  = "nifty-ml-signal"
 SECRET_NAME  = "UPSTOX_ACCESS_TOKEN"
