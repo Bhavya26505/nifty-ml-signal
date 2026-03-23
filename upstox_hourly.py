@@ -227,7 +227,10 @@ if not df_hourly.empty and spot_price > 0:
 
     # VWAP
     typical = (df_hourly["high"] + df_hourly["low"] + df_hourly["close"]) / 3
-    vwap    = round(float((typical * df_hourly["volume"]).sum() / (df_hourly["volume"].sum() + 1e-10)), 2)
+    if df_hourly["volume"].sum() > 0:
+    vwap = round(float((typical * df_hourly["volume"]).sum() / df_hourly["volume"].sum()), 2)
+else:
+    vwap = round(float(typical.mean()), 2)
 
     # Cumulative return from open
     cum_ret = round((spot_price - day_open) / day_open * 100, 2)
@@ -413,7 +416,7 @@ DISCLAIMER: Intraday analysis for educational purposes only. Not SEBI-registered
         for attempt in range(3):
             try:
                 response = client.models.generate_content(
-                    model='gemini-2.0-flash',
+                    model='gemini-1.5-flash',
                     contents=prompt
                 )
                 break
