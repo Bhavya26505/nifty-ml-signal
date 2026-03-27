@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-03-26 10:52 UTC",
-  "ist_time": "2026-03-26 16:22 IST",
-  "hour_label": "16:00 \u2014 16:59 IST",
-  "market_open": false,
+  "generated_at": "2026-03-27 05:27 UTC",
+  "ist_time": "2026-03-27 10:56 IST",
+  "hour_label": "10:00 \u2014 10:59 IST",
+  "market_open": true,
   "spot": {
-    "price": 0,
-    "day_open": 0,
-    "day_high": 0,
-    "day_low": 0,
-    "cum_return": 0.0,
-    "vwap": 0
+    "price": 22963.35,
+    "day_open": 23173.55,
+    "day_high": 23186.1,
+    "day_low": 22948.1,
+    "cum_return": -0.91,
+    "vwap": 23017.82
   },
   "signal": {
-    "direction": "FLAT",
-    "confidence": "NEUTRAL",
-    "prob_up": 50.0,
-    "prob_down": 50.0,
-    "pred_high": 0,
-    "pred_low": 0,
-    "orb_status": 0,
-    "score": 0
+    "direction": "SHORT",
+    "confidence": "STRONG",
+    "prob_up": 33.3,
+    "prob_down": 66.7,
+    "pred_high": 23022.99,
+    "pred_low": 22784.43,
+    "orb_status": -1,
+    "score": -5
   },
   "options": {
     "pcr_oi": 1.0,
-    "max_pain": 0,
-    "call_wall": 0,
-    "put_wall": 0,
+    "max_pain": 22963.35,
+    "call_wall": 23163.35,
+    "put_wall": 22763.35,
     "atm_iv": 14.0,
     "iv_skew": 0.0,
     "straddle": 200.0,
@@ -35,7 +35,7 @@
   },
   "gex": {
     "total_gex": 0.0,
-    "zero_gamma": 0,
+    "zero_gamma": 22963.0,
     "regime": "UNKNOWN",
     "strength": 0.0,
     "is_positive": false
@@ -51,7 +51,7 @@
     "sentiment": "BEARISH"
   },
   "analysis": {
-    "full": "Market not open.",
+    "full": "Analysis failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API vers",
     "summary": "",
     "bull_points": [],
     "bear_points": []
