@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-03-27 05:27 UTC",
-  "ist_time": "2026-03-27 10:56 IST",
-  "hour_label": "10:00 \u2014 10:59 IST",
+  "generated_at": "2026-03-27 06:02 UTC",
+  "ist_time": "2026-03-27 11:32 IST",
+  "hour_label": "11:00 \u2014 11:59 IST",
   "market_open": true,
   "spot": {
-    "price": 22963.35,
+    "price": 22935.55,
     "day_open": 23173.55,
     "day_high": 23186.1,
-    "day_low": 22948.1,
-    "cum_return": -0.91,
-    "vwap": 23017.82
+    "day_low": 22927.3,
+    "cum_return": -1.03,
+    "vwap": 22997.89
   },
   "signal": {
     "direction": "SHORT",
     "confidence": "STRONG",
     "prob_up": 33.3,
     "prob_down": 66.7,
-    "pred_high": 23022.99,
-    "pred_low": 22784.43,
+    "pred_high": 22985.16,
+    "pred_low": 22786.73,
     "orb_status": -1,
     "score": -5
   },
   "options": {
     "pcr_oi": 1.0,
-    "max_pain": 22963.35,
-    "call_wall": 23163.35,
-    "put_wall": 22763.35,
+    "max_pain": 22935.55,
+    "call_wall": 23135.55,
+    "put_wall": 22735.55,
     "atm_iv": 14.0,
     "iv_skew": 0.0,
     "straddle": 200.0,
@@ -35,7 +35,7 @@
   },
   "gex": {
     "total_gex": 0.0,
-    "zero_gamma": 22963.0,
+    "zero_gamma": 22936.0,
     "regime": "UNKNOWN",
     "strength": 0.0,
     "is_positive": false
@@ -47,8 +47,8 @@
     "bias": "NEUTRAL"
   },
   "news": {
-    "count": 100,
-    "sentiment": "BEARISH"
+    "count": 97,
+    "sentiment": "MIXED"
   },
   "analysis": {
     "full": "Analysis failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API vers",
