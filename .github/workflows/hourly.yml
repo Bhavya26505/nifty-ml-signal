@@ -34,6 +34,7 @@ jobs:
 
       - name: Run hourly pipeline
         env:
+          UPSTOX_EXTENDED_TOKEN: ${{ secrets.UPSTOX_EXTENDED_TOKEN }}
           UPSTOX_ACCESS_TOKEN: ${{ secrets.UPSTOX_ACCESS_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python upstox_hourly.py
