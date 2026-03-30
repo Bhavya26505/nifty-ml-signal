@@ -502,6 +502,10 @@ if not df_hourly.empty and spot_price > 0:
         pred_high_h = round(spot_price + atr_h * 0.7, 2)
         pred_low_h  = round(spot_price - atr_h * 0.7, 2)
 
+    # Ensure pred_high >= pred_low always
+    if pred_low_h > pred_high_h:
+        pred_low_h, pred_high_h = pred_high_h, pred_low_h
+
     print(f"  Score        : {score:+d} / {int(total_possible)} (was /9 before GEX+Skew)")
     print(f"  P(UP)        : {hourly_prob_up*100:.1f}%")
     print(f"  Signal       : {hourly_signal} ({hourly_confidence})")
@@ -613,7 +617,7 @@ DISCLAIMER: Intraday analysis for educational purposes only. Not SEBI-registered
         for attempt in range(3):
             try:
                 response = client.models.generate_content(
-                    model='gemini-1.5-flash',
+                    model='gemini-2.0-flash',
                     contents=prompt
                 )
                 break
