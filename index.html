@@ -572,8 +572,9 @@ function renderHourly(d){
   si.className='spv '+(s.direction||'FLAT');
   var co=document.getElementById('intra-conf');
   co.textContent=s.confidence||'--'; co.className='spv '+(s.direction||'FLAT');
-  document.getElementById('intra-high').textContent='₹'+fmt(s.pred_high);
-  document.getElementById('intra-low').textContent='₹'+fmt(s.pred_low);
+  var rH=Math.max(s.pred_high||0, s.pred_low||0), rL=Math.min(s.pred_high||0, s.pred_low||0);
+  document.getElementById('intra-high').textContent='₹'+fmt(rH);
+  document.getElementById('intra-low').textContent='₹'+fmt(rL);
   document.getElementById('intra-pup').textContent=(s.prob_up||0)+'%';
   document.getElementById('intra-pdn').textContent=(s.prob_down||0)+'%';
   setTimeout(function(){
@@ -615,7 +616,7 @@ function loadDailySignal(){
 
 function renderDaily(d){
   var p=d.prediction||{}, i=d.indicators||{}, a=d.analysis||{};
-  document.getElementById('daily-date').textContent=(d.date||'--')+' · NSE';
+  document.getElementById('daily-date').textContent=(d.next_trading_day ? d.next_trading_day.split(' (')[0] : d.date || '--')+' · NSE';
   document.getElementById('daily-upd').textContent=(d.generated_at||'').slice(11,16)+' UTC';
   var pill=document.getElementById('daily-pill'); pill.className='daily-signal-pill '+(p.signal||'FLAT');
   var ds=document.getElementById('daily-sig');
