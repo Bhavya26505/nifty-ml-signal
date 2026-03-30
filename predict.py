@@ -174,7 +174,8 @@ df['Volatility_20'] = df['Daily_Return'].rolling(20).std()
 df['Volatility_60'] = df['Daily_Return'].rolling(60).std()
 df['ATR']           = (df['High'] - df['Low']).rolling(14).mean()
 df['Volume_MA20']   = df['Volume'].rolling(20).mean()
-df['Volume_Ratio']  = df['Volume'] / df['Volume_MA20']
+df['Volume_Ratio']  = df['Volume'] / df['Volume_MA20'].replace(0, np.nan)
+df['Volume_Ratio']  = df['Volume_Ratio'].fillna(1.0)  # fallback if volume is 0
 df['Mom_5']         = df['Close'] / df['Close'].shift(5)  - 1
 df['Mom_20']        = df['Close'] / df['Close'].shift(20) - 1
 
@@ -288,6 +289,10 @@ prob_up_r = round(prob_up, 4)
 pred_close = round(float(reg_close.predict(latest_sc)[0]), 2)
 pred_high  = round(float(reg_high.predict(latest_sc)[0]), 2)
 pred_low   = round(float(reg_low.predict(latest_sc)[0]), 2)
+
+# Ensure pred_high >= pred_low
+if pred_low > pred_high:
+    pred_low, pred_high = pred_high, pred_low
 
 # Price change prediction
 pred_change     = round(pred_close - close_price, 2)
