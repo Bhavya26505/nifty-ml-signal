@@ -1,48 +1,48 @@
 {
-  "date": "31 Mar 2026",
-  "generated_at": "2026-03-31 11:10 UTC",
-  "next_trading_day": "01 Apr 2026 (Wednesday)",
+  "date": "01 Apr 2026",
+  "generated_at": "2026-04-01 11:13 UTC",
+  "next_trading_day": "02 Apr 2026 (Thursday)",
   "market": {
-    "close": 22331.400390625,
-    "open": 22549.650390625,
-    "high": 22714.099609375,
-    "low": 22283.849609375,
-    "prev_close": 22819.599609375,
-    "change": -488.2,
-    "change_pct": -2.14,
+    "close": 22679.400390625,
+    "open": 22899.0,
+    "high": 22941.30078125,
+    "low": 22618.599609375,
+    "prev_close": 22331.400390625,
+    "change": 348.0,
+    "change_pct": 1.56,
     "week_52_high": 26328.55078125,
     "week_52_low": 22161.599609375
   },
   "prediction": {
     "signal": "LONG",
-    "confidence": "MILD",
-    "action": "MILD BUY \u2014 small position only",
-    "prob_up": 56.7,
-    "prob_down": 43.3,
-    "hist_accuracy": 54.1,
-    "pred_close": 22703.15,
-    "pred_high": 23082.7,
-    "pred_low": 22792.33,
-    "pred_change": 371.75,
-    "pred_change_pct": 1.66
+    "confidence": "STRONG",
+    "action": "BUY / HOLD \u2014 Nifty ETF (NIFTYBEES)",
+    "prob_up": 69.9,
+    "prob_down": 30.1,
+    "hist_accuracy": 60.3,
+    "pred_close": 22770.53,
+    "pred_high": 23093.33,
+    "pred_low": 22658.22,
+    "pred_change": 91.13,
+    "pred_change_pct": 0.4
   },
   "indicators": {
-    "rsi_14": 33.78,
+    "rsi_14": 35.2,
     "rsi_note": "NEUTRAL",
-    "bb_pctb": 0.084,
-    "macd_hist": -64.95,
+    "bb_pctb": 0.212,
+    "macd_hist": -45.17,
     "macd_note": "BEARISH",
-    "volatility_20": 1.57,
-    "momentum_5d": -3.39,
-    "momentum_20d": -12.41,
-    "volume_ratio": 1.34,
-    "atr": 371.43,
+    "volatility_20": 1.64,
+    "momentum_5d": 0.74,
+    "momentum_20d": -9.93,
+    "volume_ratio": 0.0,
+    "atr": 378.49,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 24794.39,
-    "ma_200": 25231.53,
-    "bb_upper": 25286.02,
-    "bb_lower": 22059.46
+    "ma_50": 24734.66,
+    "ma_200": 25219.4,
+    "bb_upper": 25053.51,
+    "bb_lower": 22042.05
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6071,
+    "training_days": 6072,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 51.19
+    "recent_1y_accuracy": 50.0
   }
 }
