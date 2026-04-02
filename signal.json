@@ -1,48 +1,48 @@
 {
-  "date": "01 Apr 2026",
-  "generated_at": "2026-04-01 11:13 UTC",
-  "next_trading_day": "02 Apr 2026 (Thursday)",
+  "date": "02 Apr 2026",
+  "generated_at": "2026-04-02 11:08 UTC",
+  "next_trading_day": "03 Apr 2026 (Friday)",
   "market": {
-    "close": 22679.400390625,
-    "open": 22899.0,
-    "high": 22941.30078125,
-    "low": 22618.599609375,
-    "prev_close": 22331.400390625,
-    "change": 348.0,
-    "change_pct": 1.56,
+    "close": 22713.099609375,
+    "open": 22383.400390625,
+    "high": 22782.30078125,
+    "low": 22182.55078125,
+    "prev_close": 22679.400390625,
+    "change": 33.7,
+    "change_pct": 0.15,
     "week_52_high": 26328.55078125,
     "week_52_low": 22161.599609375
   },
   "prediction": {
-    "signal": "LONG",
-    "confidence": "STRONG",
-    "action": "BUY / HOLD \u2014 Nifty ETF (NIFTYBEES)",
-    "prob_up": 69.9,
-    "prob_down": 30.1,
-    "hist_accuracy": 60.3,
-    "pred_close": 22770.53,
-    "pred_high": 23093.33,
-    "pred_low": 22658.22,
-    "pred_change": 91.13,
-    "pred_change_pct": 0.4
+    "signal": "FLAT",
+    "confidence": "NEUTRAL",
+    "action": "Park in Liquid Fund / FD (~6% p.a.)",
+    "prob_up": 53.6,
+    "prob_down": 46.4,
+    "hist_accuracy": 50.0,
+    "pred_close": 23094.39,
+    "pred_high": 23185.89,
+    "pred_low": 22783.44,
+    "pred_change": 381.29,
+    "pred_change_pct": 1.68
   },
   "indicators": {
-    "rsi_14": 35.2,
+    "rsi_14": 38.42,
     "rsi_note": "NEUTRAL",
-    "bb_pctb": 0.212,
-    "macd_hist": -45.17,
+    "bb_pctb": 0.243,
+    "macd_hist": -22.7,
     "macd_note": "BEARISH",
     "volatility_20": 1.64,
-    "momentum_5d": 0.74,
-    "momentum_20d": -9.93,
+    "momentum_5d": -0.87,
+    "momentum_20d": -8.66,
     "volume_ratio": 0.0,
-    "atr": 378.49,
+    "atr": 388.13,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 24734.66,
-    "ma_200": 25219.4,
-    "bb_upper": 25053.51,
-    "bb_lower": 22042.05
+    "ma_50": 24675.04,
+    "ma_200": 25207.26,
+    "bb_upper": 24854.17,
+    "bb_lower": 22026.13
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,56 +58,6 @@
     "count": 100,
     "sentiment": "MIXED",
     "headlines": [
-      {
-        "title": "RBI Publishes FY27 MPC Schedule; April Meeting To Decide First Rate Move",
-        "source": "Outlook Money",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2cxYXZQeFRZb1pIa0hDS1c1SjMtY3dIb0VPYWdxM242a200UktKVVB3aWxxdHhfN0hWSFp6UGFrT3ZhYkVaSFhwc1U3eHlOenVyRlpQMEVTVXc3TDhaSklCUHpIallSTXNLSFN4dXBkT2pjRmdJRDVnNnp1Tkd3NXBZMUxSa015d09ZSTMtOEpUaWdEMVVqZDB2cl9veFBQcnN5bU01QURLaGo10gG6AUFVX3lxTFBNbjVrQXVENFpQXzJ0VkZJV3VzU1luNkVrdjh6S2FVdDBMd1dzcWVGUUs2N20zVWdBTEdYSTU1ak1lSkgtLWc4X0RuY0YyNXB4YkRDZUVMOUlSaGp1RTYxWWJZa2MxMXE2RFhaZG5yN3RieGluM1BJVmx2aVVjalpnWVE1bEc1aTUydHJUT0x0dUU1QTQ4dW9ESkhIcEtQWEJLdEpoMXhBMWUxQUZQalEwVFU5NGVzUzVXUQ?oc=5",
-        "published": "Tue, 24 Mar 2026 11:42:02 GMT",
-        "published_iso": "2026-03-24T11:42:02Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-03-25 10:53 UTC"
-      },
-      {
-        "title": "Rupee gains on fall in crude and dollar index; bond yields harden",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS0dUZzJZY1ViSEhkWFhON05ZbV9yQWdBajF0RFdac3YwM29Ncl93ZnFXMUhwZTJ5czRVTkpOLWNRbTBfYXp4YjkxVUpUNktkUnk4eUp5WjRzaFRZZEJIVVFOYkNwWklXWGx1UDdMOW51bUo3TW1NT1poUEJydl9pbkJUNEdtOHZJdlBWZTQxTnpGelZSY3dzOEQtcF8zNGtSVDN6bVpzWFR1M2RSSm5SRHdNRXRYZmJTcGFLWEpXUVE5NE04dmfSAcsBQVVfeXFMTm83cVBPY2xyT2JTQUQ5VTZSWWRqNFJnTzRSWVFRcGZVOXpMWWxJTXZHM2dtOUNHSmYzaTR5NFk4MDd3YnEwOXpzZFZkVERpaVpSU1BFd0EzWlJpaWIwaWJCLVFpak1DVm1GR3dMWWJaY1ppczBkRTNvNGdwSGZFVktUMUtLZHFmYzBuaW5xcmJJWFdOc2M0YVVUdG8ybWlhVmtFQTRlZmIzWGhzcDgzS1FIS05wV2tKNWp1cXJzMXNHNUx5VnRnMXo4aDA?oc=5",
-        "published": "Tue, 24 Mar 2026 14:15:00 GMT",
-        "published_iso": "2026-03-24T14:15:00Z",
-        "age": "20h ago",
-        "priority": 1,
-        "fetched_at": "2026-03-25 10:53 UTC"
-      },
-      {
-        "title": "India's GDP Forecast Rises to 7.1%, Yet Soaring Oil Prices Spark Inflation Fears",
-        "source": "Whalesbook",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZENFNDJxMDZpSUlVck1qam15Y0t4S1J4WFJnTk0yaE9CTzBBMlkxYWRwYnktQk1Mc1VsVmNfWGRPRGhVbG5abXJaV056NDJyN2NTd1EtdWM4RDkzUG9MMTdqb2t4S0RfNXN2NFg0dHp4eFRTanIzZzI3THJXc0JWVjFhZGhkZm9SbExqZHlnOVRVMGpWQTA1SkRDT2FwN09aeHFTOEQxa3NYcmMzOVBvWDdUNHk1T0hCVi10M3JSTUtacWkzeVlLcy1kUlkzVmY5WjNEQTk3TnNiQ2FueDV1RDJQazZ0UU5mUlVfVA?oc=5",
-        "published": "Wed, 25 Mar 2026 03:45:07 GMT",
-        "published_iso": "2026-03-25T03:45:07Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-03-26 02:47 UTC"
-      },
-      {
-        "title": "Stock market today (March 25, 2026): Nifty50 ends above 23,300; BSE Sensex rises over 1,200 points as oil",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOYzBxV3FsMTYxQm94cnNxRV9tbVkzeHBwUEh4aEtwZzR0aEhua1h2aktzUkVFVFhKWi03YTFlTWg3NWNJV0FLSTFRUGlKYVJLU2U3UUFpbm9jd2R0R1dXY05Ga01uYXFScVBvR2h6M0dzTW5oekpPbWwzY211UDJGaGMyNEt1Y0tqM2NyR3pSRW1lNjFHbTA4TUFlVGF5YU85YnpGX0ozMzFfcXNxZUxqb1c1RTZKSzdCak5ZblZqSUJVYXNLZDdSM2NpVGxsS2hqVkM1Vm5uVTI3WXQ0UWJkTHA1TnZOdXNQTTRfN1I5ZUZYNTZPZWJkdHExdjVGVHd5eHFKY0wyYUdoMDMzZXlQTXMyX2ZaejNNYnlvLVN5UEtXSktoX0NJc2VTMzBtZkJVSFJzZXpPV3d0WjB5ZHFRMWEydnJwUXVqRGZMaDJjNG9RRGt5c2gzVFFR0gHfAkFVX3lxTE1Kb0ZObGNHR3Vzb0Nyek9JRVN4S1RVbjM2bzBTblZGeFpsM1Y4MzBOT1dER1RBOVJsTm14RHVXUTdmS2xVakptdUgxOW91MUxwX19GWGJHRm1vUFRfRnRvYWx6bVU3anRIZkNUTVBMY0d6VEQ5SXotWTU4OGRQVkRjbHphOFd4NGJZY0ZwSS1OcGcxTWNLZ1VYRkNKSEEtdkJpdTR2eUJQOGF4MEJFQ1pjZnVodGJFanR5ZTJxd2RxY2RQWjRxUEw0ZGI4bS1hSmZoT2RuS0lydmt1eTlKVUswX2V3VkhUTndOXzFJM3RRQ3dPUndrV3FueS1aR1pBekhDMWxPb3ktSE9pMmNoYUJaY0FkMVkydURLbkFISDJ0NG1mMGNWRzJYS0tsaTBmbmpDTU5xbzVub2NhUkh2ZWltcFFORVYxbFNTb015NXdYOGhxOW82bG5hME1RU3Vabw?oc=5",
-        "published": "Wed, 25 Mar 2026 03:48:00 GMT",
-        "published_iso": "2026-03-25T03:48:00Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-03-26 02:47 UTC"
-      },
-      {
-        "title": "India stocks higher at close of trade; Nifty 50 up 1.73%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeXhjNG5pVDVqUGtiRXVQdUxMSW9SU0VGME5ubTRvVmhITWcyVHBkemxjY0k3dW1yR0RFUkhHNGJhWExtM0UzQmZSV2pRM3MtNVp6ZnA1MWJIT296YlZuZmszZnl2MXlmcEVmWWJ0Y3o4ZW9kWmNvSFFXeTBuaWc3eHpVWC15U0M5aDR3ZTJuaGE2Y3ZUdndBWGYxcU45SmkwWnFmZ0d3SGNoT3l5Wk9N?oc=5",
-        "published": "Wed, 25 Mar 2026 10:34:38 GMT",
-        "published_iso": "2026-03-25T10:34:38Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-03-26 05:43 UTC"
-      },
       {
         "title": "Record low: Rupee closes at 94.05 against US dollar",
         "source": "News Arena India",
@@ -1057,6 +1007,56 @@
         "age": "4h ago",
         "priority": 1,
         "fetched_at": "2026-03-30 11:07 UTC"
+      },
+      {
+        "title": "World markets rocket higher on optimism Iran war could end soon",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5VW9TZlFwYjJuQzY5Ui01ZGxTaWpZVGw0emx5UHlNanE4LXNUOGJtRVg3UDhOLWg3RkF3anN4SnVldkQ0OHFJVmpsbzRMcUhnSnFiSWZtODVIcHY2ME9SMHFyQzEyQWxmVUg5ZEk0R1dZZWctRjlkUkFxYw?oc=5",
+        "published": "Wed, 01 Apr 2026 01:21:00 GMT",
+        "published_iso": "2026-04-01T01:21:00Z",
+        "age": "15h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-01 17:01 UTC"
+      },
+      {
+        "title": "Stocks to buy today: Analyst at Kotak Sec bets on ONGC, Emmvee Photovoltaic",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTXAyM2l1T2tDNHlESUt2M2NBMjhrSzVzdHBJNmJXZWNwYWlZU3JSSVRpMHdlQWtRa3NKcG9VZnNoZ0J3bXdZZFAzRUJzQjh5M0RDWjJ1RjJMWDV2QmwxLUkycy1vSjJXcE8xLXk4TU9FalpVRlBoQTZFV2dyd2FLdzIyTFRCRmo1ZFBqQ3RyZDVKMENvaUh4NGIxYmx3aW0ybWJhaDk2eGM1NDMyOHFNNkdTZEI3ZFhNNWxKdWY0SUxwZ1V1RUZmUUUyMVJSLTFyRGpCeVVONNIB3AFBVV95cUxNb2dJekZ4U0hfTGl1SUd3S2FhS2JqSFhBcGV5a0x5NlBHQi1zZG5SZWIyOGR6cTR5TmFaSjNVczFmSmlISEFVUFptN2ZVaVFMUUZURTYteVl3dUJ3aXZ1VnE4aVlIUGhLWF9DTklCREljNFN2V3lWVGM4ald6Zm9pM09XRnMyb2ZsUDJudk5UVkFKX2RkRXlsRWlZTGdpNFcwZGRzNDJ4SV9hZ0UyR0dhdmE5T1NiZ2RfLXYtYW11dVNMd1ItWHA3RW11aW5BVkw3X0ZETG8tWmRjcUNp?oc=5",
+        "published": "Wed, 01 Apr 2026 01:29:23 GMT",
+        "published_iso": "2026-04-01T01:29:23Z",
+        "age": "12h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-01 13:46 UTC"
+      },
+      {
+        "title": "Knowledge Nugget | RBI Foundation Day Special: History, new initiatives, and rupee stabilisation",
+        "source": "The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRnZNdVE1MUh5STFqWFNYR3pYQWN0OVpOYURrMTU2OTl4dldaSFZuSHVBYTZyc1pPaVdLelBCZFhNTVJsd09tVmlyNnBNWFFueW9iQmNuOFZXaUVkNThETXV1NXJWWGpUVHpZWG5uUjg3a1hWN1NXbWNFaGJ4WVBTeHpuekg0UzFLUEpjZ09EWWYtZWhYS3QyYzNCQmVLOWExdVk3Qm1aUEdwWUVKVS1QTDIzT1pHY3E1cXpLUVN5MEF2bWE5WWFDUVM0YnZhLUNYa29fMnJ1cFUzZ9IB4AFBVV95cUxOcm54eHROS0hYSjF4N0M5OU1rN0NPZFpjaHhaSFFNNnRsTS1sWXJ6MkJDVS12Q3hVUkJDRm04ZGtjalZtbXpCeFpwQk9RZnRvcnpoZ24wS056UFpIRngycHpiaWQzdmVaa0Y5WDl1VFl5dFk0dVN6RmFNV2IzZF9PeE5nbWJ2WFg5R3cyRE1rYkE4TDRjNVFpZmhHdzBUSXNYcHM3ajVrUEVhX3BxeDZyY1hGX1MxVGE0X2dsMVM5LXktOUJwdHBfa1F0QnN6U1gza1d4UUR6QW91Y1k2R1NNQQ?oc=5",
+        "published": "Wed, 01 Apr 2026 07:20:53 GMT",
+        "published_iso": "2026-04-01T07:20:53Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-02 05:43 UTC"
+      },
+      {
+        "title": "NIFTY50 above 22,800, SENSEX rallies over 1,700 pts in noon deals; BEL, IndiGo, Infosys among buzzing stocks",
+        "source": "upstox.com",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOajNscGJOZ2N2MDI5V0p5eFJqeTMxMHN3b1ZlUmxWZ2VaMjFPRzlEb25XS25Ub21tTW5ZQmkzemMtVGxkN1FHamRtQ19qdVN1djYwQkpIdDRPTlNJQ3pEdjU0MjFVdzZCNVprbG8ydWpqZGw4VThaTFB6bDlXQWJHcmxlR2V0ei1wMlZTbE5mWW9PazZMczJ0SFRjNk1fenZUWk0yNWNMSWkzME03OC1Ga1VEM200RkZxeUlRR21wd3RDbk9ZbXR0dmt6S2h2RmFTOENwZlU4ZjNCRjhtcWZUYUUwWnphR3A4VzdSRmxxdENDSllBMm1tcw?oc=5",
+        "published": "Wed, 01 Apr 2026 07:25:24 GMT",
+        "published_iso": "2026-04-01T07:25:24Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-02 05:43 UTC"
+      },
+      {
+        "title": "NIFTY50, SENSEX rebound: Aurobindo Pharma, GE Vernova among 29 stocks that hit 52-week high on NSE",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTjNzc3NsZERHaGdRb25sQ0VPbGpaa0F1M3V0YWw0YWI5dWdPZmNSd1pYM2M2NzRFOWg5WWthSTlOa1BxTWZ1MV9UdFNXdFZ0Rl94S1pBMFFsVHBTZjhKdER1bEhiaHduUWljX3owTUxBNHRTQzJ4elZmQVYzTTVBMVIyRVFmaENRbTlFNFZWTlBQZHhGRllubHFxaFJDTzlOSF9WX2xNNkE2dGZoeWJSN2ZsRm9CNWF2R3RGNWFqdGdMdVlsQlpYQzJOUktCbWVJajRQRlhpOVd6aHJnSlFaNUQxQjZPcWJNT2o4?oc=5",
+        "published": "Wed, 01 Apr 2026 11:23:31 GMT",
+        "published_iso": "2026-04-01T11:23:31Z",
+        "age": "23h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-02 10:56 UTC"
       }
     ]
   },
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6072,
+    "training_days": 6073,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 50.0
+    "recent_1y_accuracy": 54.37
   }
 }
