@@ -1,48 +1,48 @@
 {
-  "date": "08 Apr 2026",
-  "generated_at": "2026-04-08 11:15 UTC",
-  "next_trading_day": "09 Apr 2026 (Thursday)",
+  "date": "09 Apr 2026",
+  "generated_at": "2026-04-09 11:16 UTC",
+  "next_trading_day": "10 Apr 2026 (Friday)",
   "market": {
-    "close": 23997.349609375,
-    "open": 23855.150390625,
-    "high": 24025.150390625,
-    "low": 23828.5,
-    "prev_close": 23123.650390625,
-    "change": 873.7,
-    "change_pct": 3.78,
+    "close": 23775.099609375,
+    "open": 23909.05078125,
+    "high": 23990.75,
+    "low": 23682.80078125,
+    "prev_close": 23997.349609375,
+    "change": -222.25,
+    "change_pct": -0.93,
     "week_52_high": 26328.55078125,
     "week_52_low": 22161.599609375
   },
   "prediction": {
-    "signal": "FLAT",
-    "confidence": "NEUTRAL",
-    "action": "Park in Liquid Fund / FD (~6% p.a.)",
-    "prob_up": 50.9,
-    "prob_down": 49.1,
-    "hist_accuracy": 50.0,
-    "pred_close": 23790.38,
-    "pred_high": 23673.93,
-    "pred_low": 23499.36,
-    "pred_change": -206.97,
-    "pred_change_pct": -0.86
+    "signal": "LONG",
+    "confidence": "STRONG",
+    "action": "BUY / HOLD \u2014 Nifty ETF (NIFTYBEES)",
+    "prob_up": 75.3,
+    "prob_down": 24.7,
+    "hist_accuracy": 60.3,
+    "pred_close": 24154.71,
+    "pred_high": 24173.6,
+    "pred_low": 23756.86,
+    "pred_change": 379.61,
+    "pred_change_pct": 1.6
   },
   "indicators": {
-    "rsi_14": 55.56,
+    "rsi_14": 51.81,
     "rsi_note": "NEUTRAL",
-    "bb_pctb": 0.839,
-    "macd_hist": 134.78,
+    "bb_pctb": 0.75,
+    "macd_hist": 170.26,
     "macd_note": "BULLISH",
-    "volatility_20": 1.85,
-    "momentum_5d": 7.46,
-    "momentum_20d": -1.85,
+    "volatility_20": 1.82,
+    "momentum_5d": 4.83,
+    "momentum_20d": -1.05,
     "volume_ratio": 0.0,
-    "atr": 379.75,
+    "atr": 379.59,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 24557.31,
-    "ma_200": 25184.94,
-    "bb_upper": 24347.44,
-    "bb_lower": 22172.1
+    "ma_50": 24527.02,
+    "ma_200": 25179.55,
+    "bb_upper": 24302.58,
+    "bb_lower": 22191.66
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,46 +58,6 @@
     "count": 100,
     "sentiment": "MIXED",
     "headlines": [
-      {
-        "title": "World markets rocket higher on optimism Iran war could end soon",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5VW9TZlFwYjJuQzY5Ui01ZGxTaWpZVGw0emx5UHlNanE4LXNUOGJtRVg3UDhOLWg3RkF3anN4SnVldkQ0OHFJVmpsbzRMcUhnSnFiSWZtODVIcHY2ME9SMHFyQzEyQWxmVUg5ZEk0R1dZZWctRjlkUkFxYw?oc=5",
-        "published": "Wed, 01 Apr 2026 01:21:00 GMT",
-        "published_iso": "2026-04-01T01:21:00Z",
-        "age": "15h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-01 17:01 UTC"
-      },
-      {
-        "title": "Stocks to buy today: Analyst at Kotak Sec bets on ONGC, Emmvee Photovoltaic",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTXAyM2l1T2tDNHlESUt2M2NBMjhrSzVzdHBJNmJXZWNwYWlZU3JSSVRpMHdlQWtRa3NKcG9VZnNoZ0J3bXdZZFAzRUJzQjh5M0RDWjJ1RjJMWDV2QmwxLUkycy1vSjJXcE8xLXk4TU9FalpVRlBoQTZFV2dyd2FLdzIyTFRCRmo1ZFBqQ3RyZDVKMENvaUh4NGIxYmx3aW0ybWJhaDk2eGM1NDMyOHFNNkdTZEI3ZFhNNWxKdWY0SUxwZ1V1RUZmUUUyMVJSLTFyRGpCeVVONNIB3AFBVV95cUxNb2dJekZ4U0hfTGl1SUd3S2FhS2JqSFhBcGV5a0x5NlBHQi1zZG5SZWIyOGR6cTR5TmFaSjNVczFmSmlISEFVUFptN2ZVaVFMUUZURTYteVl3dUJ3aXZ1VnE4aVlIUGhLWF9DTklCREljNFN2V3lWVGM4ald6Zm9pM09XRnMyb2ZsUDJudk5UVkFKX2RkRXlsRWlZTGdpNFcwZGRzNDJ4SV9hZ0UyR0dhdmE5T1NiZ2RfLXYtYW11dVNMd1ItWHA3RW11aW5BVkw3X0ZETG8tWmRjcUNp?oc=5",
-        "published": "Wed, 01 Apr 2026 01:29:23 GMT",
-        "published_iso": "2026-04-01T01:29:23Z",
-        "age": "12h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-01 13:46 UTC"
-      },
-      {
-        "title": "Knowledge Nugget | RBI Foundation Day Special: History, new initiatives, and rupee stabilisation",
-        "source": "The Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRnZNdVE1MUh5STFqWFNYR3pYQWN0OVpOYURrMTU2OTl4dldaSFZuSHVBYTZyc1pPaVdLelBCZFhNTVJsd09tVmlyNnBNWFFueW9iQmNuOFZXaUVkNThETXV1NXJWWGpUVHpZWG5uUjg3a1hWN1NXbWNFaGJ4WVBTeHpuekg0UzFLUEpjZ09EWWYtZWhYS3QyYzNCQmVLOWExdVk3Qm1aUEdwWUVKVS1QTDIzT1pHY3E1cXpLUVN5MEF2bWE5WWFDUVM0YnZhLUNYa29fMnJ1cFUzZ9IB4AFBVV95cUxOcm54eHROS0hYSjF4N0M5OU1rN0NPZFpjaHhaSFFNNnRsTS1sWXJ6MkJDVS12Q3hVUkJDRm04ZGtjalZtbXpCeFpwQk9RZnRvcnpoZ24wS056UFpIRngycHpiaWQzdmVaa0Y5WDl1VFl5dFk0dVN6RmFNV2IzZF9PeE5nbWJ2WFg5R3cyRE1rYkE4TDRjNVFpZmhHdzBUSXNYcHM3ajVrUEVhX3BxeDZyY1hGX1MxVGE0X2dsMVM5LXktOUJwdHBfa1F0QnN6U1gza1d4UUR6QW91Y1k2R1NNQQ?oc=5",
-        "published": "Wed, 01 Apr 2026 07:20:53 GMT",
-        "published_iso": "2026-04-01T07:20:53Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-02 05:43 UTC"
-      },
-      {
-        "title": "NIFTY50 above 22,800, SENSEX rallies over 1,700 pts in noon deals; BEL, IndiGo, Infosys among buzzing stocks",
-        "source": "upstox.com",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOajNscGJOZ2N2MDI5V0p5eFJqeTMxMHN3b1ZlUmxWZ2VaMjFPRzlEb25XS25Ub21tTW5ZQmkzemMtVGxkN1FHamRtQ19qdVN1djYwQkpIdDRPTlNJQ3pEdjU0MjFVdzZCNVprbG8ydWpqZGw4VThaTFB6bDlXQWJHcmxlR2V0ei1wMlZTbE5mWW9PazZMczJ0SFRjNk1fenZUWk0yNWNMSWkzME03OC1Ga1VEM200RkZxeUlRR21wd3RDbk9ZbXR0dmt6S2h2RmFTOENwZlU4ZjNCRjhtcWZUYUUwWnphR3A4VzdSRmxxdENDSllBMm1tcw?oc=5",
-        "published": "Wed, 01 Apr 2026 07:25:24 GMT",
-        "published_iso": "2026-04-01T07:25:24Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-02 05:43 UTC"
-      },
       {
         "title": "NIFTY50, SENSEX rebound: Aurobindo Pharma, GE Vernova among 29 stocks that hit 52-week high on NSE",
         "source": "Upstox",
@@ -1057,6 +1017,46 @@
         "age": "1h ago",
         "priority": 1,
         "fetched_at": "2026-04-07 07:26 UTC"
+      },
+      {
+        "title": "Sensex ends 2,946 points up; investors earn \u20b917 lakh crore in a day\u2014 What drove the stock market higher?",
+        "source": "Mint",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOU1pfLXpYQk1xYkZQSzVZc0Q1LVE1Y1dZOTNWX0FWaTZWSzNFS3gya1FTMkFwTFI1Q2YyUXpmNG1XQ0ZsNDV1Vkh5NEtERlJLR0dQdlAwaGFySWwydFRiYlo5NFJPZkpQd0dOUWdJc0M0WEpFSkhHVDVtd2JGOG81U1BreHBuTFhpdkMxU0JFOEo3N0pVN29wZWpjQjJfVnhBWnRQSURCdjcycXNDcWQ4ZE9sRDg3MHBiY0lQVUlUa0hpWS00YnNLbTktYkp6R3ltYWU3MGRXajQ1OEt6TmNQV0FvdEpsTEVNUzdjNDE3Tk1ZdnMwS0RKLWh1TFc3SVVlS3JZVTg1VW9NUjk0YjFKNDFiSHfSAZoCQVVfeXFMT24zb1JpbEctSTZZU2dUdlJmT19jdEktSW81R19KejF2ODJCaDZGT0JzS0RJX3B4d1FaanNRTWZEMGhlRnV0bHlGWDh1eGlPcWxBNDJtZnE4WEs2TWR0c2NtbHAtc3ptZ3dUdS1GS0x1NWU3UGZoVlc0eXJKN3pscXN4T2V4RHZsMUp4OGM3TGVHbV9NTUNwRkZyb1lIcnAtT18wN2loM3cxS1JWX25vX0xBODd0cm1ZVUZrc2xoRzFId0tQeWxpeWdoVXhEVHM5a1lHTlczNUVSUUNVVG1fVlhUT3dQVDhFX25VNkpfTVZMeWd2SlpPd0ZRZlJ1cTcwbnkzTEcwLTNubTZWeVk0VkpUQlhja0pQVnpn?oc=5",
+        "published": "Wed, 08 Apr 2026 03:49:44 GMT",
+        "published_iso": "2026-04-08T03:49:44Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-09 02:45 UTC"
+      },
+      {
+        "title": "Monetary Policy statement by RBI Governor Sanjay Malhotra | Repo rate | NSE | BSE",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdmhreGZVWVpNS2t4a3dpMFhWYWVnT0ZvSWw2S29qcWhiTU0yOU9FZkZiVFRJeDVtVVZIaVZFYTNyS2VKOFhHM2d3YXZScjMyMjBlQy1VaWxYTy10UU1vZWRGSURHRDBlOGUzSDJscHhoZmNhNWNMOE1iSlk3SVh3ZTd1MDlCbUprVFUxNnJfdnJCYzNjV2tmczVmalRvU3BrMGdZTkZtSjRnSEZ3TVNBenVuMk5WV3FPTk92ZFQxbWlTUmQ4aWwtUFc3RFFrZGRSMHlIb9IB2gFBVV95cUxPa0xxWUJ5S09JVnJ3RkRwZUY2YjBxV3Z0bzlRVDBadF9XeDFTZ0ZmV1JzOWxFeTJwRDYxOWxrWnFqVWZtZHlKcVJOTmdka0RGRWVVLTB5VzFiZ3A5M2xXd2V2OF80cGhQS1dydngzaTVqaUZMc3ZnZlFhaWFERng1djlpSVhrSkxfNzUtYTBBRlVwX2UyX2MxZ1lkczYzZ0VOVU5abE95aWxvVWNuNXd6aXRTRHAxWFhNTzV0eVVUdjA5NGZJY0hHdkstTFp4QWtOUDNVVzFDYVotZw?oc=5",
+        "published": "Wed, 08 Apr 2026 04:33:27 GMT",
+        "published_iso": "2026-04-08T04:33:27Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-09 02:45 UTC"
+      },
+      {
+        "title": "USD/INR Tumbles: Dramatic Fall Follows US-Iran Ceasefire as RBI Holds Repo Rate Steady at 5.25%",
+        "source": "MEXC",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85VnZNcmo2T3dKVHREMHBpQ3VpNnNuV3VhYkZsUjNEWFlHMVc5dXBxaFhiOXR1RENnb3BsaHBWZS1CYVFDbUhIYQ?oc=5",
+        "published": "Wed, 08 Apr 2026 07:55:14 GMT",
+        "published_iso": "2026-04-08T07:55:14Z",
+        "age": "23h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-09 07:44 UTC"
+      },
+      {
+        "title": "RBI Repo Rate Meeting April 2026 News: Remains Unchanged at 5.25%, India\u2019s GDP Growth at 6.9% | Faces Backdrop due to US-Israel-Iran War, MPC",
+        "source": "The Sunday Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPdF9MRzdHSUlhMms4ZmRqQ3gxWjQ3d3Jud0ZKcGpEOTlFNDZ4ck9IVkVQUXNaSE1fcC16eVVWWjVhekdQcjRDMm5uenYxZHN2RFdDYkt6Zm1XOUlfMmFUS1Fad2xISmNlUG8ycEdXR19fUFZ3YUYwbE45bmJHc212X2NXZWFaTGZQUXpyUnltSV9vSkpfYTRnVXdiMW11S2ZacFBKYmZSNkxBekFCTmhETjNWVTlLZUdyXzVWUHFqVTJUNHZvaWFUUG5FWWZ0LU5mSWhyVlBqLXJ5ZDhYdm41MDRUVFE0U0RUWHBHcDJ5ZVZocGtXelMyN0dUdDFvTm41NTBLX2pIT2NfUlU?oc=5",
+        "published": "Wed, 08 Apr 2026 10:02:19 GMT",
+        "published_iso": "2026-04-08T10:02:19Z",
+        "age": "21h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-09 07:44 UTC"
       }
     ]
   },
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6076,
+    "training_days": 6077,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 53.97
+    "recent_1y_accuracy": 51.19
   }
 }
