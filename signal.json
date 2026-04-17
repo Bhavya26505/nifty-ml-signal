@@ -1,48 +1,48 @@
 {
-  "date": "16 Apr 2026",
-  "generated_at": "2026-04-16 11:19 UTC",
-  "next_trading_day": "17 Apr 2026 (Friday)",
+  "date": "17 Apr 2026",
+  "generated_at": "2026-04-17 11:11 UTC",
+  "next_trading_day": "20 Apr 2026 (Monday)",
   "market": {
-    "close": 24196.75,
-    "open": 24385.19921875,
-    "high": 24400.94921875,
-    "low": 24102.80078125,
-    "prev_close": 24231.30078125,
-    "change": -34.55,
-    "change_pct": -0.14,
+    "close": 24353.55078125,
+    "open": 24165.900390625,
+    "high": 24371.900390625,
+    "low": 24096.05078125,
+    "prev_close": 24196.75,
+    "change": 156.8,
+    "change_pct": 0.65,
     "week_52_high": 26328.55078125,
-    "week_52_low": 22161.599609375
+    "week_52_low": 22331.400390625
   },
   "prediction": {
-    "signal": "FLAT",
-    "confidence": "NEUTRAL",
-    "action": "Park in Liquid Fund / FD (~6% p.a.)",
-    "prob_up": 50.2,
-    "prob_down": 49.8,
-    "hist_accuracy": 50.0,
-    "pred_close": 24676.59,
-    "pred_high": 24802.27,
-    "pred_low": 24503.18,
-    "pred_change": 479.84,
-    "pred_change_pct": 1.98
+    "signal": "SHORT",
+    "confidence": "MILD",
+    "action": "MILD SHORT \u2014 small position only",
+    "prob_up": 44.5,
+    "prob_down": 55.5,
+    "hist_accuracy": 47.5,
+    "pred_close": 24706.58,
+    "pred_high": 24719.42,
+    "pred_low": 24470.59,
+    "pred_change": 353.03,
+    "pred_change_pct": 1.45
   },
   "indicators": {
-    "rsi_14": 68.45,
+    "rsi_14": 66.68,
     "rsi_note": "NEUTRAL",
-    "bb_pctb": 0.876,
-    "macd_hist": 229.03,
+    "bb_pctb": 0.893,
+    "macd_hist": 230.58,
     "macd_note": "BULLISH",
-    "volatility_20": 1.75,
-    "momentum_5d": 0.83,
-    "momentum_20d": 4.52,
+    "volatility_20": 1.74,
+    "momentum_5d": 2.43,
+    "momentum_20d": 4.04,
     "volume_ratio": 0.0,
-    "atr": 354.77,
+    "atr": 343.54,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 24433.73,
-    "ma_200": 25162.71,
-    "bb_upper": 24485.93,
-    "bb_lower": 22148.57
+    "ma_50": 24414.39,
+    "ma_200": 25159.25,
+    "bb_upper": 24621.77,
+    "bb_lower": 22107.21
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,56 +58,6 @@
     "count": 100,
     "sentiment": "BULLISH",
     "headlines": [
-      {
-        "title": "How the RBI Defends the Indian Rupee through Strategic Forex Intervention",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxON3llQWN2b3ZpUUY1YTRZdzJEQmF1ZXFfX2FvemRRM0V6VVJQOUZpM3NJWUcxV1d1MlhJUHFsVFFDaFFsSjdZRmZjZXF5LVFsenhRWVBJRElZVV9mdTdoNW5EVHpKYy00bGNua2QteWV5NThycHZQUGV2eXItZ19MSGlBdnZFTzNlVXhuekVvTEpfeUhaMUN3YWFpWi1ZZlJWOGUxX1B3Y1E5UW52T3VBVEpUZ2lLcVdJQ2IwMENnS1U2dUhGTUFVdm5UTnNfTThj?oc=5",
-        "published": "Wed, 08 Apr 2026 14:12:46 GMT",
-        "published_iso": "2026-04-08T14:12:46Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-09 13:54 UTC"
-      },
-      {
-        "title": "NIFTY50 below 23,900, SENSEX slumps 1% in noon session; Bosch, HFCL, NTPC, TCS among buzzing stocks",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNampCX3R0ODd6R0VjR0Y5MnlOcWUwR056S1UwVUV6bXgyRHhOOUVwb2lSYjJ5bzdjOXNvS3VISXBXdXZKNUQzUjZHdFpUelQwcDU2SDUyYkdhRTFqaUlfcF8tQUtOcjNQNlVsdEpFT1R3NGdyMHVWemxyRnk0T1hkbG5yd3NPRzdFV3JNNUMyNEtsMUpVZFV3T1czM19VMGU3eFQyWFk5WUlJZ1dZWjM5bW95d1N3bjd3QXYwU1c0RTNOY0pRZXExdzA4b1RERHl4RS01RVpMcEhWNzR3OWtkYzFNOA?oc=5",
-        "published": "Thu, 09 Apr 2026 07:17:25 GMT",
-        "published_iso": "2026-04-09T07:17:25Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-10 06:00 UTC"
-      },
-      {
-        "title": "World Bank Revises India GDP Growth Forecast Upward, Flags Inflation Risks",
-        "source": "KNN India",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaWZuOTJYNVR1X3F0dHkyN0tjS1k4d3k5VlEzZ2J6V1ZVVWxIbTJmdm9DVzViaHdySDNkY1VjQjM1cWNib1V0MUczYnBQN1ZmMFhELWExUmdNX2U1UzhWNkIzcjVENHk3MFFmR2EtemdDeWU3S3o2VVZORFNCZV9yYTJGbDFiaVFhMl9UV19FZWp4UzE1RUp3c01CcmZmb212dk16eF9UTktRek5OWTJnN3BUNWprWnhwTWlnWkZn?oc=5",
-        "published": "Thu, 09 Apr 2026 08:51:15 GMT",
-        "published_iso": "2026-04-09T08:51:15Z",
-        "age": "21h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-10 06:00 UTC"
-      },
-      {
-        "title": "India stocks lower at close of trade; Nifty 50 down 0.93%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMmhoYTYxZG9WeVRUR2RHOU5UMVg1b05jUTNqV1oxU0dmbWQ5NTZsVGJuQWdHZEJDZFpxMkdHaFZ3cXFQSy1UbXFoUXZNRmotM05QWVZYZlFwM21lM1RZRkN5bU1oVWN5b0lUV25PcEtaUzktMXItb2stcTM0bWotNDNoUWxiLVIxV3VLcTBkMS1FUi14ZHpsdHRtUjJYZEh3OFdNMjUtZFozOXJTbWlqQQ?oc=5",
-        "published": "Thu, 09 Apr 2026 10:39:30 GMT",
-        "published_iso": "2026-04-09T10:39:30Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-10 09:16 UTC"
-      },
-      {
-        "title": "Stock Market Today - Nifty slips below 23,900. SENSEX tanks more than 900 points",
-        "source": "India Infoline",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGhjUHhzN3VPbmxiZTlyeEs0YmVKd0dvdkt1OEJ1RkdUbDlJT1otamk4MU5jRUdOTzZCMThZY3JrWWF0dkFBdGQxdzQzcHZEZ0Y1TkNtbGRvVFUyY25RcEtPQnM1b1ZnUzlrNndfS0oxOS1pOHgwd3ZvZ1dVMWtIa1FZVTVsT3g2WGpYRmkxVktzTy13Snd0QlZVVTRWajVSRG13OGNCRkdCSnhYU0x6Ng?oc=5",
-        "published": "Thu, 09 Apr 2026 10:44:58 GMT",
-        "published_iso": "2026-04-09T10:44:58Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-04-10 06:00 UTC"
-      },
       {
         "title": "RBI keeps repo rate unchanged; Projects India\u2019s real GDP growth for current fiscal at 6.9%",
         "source": "News On AIR",
@@ -1057,6 +1007,56 @@
         "age": "7h ago",
         "priority": 1,
         "fetched_at": "2026-04-16 11:08 UTC"
+      },
+      {
+        "title": "Rupee rises 6 paise to 93.27 against US dollar during early trade",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUTF5QUdXVDN5MmFTSXBRSUU5WXYxOEtJZ3VxVk1sc2EtVzhwQ2lac216bTQtc1hkSkh4azFyb3RQUm1hWElZTjZGV24zeHJKVnFiZUFXZU56NUFzSzZFam04UEJuMHBuc1loWWpDSnhkaXdDWmE2b2hSZUk2cEwtRXRmV2hCOXNEMnBxUk1hcWpJUThPcEdPT19tQXQtSmM5NUQ4eUtZM0FWV21nRWVfT1BCVjctX0M4LS1kelpsQXBnQVhHQ3JWcGFrWGnSAdIBQVVfeXFMTnZnYmxRS1BNbk9uMUtVTEdFR2xKaGhvVFR2VE53cDRkRzA1NjhXaVdkNTRoNFktZVhIUkc0UUdBcUtReUVaWTRZbXNHWDVicmNNTDNOTTBSRXcyQ29WRlNTRklaRVY4eDM2SWdsa01IWlhXSlAyajNVWk8tdG5UWThTdmlGcFo0RGtNcDl3OVFyVFNEVk9hc1U3ekliUk5tazE0Q2sydndocXlySU03V20wRi15WTBCWXRrbVBRMjNoTThTUDRJUzh3Sm14MGxZRVFR?oc=5",
+        "published": "Thu, 16 Apr 2026 04:21:23 GMT",
+        "published_iso": "2026-04-16T04:21:23Z",
+        "age": "11h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-16 15:47 UTC"
+      },
+      {
+        "title": "Rupee rises 10 paise to settle at 93.23 against US dollar",
+        "source": "Deccan Herald",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWWJHY1JtOU1mbjNoUW1YSndPWUdDejhtenMzLVlwNXYzWUtyeGJKY0VpTmpkM2NleUlZNlpnMzczakFuRENqdEZ1SWl1TVFLUklWRkxKRW1iS0tCUEY1NTNzaU41RjYwajZTVmpWTnZUV0J0SjJJQjFEbXpFTlZmZGFrVVR0ZjlXczA1OW1qMV9HUVBRenFlUHJyOS1nSmNySXZ0Z3VPbHFhWUh3ZHlF?oc=5",
+        "published": "Thu, 16 Apr 2026 10:38:28 GMT",
+        "published_iso": "2026-04-16T10:38:28Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-17 09:23 UTC"
+      },
+      {
+        "title": "India stocks lower at close of trade; Nifty 50 down 0.14%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcXg4UV93QTZ5MEZmaHB5ejFnY2JzVVlNc3RFY3ZlNWlQbEp1OGRnT0NBTUtGNWFvUVVZcVA3aHlmUVFJRnc4MWx5Y01zZ1l3bmlFcGZ6d3lIX005R1dYY0JmanJCa0ZqLVJKTUhIWDlBMzdQSlNrQ0ZUSjNDc0tsMmR6ZmpBaW9MOTcxSVNFVUhKX2VBd1NiS2l5ZWM2SjQ4SV92aF9sbUNhenJLeDAySQ?oc=5",
+        "published": "Thu, 16 Apr 2026 11:01:29 GMT",
+        "published_iso": "2026-04-16T11:01:29Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-17 09:23 UTC"
+      },
+      {
+        "title": "US Fed's John Williams says Iran war is already driving up inflation pressures",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdmZobnF3TU5KbFZFTlNJYzlhN0EtR1lfNE5wamJ5RHhBODZ0VnFUS09taHR1ckhaT0QtajB5b3JIX3otUnpvU0JHTjFOX0l1UDFzVVJCYzMxNjJ1OHlubHRfa2g4TjI4LVhUSGZrS1JGdlJoS0xMdzVQcTNYX3MteEFCczIybTRsc05fdWdRMktMeVdHR2xSd2xqTHRhZ3hjQjE2UmpJRE1XR1FTbldnMDNwWDhMdmpTS2g1T0dhR3NvMVRwWFNpMEFCWGxxQUV3c2hOVGtpOGF2UnFZTFJWQzRzTkw4V0o1dnc?oc=5",
+        "published": "Thu, 16 Apr 2026 15:15:25 GMT",
+        "published_iso": "2026-04-16T15:15:25Z",
+        "age": "19h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-17 11:02 UTC"
+      },
+      {
+        "title": "Rupee Watch: Rupee rises for third session against US dollar as oil eases",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTXhSSDhfdGdIeEhwTFAwWjhPckhkYlRLYWhVa1hMQWxWZHlfUGJtLVEtVl9vV1JCYl9VeC1lMVNYRlVpN3JwQVVDR2tFd05oSjhGd05hUUZUS1RIbzNSSG9Fal9HTXAwUFBXNWNORUZ5Z01KNHBOa2xtUnJEaHRJbXR0WEZ2VG9fTXdVdHdreldnR0N3SDNCYm1zNVFnZkp5dm5MTGxqMkxFTEtwREFuVEJLczB2ZTU1NVd5Mm8xNFhhdDM0RXlNRGhkWm9VQ3E4Y09TbHVoTHHSAdgBQVVfeXFMTk14Ukg4X3RnSHhIcExQMFo4T3JIZGJUS2FoVWtYTEFsVmR5X1BibS1RLVZfb1dSQmJfVXgtZTFTWEZVaTdycEFVQ0drRXdOaEo4RndOYVFGVEtUSG8zUkhvRWpfR01wMFBQVzVjTkVGeWdNSjRwTmtsbVJyRGh0SW10dFhGdlRvX013VXR3a3pXZ0dDd0gzQmJtczVRZ2ZKeXZuTExsajJMRUxLcERBblRCS3MwdmU1NTVXeTJvMTRYYXQzNEV5TURoZFpvVUNxOGNPU2x1aExx?oc=5",
+        "published": "Fri, 17 Apr 2026 03:35:36 GMT",
+        "published_iso": "2026-04-17T03:35:36Z",
+        "age": "7h ago",
+        "priority": 1,
+        "fetched_at": "2026-04-17 11:02 UTC"
       }
     ]
   },
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6081,
+    "training_days": 6082,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 51.98
+    "recent_1y_accuracy": 53.17
   }
 }
