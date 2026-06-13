@@ -1,27 +1,17 @@
 {
-  "last_updated": "2026-06-13 17:26 UTC",
+  "last_updated": "2026-06-13 19:42 UTC",
   "date_range": {
     "from": "2026-06-06",
     "to": "2026-06-13"
   },
   "total_headlines": 100,
-  "today_count": 100,
-  "yesterday_count": 0,
+  "today_count": 99,
+  "yesterday_count": 1,
   "week_count": 0,
   "sentiment_score": "BULLISH",
-  "bullish_count": 54,
-  "bearish_count": 26,
+  "bullish_count": 55,
+  "bearish_count": 25,
   "today_headlines": [
-    {
-      "title": "FinMin won\u2019t revise FY27 GDP, inflation forecasts amid Iran war; RBI estimates \u2018fair\u2019: CEA",
-      "source": "Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUXduSmdzd19BbDZ4RmpKVHAtb1FJc1BfY0Z2WTBRb1lfdEVWYTRKeVNDaTZTTDZVd01JelFSazNKd1lNTlJJVUhLYmF3LXJxSnpNcTgwM0FaMDIyZHhvSmxCdnlBMFVXNGhabVc1RmZxcnZiUU9fMUxBc0ZCR3BGQUdxV25rVnJVVVE0dmVGZkFLVzBOTmRaNkJDVkN3THBnQWdLRkxYZURrd1BaSEFhZ1hpOXVUOTNtZE9uQVZtYXhLQmNnTXVjSWtTXzE3eUtrUjZDSjlKYlpKdHpLYlIzazRnUDfSAeoBQVVfeXFMUDFGQ2EtTEUxbXk0YkRqMkY2ZFBhSjFGTFhyMVlBcmRmZVBpSHhFMEJiejRRcGtWblhScDBGYWR1ZXMyYm51R3RZczlCMERQU0VMaGVUZlFTLWp1RjZHQmtZM1dEdjJHVnZlWDdvdnhLQnBzQ2F4b1VjUThoRzA2NkJWZ0tFRVNwbG1zSklFTDBmRjlqR0xuck5PZ3RvRDRlSG9EVEI3SDh2ZzVHbVl5Y3l0Yk91Y01qQXJfa1RXMHdSU0ItY0lUZUpCUURJbDBqS1lTRC1LNHFhTEVqNmF2alh4bHlreWpTVlRR?oc=5",
-      "published": "Fri, 05 Jun 2026 18:01:00 GMT",
-      "published_iso": "2026-06-05T18:01:00Z",
-      "age": "19h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-06 13:53 UTC"
-    },
     {
       "title": "Silver prices drop over 2% as strong dollar, oil rally hit demand",
       "source": "MSN",
@@ -1013,19 +1003,20 @@
       "fetched_at": "2026-06-13 17:26 UTC"
     }
   ],
-  "yesterday_headlines": [],
+  "yesterday_headlines": [
+    {
+      "title": "Rupee rises 65 paise to 95.20 against US dollar in early trade",
+      "source": "News Arena India",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNkFDQ3I5aWM5dERJSy05Y2FlOXlRVmo0eFZtTzN3ZkxtZlBVZmJPQWZQOWE4RGlfVlRPVkN3RFZoTHVnZ1BwbjlOaGoxdUg1VkR5LW5PX1FkaDBGaURxeDNteW4yc3FDTDFYak5vTnNibHNBTnpzSkVpSFNETFdGeEdlS0Yta21MQW5OcllCNm1KZmozUG1wMDRCR1djdHA4WVBuRVln?oc=5",
+      "published": "Fri, 12 Jun 2026 04:57:50 GMT",
+      "published_iso": "2026-06-12T04:57:50Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-06-13 19:42 UTC"
+    }
+  ],
   "week_headlines": [],
   "headlines": [
-    {
-      "title": "FinMin won\u2019t revise FY27 GDP, inflation forecasts amid Iran war; RBI estimates \u2018fair\u2019: CEA",
-      "source": "Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUXduSmdzd19BbDZ4RmpKVHAtb1FJc1BfY0Z2WTBRb1lfdEVWYTRKeVNDaTZTTDZVd01JelFSazNKd1lNTlJJVUhLYmF3LXJxSnpNcTgwM0FaMDIyZHhvSmxCdnlBMFVXNGhabVc1RmZxcnZiUU9fMUxBc0ZCR3BGQUdxV25rVnJVVVE0dmVGZkFLVzBOTmRaNkJDVkN3THBnQWdLRkxYZURrd1BaSEFhZ1hpOXVUOTNtZE9uQVZtYXhLQmNnTXVjSWtTXzE3eUtrUjZDSjlKYlpKdHpLYlIzazRnUDfSAeoBQVVfeXFMUDFGQ2EtTEUxbXk0YkRqMkY2ZFBhSjFGTFhyMVlBcmRmZVBpSHhFMEJiejRRcGtWblhScDBGYWR1ZXMyYm51R3RZczlCMERQU0VMaGVUZlFTLWp1RjZHQmtZM1dEdjJHVnZlWDdvdnhLQnBzQ2F4b1VjUThoRzA2NkJWZ0tFRVNwbG1zSklFTDBmRjlqR0xuck5PZ3RvRDRlSG9EVEI3SDh2ZzVHbVl5Y3l0Yk91Y01qQXJfa1RXMHdSU0ItY0lUZUpCUURJbDBqS1lTRC1LNHFhTEVqNmF2alh4bHlreWpTVlRR?oc=5",
-      "published": "Fri, 05 Jun 2026 18:01:00 GMT",
-      "published_iso": "2026-06-05T18:01:00Z",
-      "age": "19h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-06 13:53 UTC"
-    },
     {
       "title": "Silver prices drop over 2% as strong dollar, oil rally hit demand",
       "source": "MSN",
@@ -2015,6 +2006,16 @@
       "age": "1h ago",
       "priority": 1,
       "fetched_at": "2026-06-13 17:26 UTC"
+    },
+    {
+      "title": "Rupee rises 65 paise to 95.20 against US dollar in early trade",
+      "source": "News Arena India",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNkFDQ3I5aWM5dERJSy05Y2FlOXlRVmo0eFZtTzN3ZkxtZlBVZmJPQWZQOWE4RGlfVlRPVkN3RFZoTHVnZ1BwbjlOaGoxdUg1VkR5LW5PX1FkaDBGaURxeDNteW4yc3FDTDFYak5vTnNibHNBTnpzSkVpSFNETFdGeEdlS0Yta21MQW5OcllCNm1KZmozUG1wMDRCR1djdHA4WVBuRVln?oc=5",
+      "published": "Fri, 12 Jun 2026 04:57:50 GMT",
+      "published_iso": "2026-06-12T04:57:50Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-06-13 19:42 UTC"
     }
   ]
 }
