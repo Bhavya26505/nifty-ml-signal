@@ -1,37 +1,17 @@
 {
-  "last_updated": "2026-06-20 23:12 UTC",
+  "last_updated": "2026-06-21 04:48 UTC",
   "date_range": {
-    "from": "2026-06-13",
-    "to": "2026-06-20"
+    "from": "2026-06-14",
+    "to": "2026-06-21"
   },
   "total_headlines": 100,
-  "today_count": 100,
-  "yesterday_count": 0,
+  "today_count": 98,
+  "yesterday_count": 2,
   "week_count": 0,
   "sentiment_score": "BULLISH",
-  "bullish_count": 39,
+  "bullish_count": 38,
   "bearish_count": 25,
   "today_headlines": [
-    {
-      "title": "Sensex jumps 1,695.4 pts, Nifty 461.3",
-      "source": "thehitavada.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNVNNWFozRzk0NlZCVU4yN0RZZmMxeFFGMnR4c1pJZU5qV0RUaklaM0MzRG9LTmwtZmFFRllnVmVMTnVzOHZMX3BhSDVjVjdiMnEyT3JnVmUxRXE0MjVmS2s3T0FlY3dJZ1pzcWZ6LXdiQTRsaDFmYmItYVc1ODlxaDNfeFk3WlpuRHc?oc=5",
-      "published": "Sat, 13 Jun 2026 03:23:40 GMT",
-      "published_iso": "2026-06-13T03:23:40Z",
-      "age": "8h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-13 11:56 UTC"
-    },
-    {
-      "title": "Markets Rally: Sensex Up 1,695 Points, Nifty Above 23,600 on US-Iran De-escalation",
-      "source": "Deccan Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb2dPcHg3S3lDUXd1YW5PWTkycTNUcDBRUUlPOTdUcW5NR3VLYk1fdkp4cnBSa2c5cFRhdWRCVXVpckw4RWVaQ3RYaUN3bGpGQlVLQndFZDUwa2dLeUItaTVwaXhiLXd0Y3hHb01WRDJUUmhyREhkR0lkcmhGck82WmstUVpVY2liTi1RN3Q0aVQ2YU0ySlQzWkltYjdqUXVXX1pmaWMtME4zUDJwRjZsYzZDbU5WbHVaMDA0a2ZMbWNQcHlRZmfSAcsBQVVfeXFMUFo5VENpWGZUNURvSHY3Q085eTN2TXAwVHpBWHRma3duRERvQlIzUWdFVWdDSTdTLWNoM3FsLTc5bXg4WldBYVdycEtveGxCaGNlSkVuM21PUUJNRTBIeGs4bWNoMmx0MmRzdndEZkh3TEY5dERmSkczRjNnRmZHejBCMVp0ZGhOdXNTRW54eTVqR0YtbW5Pc1c1clVMLXBmTHhkd0trLWtvUGg3NHBINWxjNTBXS2t4dWd1bmMzd0ZBSmZ2YVM4SG1JTGs?oc=5",
-      "published": "Sat, 13 Jun 2026 04:40:16 GMT",
-      "published_iso": "2026-06-13T04:40:16Z",
-      "age": "7h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-13 11:56 UTC"
-    },
     {
       "title": "Indian rupee also gains big against the US dollar",
       "source": "The Economic Times",
@@ -1013,29 +993,30 @@
       "fetched_at": "2026-06-20 17:38 UTC"
     }
   ],
-  "yesterday_headlines": [],
+  "yesterday_headlines": [
+    {
+      "title": "India VIX jumps nearly 8% as NIFTY50, SENSEX plunge; key triggers behind spike in market volatility explained",
+      "source": "Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRWRqeFlZdkc3U0VoUURFX0NTWGdDYVFYb0hQMDF6c2dKNHpJTlpKN29CMWdjZWhmemEzYkJ2NkZzZGJ1eUxSRUJTSXRlYV9EaWxrR1J2eTZqdFl6R0Rva08zZ3FvNGpTdjdnbUJURDJXNmNIV0dEdHgyOUJrdW9ibWVNaVNsbEJ0cTdTWkFHMzNKR0V5S243ekVFaFM1VWpabmJzV0dlOVhBaUNEV290UGhiQnlaNnBMU1Z6Y0d5d3RhaEx1ck9VdjdBNndycVRPOExDaFJLRmkzYWNxOWFLcGw2LXV4bkkxMVJHbUFrbVJpcmpCY0RNZnBB?oc=5",
+      "published": "Fri, 19 Jun 2026 08:39:14 GMT",
+      "published_iso": "2026-06-19T08:39:14Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-06-21 04:48 UTC"
+    },
+    {
+      "title": "India shares lower at close of trade; Nifty 50 down 0.64%",
+      "source": "Investing.com India",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjlsQmtWWThrY1lENkx0SS1IVTdLbWM0ZzVlX19Qbk9jLTU2aWFKSmZFVHROVC1XcGk3VG55YTMtZkhUM2RIaHVUUEtGSko2WFdZQTFNN1B4TUxna2NNTjc2aEVnc05qQ1FlZU1wR1ZGOE5zZ0E0RFVpSXlpOUpINUtrZUFWTkQyakpsZmVnNzBEVVc0VTYweVREd3MzTXZmZVRsR21TRkxTVjlOV2hJ?oc=5",
+      "published": "Fri, 19 Jun 2026 10:45:02 GMT",
+      "published_iso": "2026-06-19T10:45:02Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-06-21 04:48 UTC"
+    }
+  ],
   "week_headlines": [],
   "headlines": [
-    {
-      "title": "Sensex jumps 1,695.4 pts, Nifty 461.3",
-      "source": "thehitavada.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNVNNWFozRzk0NlZCVU4yN0RZZmMxeFFGMnR4c1pJZU5qV0RUaklaM0MzRG9LTmwtZmFFRllnVmVMTnVzOHZMX3BhSDVjVjdiMnEyT3JnVmUxRXE0MjVmS2s3T0FlY3dJZ1pzcWZ6LXdiQTRsaDFmYmItYVc1ODlxaDNfeFk3WlpuRHc?oc=5",
-      "published": "Sat, 13 Jun 2026 03:23:40 GMT",
-      "published_iso": "2026-06-13T03:23:40Z",
-      "age": "8h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-13 11:56 UTC"
-    },
-    {
-      "title": "Markets Rally: Sensex Up 1,695 Points, Nifty Above 23,600 on US-Iran De-escalation",
-      "source": "Deccan Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb2dPcHg3S3lDUXd1YW5PWTkycTNUcDBRUUlPOTdUcW5NR3VLYk1fdkp4cnBSa2c5cFRhdWRCVXVpckw4RWVaQ3RYaUN3bGpGQlVLQndFZDUwa2dLeUItaTVwaXhiLXd0Y3hHb01WRDJUUmhyREhkR0lkcmhGck82WmstUVpVY2liTi1RN3Q0aVQ2YU0ySlQzWkltYjdqUXVXX1pmaWMtME4zUDJwRjZsYzZDbU5WbHVaMDA0a2ZMbWNQcHlRZmfSAcsBQVVfeXFMUFo5VENpWGZUNURvSHY3Q085eTN2TXAwVHpBWHRma3duRERvQlIzUWdFVWdDSTdTLWNoM3FsLTc5bXg4WldBYVdycEtveGxCaGNlSkVuM21PUUJNRTBIeGs4bWNoMmx0MmRzdndEZkh3TEY5dERmSkczRjNnRmZHejBCMVp0ZGhOdXNTRW54eTVqR0YtbW5Pc1c1clVMLXBmTHhkd0trLWtvUGg3NHBINWxjNTBXS2t4dWd1bmMzd0ZBSmZ2YVM4SG1JTGs?oc=5",
-      "published": "Sat, 13 Jun 2026 04:40:16 GMT",
-      "published_iso": "2026-06-13T04:40:16Z",
-      "age": "7h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-13 11:56 UTC"
-    },
     {
       "title": "Indian rupee also gains big against the US dollar",
       "source": "The Economic Times",
@@ -2015,6 +1996,26 @@
       "age": "9h ago",
       "priority": 1,
       "fetched_at": "2026-06-20 17:38 UTC"
+    },
+    {
+      "title": "India VIX jumps nearly 8% as NIFTY50, SENSEX plunge; key triggers behind spike in market volatility explained",
+      "source": "Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRWRqeFlZdkc3U0VoUURFX0NTWGdDYVFYb0hQMDF6c2dKNHpJTlpKN29CMWdjZWhmemEzYkJ2NkZzZGJ1eUxSRUJTSXRlYV9EaWxrR1J2eTZqdFl6R0Rva08zZ3FvNGpTdjdnbUJURDJXNmNIV0dEdHgyOUJrdW9ibWVNaVNsbEJ0cTdTWkFHMzNKR0V5S243ekVFaFM1VWpabmJzV0dlOVhBaUNEV290UGhiQnlaNnBMU1Z6Y0d5d3RhaEx1ck9VdjdBNndycVRPOExDaFJLRmkzYWNxOWFLcGw2LXV4bkkxMVJHbUFrbVJpcmpCY0RNZnBB?oc=5",
+      "published": "Fri, 19 Jun 2026 08:39:14 GMT",
+      "published_iso": "2026-06-19T08:39:14Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-06-21 04:48 UTC"
+    },
+    {
+      "title": "India shares lower at close of trade; Nifty 50 down 0.64%",
+      "source": "Investing.com India",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjlsQmtWWThrY1lENkx0SS1IVTdLbWM0ZzVlX19Qbk9jLTU2aWFKSmZFVHROVC1XcGk3VG55YTMtZkhUM2RIaHVUUEtGSko2WFdZQTFNN1B4TUxna2NNTjc2aEVnc05qQ1FlZU1wR1ZGOE5zZ0E0RFVpSXlpOUpINUtrZUFWTkQyakpsZmVnNzBEVVc0VTYweVREd3MzTXZmZVRsR21TRkxTVjlOV2hJ?oc=5",
+      "published": "Fri, 19 Jun 2026 10:45:02 GMT",
+      "published_iso": "2026-06-19T10:45:02Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-06-21 04:48 UTC"
     }
   ]
 }
