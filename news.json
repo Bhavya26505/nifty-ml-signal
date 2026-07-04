@@ -1,57 +1,17 @@
 {
-  "last_updated": "2026-07-04 10:15 UTC",
+  "last_updated": "2026-07-04 13:42 UTC",
   "date_range": {
     "from": "2026-06-27",
     "to": "2026-07-04"
   },
   "total_headlines": 100,
-  "today_count": 99,
-  "yesterday_count": 1,
-  "week_count": 0,
+  "today_count": 95,
+  "yesterday_count": 3,
+  "week_count": 2,
   "sentiment_score": "BULLISH",
   "bullish_count": 44,
   "bearish_count": 25,
   "today_headlines": [
-    {
-      "title": "Goldman Sachs lifts India's GDP growth forecast on easing West Asia tensions",
-      "source": "CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcXZqQTJMMEoyWHhXRjQ1ZXMyZUFlUWRaakdLZU42dHp2WmdIY0RpUDdCMmVieHRDWHNYS3pNTUlQV0NsWjhENTl6UmVtazM4WU1qemcyemkzVUZORzlYM2N2bjR5LWotRVZUeUhpdGl0V21DU29JVWtfYVllSm5FMldlRWc0aXpzNzJaMmExd2gtVUY1eGMtaGEzVTJjZ0l3Y3BkSEx6T3lPdFZrbWtJSGNlMXFpTWNJ0gG-AUFVX3lxTE5jMUxHYlhIY0JaODRhYnJDZXJfbnNZY1Fvc0o4YTlXNTBic0hSMkZVbjBIUjhjaHFlR2lycWZrRmJTZGoxWXZOVkdKUjM2VlhIdmsxM2I3NUFfeWo4aEFiRktZTE53dUw5MW1mUG1xeURtRHNRT1VCQlQ5dTZjNHl1RXFCWlJTUWNCcS1sS2pwVS1RN3NKT0xkaXJIU2FNbUpqeExJSDQzamVvTjBxcDJhVXBmSWNkeFdGejFKeFE?oc=5",
-      "published": "Fri, 26 Jun 2026 10:30:56 GMT",
-      "published_iso": "2026-06-26T10:30:56Z",
-      "age": "9h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-26 19:56 UTC"
-    },
-    {
-      "title": "Goldman Sachs lifts India GDP forecast to 6.8% for 2026 after US-Iran deal",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMTdYcVJodVdiN0JETjRNS0dkM0lZanNVYXJ3RHNOa05uZEUwanNETmo3ek1Sc1l3OXdUY1h4RVI4Tks4NVdzWnBWOWpnSUpJVzhVbXZycUxmNklIdGJSNUVwbVVGX0lNVk1HQnptY3M3cG4yQXVmcFdkOHlfU1BITG13U1JXcFR2Q1kxZXJtOXFOVGhjeU1oYVpqX21TSk5pOEJMeDFNYmFaX0tSSnZkcThNaXgxSU9WVC1tVWx30gG-AUFVX3lxTFAxN1hxUmh1V2I3QkRONE1LR2QzSVlqc1VhcndEc05rTm5kRTBqc0ROajd6TVJzWXc5d1RjWHhFUjhOSzg1V3NacFY5amdJSklXOFVtdnJxTGY2SUh0YlI1RXBtVUZfSU1WTUdCem1jczdwbjJBdWZwV2Q4eV9TUEhMbXdTUldwVHZDWTFlcm05cU5UaGN5TWhhWmpfbVNKTmk4Qkx4MU1iYVpfS1JKdmRxOE1peDFJT1ZULW1VbHc?oc=5",
-      "published": "Fri, 26 Jun 2026 10:38:17 GMT",
-      "published_iso": "2026-06-26T10:38:17Z",
-      "age": "9h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-26 19:56 UTC"
-    },
-    {
-      "title": "What to expect from the Indian Rupee after the long weekend?",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOEtGZ1NtWTc3OXJvYUs1UXZkZGllZml1SXo4WkNxQ09QS04zWDBXMXp3bmcxSnNYaUJ5MWlWallLR2MwQjV1Q1FtcnBHSkVGY0JRbEdlOWhGcW9sb0V1Smg3SzdNa2FWWXhHLTM3U2plakdkSkJWNTNINFEzaDMxcWV0OGJJSVpvOUhrcTNrTmZxMkhQTXFIRlBSamFOTXh1QXQ3RkRldm1qQQ?oc=5",
-      "published": "Fri, 26 Jun 2026 11:08:21 GMT",
-      "published_iso": "2026-06-26T11:08:21Z",
-      "age": "8h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-26 19:56 UTC"
-    },
-    {
-      "title": "U.S. dollar rises 3 percent in H1 2026 as Fed rate hike bets, AI-driven U.S. growth fuel demand",
-      "source": "Economy Middle East",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2FjVElCNUFVTjVua1JFTXljZC1BMHhWRG1hVzk1SDJzX2xHMEZ5M3d6dlRmR3dMQi0tTnozR2QzZ2Y1ckJ1REJWbm1fZ3RubnFnWHlRQnFzUWhneUNnLWhBcEVnNU9wSmMyYUF4MU1VQVV4NGNSM3kxZ2hQcjBZT0FtZ1RJWXFmbnJhWTNpLXpKbVZmNlpLYXVmNUt6SkpMM0JRWjA1Zm16QWJzZW5PaDRLRWZFNjMwYWo4bnJTZTFCcGpjb0sw?oc=5",
-      "published": "Fri, 26 Jun 2026 12:02:26 GMT",
-      "published_iso": "2026-06-26T12:02:26Z",
-      "age": "15h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-27 03:53 UTC"
-    },
     {
       "title": "Schaeffler India earnings calendar and sector context, shares on NSE and BSE",
       "source": "Ad-hoc-news.de",
@@ -1013,50 +973,51 @@
       "age": "yesterday",
       "priority": 2,
       "fetched_at": "2026-07-04 10:15 UTC"
+    },
+    {
+      "title": "Rupee slips 19 paise to close at 95.35 against US dollar",
+      "source": "Awaz The Voice",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZjhDRnp4b1QyZkZMN1h4MU9ZVGllVW1nUVhnTjNXZFBlTmNpT2FTQmR0ejNmY3VLeGFoZkUtVjZCd0wyd2VlbHh5cWV1T0J2QkJzdkxMUXN6Yk1DQzhTVWZIQzBsclpicUtYZUZYcS11NG9RS2s4MUpEM3NJY0hLa1Jaa1JublhGT2NJMkk1X01sM1FpUFhqVk4xR3FLQkZGQ3c?oc=5",
+      "published": "Thu, 02 Jul 2026 15:19:55 GMT",
+      "published_iso": "2026-07-02T15:19:55Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-07-04 13:42 UTC"
+    },
+    {
+      "title": "Dollar slides after jobs data, chipmakers weigh on stocks",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hNUdGZ1o0UkVpa1k0SDE5eG1CUlhJZGhIaklZMjV1VVEtekJxazZHMV8xT2lrU25mWlJuSVJxQ3ZtWF9iNEVsQk9tQjRqazRPUTRLYk9VWHVaRjM0a2FVa29SSUJfakV3MXU5Z0ZLTS1Gc0NhQmlQOEZZOA?oc=5",
+      "published": "Fri, 03 Jul 2026 00:01:57 GMT",
+      "published_iso": "2026-07-03T00:01:57Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-07-04 13:42 UTC"
     }
   ],
-  "week_headlines": [],
+  "week_headlines": [
+    {
+      "title": "Rupee falls 7 paise to 94.58 against US dollar in early trade",
+      "source": "The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXRyUGlobmF3MlVTaUE0Sy1ZY1otS0o1VkRGRUE5MGloTUpTODZmUHhBcGM0UkNNclhZTFctd0pIUjVLTFJSYlFvRXdVU19KOFQ5VzZmam54NFcwN2hZTzJCbnlPNi1JbUs5UmJ2ZkxRYUhBU2pidFF2YzBkSk9jSmo5bUFPM0RHVm5maTY3dU5vSGtvREI2ODRfLWhsQkpuRTloa1l2V0JIUWFZYzluMDUxWGvSAcIBQVVfeXFMTXBqX0VuS0gxTlRBc2ZKS1VKSG54aHU4U3N4OVBRWlFxVHBCQjFMRzcxdlM3TmhzNVRxbUtVSmlodHJGQ1JtNE5kdS15UDJFcHZJVWJwRUFYT1gxVFNQQ1hWOGdUMVgtRGgzYkFfZWx4T3NmTGN1T1JXLVdEZ3BLR2xsVXV6THNmTWQzZW9yZ2VrVlR5OVVLWDA0NjhpT2kta3hGZG95VnNGMmptSVZCR2dkOEExVVFVNk84Ni05ODdRZGc?oc=5",
+      "published": "Tue, 30 Jun 2026 04:29:04 GMT",
+      "published_iso": "2026-06-30T04:29:04Z",
+      "age": "4d ago",
+      "priority": 3,
+      "fetched_at": "2026-07-04 13:42 UTC"
+    },
+    {
+      "title": "Tata Nifty 50 Exchange Traded Fund Share Price NSE/BSE - Live Price Charts & Performance",
+      "source": "HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHcWN0Q2s3T05mZmFjZlluWjJaYzdYNHRhT0pmY0JpckRnZW5MX3NjWGZ5UHg5OWtwcjZkblFCUXhYM3BBVDFDNE10NEVhRDBDbkJEUWpEaEItcHNpWklMamdXUHVWWEVsWVE?oc=5",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "published_iso": "2026-06-30T07:00:00Z",
+      "age": "4d ago",
+      "priority": 3,
+      "fetched_at": "2026-07-04 13:42 UTC"
+    }
+  ],
   "headlines": [
-    {
-      "title": "Goldman Sachs lifts India's GDP growth forecast on easing West Asia tensions",
-      "source": "CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcXZqQTJMMEoyWHhXRjQ1ZXMyZUFlUWRaakdLZU42dHp2WmdIY0RpUDdCMmVieHRDWHNYS3pNTUlQV0NsWjhENTl6UmVtazM4WU1qemcyemkzVUZORzlYM2N2bjR5LWotRVZUeUhpdGl0V21DU29JVWtfYVllSm5FMldlRWc0aXpzNzJaMmExd2gtVUY1eGMtaGEzVTJjZ0l3Y3BkSEx6T3lPdFZrbWtJSGNlMXFpTWNJ0gG-AUFVX3lxTE5jMUxHYlhIY0JaODRhYnJDZXJfbnNZY1Fvc0o4YTlXNTBic0hSMkZVbjBIUjhjaHFlR2lycWZrRmJTZGoxWXZOVkdKUjM2VlhIdmsxM2I3NUFfeWo4aEFiRktZTE53dUw5MW1mUG1xeURtRHNRT1VCQlQ5dTZjNHl1RXFCWlJTUWNCcS1sS2pwVS1RN3NKT0xkaXJIU2FNbUpqeExJSDQzamVvTjBxcDJhVXBmSWNkeFdGejFKeFE?oc=5",
-      "published": "Fri, 26 Jun 2026 10:30:56 GMT",
-      "published_iso": "2026-06-26T10:30:56Z",
-      "age": "9h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-26 19:56 UTC"
-    },
-    {
-      "title": "Goldman Sachs lifts India GDP forecast to 6.8% for 2026 after US-Iran deal",
-      "source": "Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMTdYcVJodVdiN0JETjRNS0dkM0lZanNVYXJ3RHNOa05uZEUwanNETmo3ek1Sc1l3OXdUY1h4RVI4Tks4NVdzWnBWOWpnSUpJVzhVbXZycUxmNklIdGJSNUVwbVVGX0lNVk1HQnptY3M3cG4yQXVmcFdkOHlfU1BITG13U1JXcFR2Q1kxZXJtOXFOVGhjeU1oYVpqX21TSk5pOEJMeDFNYmFaX0tSSnZkcThNaXgxSU9WVC1tVWx30gG-AUFVX3lxTFAxN1hxUmh1V2I3QkRONE1LR2QzSVlqc1VhcndEc05rTm5kRTBqc0ROajd6TVJzWXc5d1RjWHhFUjhOSzg1V3NacFY5amdJSklXOFVtdnJxTGY2SUh0YlI1RXBtVUZfSU1WTUdCem1jczdwbjJBdWZwV2Q4eV9TUEhMbXdTUldwVHZDWTFlcm05cU5UaGN5TWhhWmpfbVNKTmk4Qkx4MU1iYVpfS1JKdmRxOE1peDFJT1ZULW1VbHc?oc=5",
-      "published": "Fri, 26 Jun 2026 10:38:17 GMT",
-      "published_iso": "2026-06-26T10:38:17Z",
-      "age": "9h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-26 19:56 UTC"
-    },
-    {
-      "title": "What to expect from the Indian Rupee after the long weekend?",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOEtGZ1NtWTc3OXJvYUs1UXZkZGllZml1SXo4WkNxQ09QS04zWDBXMXp3bmcxSnNYaUJ5MWlWallLR2MwQjV1Q1FtcnBHSkVGY0JRbEdlOWhGcW9sb0V1Smg3SzdNa2FWWXhHLTM3U2plakdkSkJWNTNINFEzaDMxcWV0OGJJSVpvOUhrcTNrTmZxMkhQTXFIRlBSamFOTXh1QXQ3RkRldm1qQQ?oc=5",
-      "published": "Fri, 26 Jun 2026 11:08:21 GMT",
-      "published_iso": "2026-06-26T11:08:21Z",
-      "age": "8h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-26 19:56 UTC"
-    },
-    {
-      "title": "U.S. dollar rises 3 percent in H1 2026 as Fed rate hike bets, AI-driven U.S. growth fuel demand",
-      "source": "Economy Middle East",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2FjVElCNUFVTjVua1JFTXljZC1BMHhWRG1hVzk1SDJzX2xHMEZ5M3d6dlRmR3dMQi0tTnozR2QzZ2Y1ckJ1REJWbm1fZ3RubnFnWHlRQnFzUWhneUNnLWhBcEVnNU9wSmMyYUF4MU1VQVV4NGNSM3kxZ2hQcjBZT0FtZ1RJWXFmbnJhWTNpLXpKbVZmNlpLYXVmNUt6SkpMM0JRWjA1Zm16QWJzZW5PaDRLRWZFNjMwYWo4bnJTZTFCcGpjb0sw?oc=5",
-      "published": "Fri, 26 Jun 2026 12:02:26 GMT",
-      "published_iso": "2026-06-26T12:02:26Z",
-      "age": "15h ago",
-      "priority": 1,
-      "fetched_at": "2026-06-27 03:53 UTC"
-    },
     {
       "title": "Schaeffler India earnings calendar and sector context, shares on NSE and BSE",
       "source": "Ad-hoc-news.de",
@@ -2016,6 +1977,46 @@
       "age": "yesterday",
       "priority": 2,
       "fetched_at": "2026-07-04 10:15 UTC"
+    },
+    {
+      "title": "Rupee slips 19 paise to close at 95.35 against US dollar",
+      "source": "Awaz The Voice",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZjhDRnp4b1QyZkZMN1h4MU9ZVGllVW1nUVhnTjNXZFBlTmNpT2FTQmR0ejNmY3VLeGFoZkUtVjZCd0wyd2VlbHh5cWV1T0J2QkJzdkxMUXN6Yk1DQzhTVWZIQzBsclpicUtYZUZYcS11NG9RS2s4MUpEM3NJY0hLa1Jaa1JublhGT2NJMkk1X01sM1FpUFhqVk4xR3FLQkZGQ3c?oc=5",
+      "published": "Thu, 02 Jul 2026 15:19:55 GMT",
+      "published_iso": "2026-07-02T15:19:55Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-07-04 13:42 UTC"
+    },
+    {
+      "title": "Dollar slides after jobs data, chipmakers weigh on stocks",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hNUdGZ1o0UkVpa1k0SDE5eG1CUlhJZGhIaklZMjV1VVEtekJxazZHMV8xT2lrU25mWlJuSVJxQ3ZtWF9iNEVsQk9tQjRqazRPUTRLYk9VWHVaRjM0a2FVa29SSUJfakV3MXU5Z0ZLTS1Gc0NhQmlQOEZZOA?oc=5",
+      "published": "Fri, 03 Jul 2026 00:01:57 GMT",
+      "published_iso": "2026-07-03T00:01:57Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-07-04 13:42 UTC"
+    },
+    {
+      "title": "Rupee falls 7 paise to 94.58 against US dollar in early trade",
+      "source": "The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXRyUGlobmF3MlVTaUE0Sy1ZY1otS0o1VkRGRUE5MGloTUpTODZmUHhBcGM0UkNNclhZTFctd0pIUjVLTFJSYlFvRXdVU19KOFQ5VzZmam54NFcwN2hZTzJCbnlPNi1JbUs5UmJ2ZkxRYUhBU2pidFF2YzBkSk9jSmo5bUFPM0RHVm5maTY3dU5vSGtvREI2ODRfLWhsQkpuRTloa1l2V0JIUWFZYzluMDUxWGvSAcIBQVVfeXFMTXBqX0VuS0gxTlRBc2ZKS1VKSG54aHU4U3N4OVBRWlFxVHBCQjFMRzcxdlM3TmhzNVRxbUtVSmlodHJGQ1JtNE5kdS15UDJFcHZJVWJwRUFYT1gxVFNQQ1hWOGdUMVgtRGgzYkFfZWx4T3NmTGN1T1JXLVdEZ3BLR2xsVXV6THNmTWQzZW9yZ2VrVlR5OVVLWDA0NjhpT2kta3hGZG95VnNGMmptSVZCR2dkOEExVVFVNk84Ni05ODdRZGc?oc=5",
+      "published": "Tue, 30 Jun 2026 04:29:04 GMT",
+      "published_iso": "2026-06-30T04:29:04Z",
+      "age": "4d ago",
+      "priority": 3,
+      "fetched_at": "2026-07-04 13:42 UTC"
+    },
+    {
+      "title": "Tata Nifty 50 Exchange Traded Fund Share Price NSE/BSE - Live Price Charts & Performance",
+      "source": "HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHcWN0Q2s3T05mZmFjZlluWjJaYzdYNHRhT0pmY0JpckRnZW5MX3NjWGZ5UHg5OWtwcjZkblFCUXhYM3BBVDFDNE10NEVhRDBDbkJEUWpEaEItcHNpWklMamdXUHVWWEVsWVE?oc=5",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "published_iso": "2026-06-30T07:00:00Z",
+      "age": "4d ago",
+      "priority": 3,
+      "fetched_at": "2026-07-04 13:42 UTC"
     }
   ]
 }
