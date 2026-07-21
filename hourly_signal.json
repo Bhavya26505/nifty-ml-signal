@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-07-21 09:17 UTC",
-  "ist_time": "2026-07-21 14:46 IST",
-  "hour_label": "14:00 \u2014 14:59 IST",
+  "generated_at": "2026-07-21 10:08 UTC",
+  "ist_time": "2026-07-21 15:37 IST",
+  "hour_label": "15:00 \u2014 15:59 IST",
   "market_open": true,
   "spot": {
-    "price": 24173.35,
+    "price": 24193.05,
     "day_open": 24216.05,
     "day_high": 24262.2,
     "day_low": 24135.65,
-    "cum_return": -0.18,
-    "vwap": 24183.1
+    "cum_return": -0.09,
+    "vwap": 24185.03
   },
   "signal": {
     "direction": "SHORT",
-    "confidence": "STRONG",
-    "prob_up": 36.7,
-    "prob_down": 63.3,
-    "pred_high": 24193.09,
-    "pred_low": 24114.12,
+    "confidence": "MILD",
+    "prob_up": 43.3,
+    "prob_down": 56.7,
+    "pred_high": 24211.56,
+    "pred_low": 24137.51,
     "orb_status": -1,
-    "score": -4
+    "score": -2
   },
   "options": {
     "pcr_oi": 1.0,
-    "max_pain": 24173.35,
-    "call_wall": 24373.35,
-    "put_wall": 23973.35,
+    "max_pain": 24193.05,
+    "call_wall": 24393.05,
+    "put_wall": 23993.05,
     "atm_iv": 14.0,
     "iv_skew": 0.0,
     "straddle": 200.0,
@@ -35,7 +35,7 @@
   },
   "gex": {
     "total_gex": 0.0,
-    "zero_gamma": 24173.0,
+    "zero_gamma": 24193.0,
     "regime": "UNKNOWN",
     "strength": 0.0,
     "is_positive": false
