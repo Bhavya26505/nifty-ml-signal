@@ -1,48 +1,48 @@
 {
-  "date": "24 Jul 2026",
-  "generated_at": "2026-07-24 11:54 UTC",
-  "next_trading_day": "27 Jul 2026 (Monday)",
+  "date": "27 Jul 2026",
+  "generated_at": "2026-07-27 13:20 UTC",
+  "next_trading_day": "28 Jul 2026 (Tuesday)",
   "market": {
-    "close": 23767.44921875,
-    "open": 23666.349609375,
-    "high": 23823.599609375,
-    "low": 23606.30078125,
+    "close": 23995.94921875,
+    "open": 23928.400390625,
+    "high": 24011.599609375,
+    "low": 23891.55078125,
     "prev_close": 23869.599609375,
-    "change": -102.15,
-    "change_pct": -0.43,
+    "change": 126.35,
+    "change_pct": 0.53,
     "week_52_high": 26328.55078125,
     "week_52_low": 22331.400390625
   },
   "prediction": {
-    "signal": "SHORT",
-    "confidence": "MILD",
-    "action": "MILD SHORT \u2014 small position only",
-    "prob_up": 43.6,
-    "prob_down": 56.4,
-    "hist_accuracy": 47.5,
-    "pred_close": 23374.4,
-    "pred_high": 23438.82,
-    "pred_low": 23274.28,
-    "pred_change": -393.05,
-    "pred_change_pct": -1.65
+    "signal": "FLAT",
+    "confidence": "NEUTRAL",
+    "action": "Park in Liquid Fund / FD (~6% p.a.)",
+    "prob_up": 54.3,
+    "prob_down": 45.7,
+    "hist_accuracy": 50.0,
+    "pred_close": 23865.15,
+    "pred_high": 23925.9,
+    "pred_low": 23890.42,
+    "pred_change": -130.8,
+    "pred_change_pct": -0.55
   },
   "indicators": {
-    "rsi_14": 32.53,
+    "rsi_14": 38.69,
     "rsi_note": "NEUTRAL",
-    "bb_pctb": 0.06,
-    "macd_hist": -52.44,
+    "bb_pctb": 0.337,
+    "macd_hist": -37.85,
     "macd_note": "BEARISH",
-    "volatility_20": 0.73,
-    "momentum_5d": -2.33,
-    "momentum_20d": -1.2,
+    "volatility_20": 0.74,
+    "momentum_5d": -1.39,
+    "momentum_20d": -0.25,
     "volume_ratio": 0.0,
-    "atr": 204.57,
+    "atr": 197.62,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 23850.43,
-    "ma_200": 24797.44,
-    "bb_upper": 24473.33,
-    "bb_lower": 23722.0
+    "ma_50": 23855.0,
+    "ma_200": 24798.58,
+    "bb_upper": 24455.2,
+    "bb_lower": 23762.98
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,226 +58,6 @@
     "count": 100,
     "sentiment": "MIXED",
     "headlines": [
-      {
-        "title": "India stocks mixed at close of trade; Nifty 50 down 0.02%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnByV01XdVJoZVlyNnAxbk5YSDdkSUwtckljVmVrNHhIRjRHVTdmTmRJVlM1b2ZtUFVsSXZEdmpqSmtYS2tJV2VrcXd4OWdwbHdpSks3MHppUl95WUZRbXpjZFVUa0RzMERfbDh1dE04WHFCYTdmSGVlNFRJX2Jyb2taVG90cUhxbWdIaTBmR1JvRWdJZFBDaWNLUFVPLWp2WWQtTmhEVXBVeUJNSllhOQ?oc=5",
-        "published": "Thu, 16 Jul 2026 10:34:39 GMT",
-        "published_iso": "2026-07-16T10:34:39Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 06:20 UTC"
-      },
-      {
-        "title": "Rupee Depreciates to 96.33 vs USD on Oil, West Asia Tensions",
-        "source": "Rediff MoneyWiz",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVNycVpVaXc5R0Robkloc0JoT3Y5UFZ1MUtDWHBpVlF4OVluZkU4R2ExU2E2WDBvdzBfc0Z4RHFXUW1QbkFZczBMNW1VUndiR3NSdTdXb2NFVkJYM2JHczZwS0stbHg3QWlxdlVrX0prRklfLWJ1QUtlMjFFY1ZYOWUxVUpORW44MDAwR2I3aVhPQTJhbzFzdnlQcUx2T1ZoVjJ6R01NTko5VGJVZW9OcNIBtgFBVV95cUxNaTZhMUExVVRxZ3JMc0MzQlRMa05yT01nYXRmelJnSTUwWGRzbTltYVNHUVdhV2JSY1pCTk8xMFdsa1dobUdUVm9QUnU1anFGQ2syZEtSV1J6N09aWjZpM2ltTkJHUm1yTWFqSDdfX2VGUi1LbWw2WGc5dE9uZnU4bF91MVRwWmc1MXVKTWhVSHhWT3J2WV9aX1ppWlpnblhMVzhmT3NHWUJVRzZJZzBTY3FmckRkdw?oc=5",
-        "published": "Thu, 16 Jul 2026 10:46:32 GMT",
-        "published_iso": "2026-07-16T10:46:32Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 06:20 UTC"
-      },
-      {
-        "title": "Rupee logs sharpest weekly drop in nine as oil price jump stings",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUEdYNzMtWHE0TXlHR3pCejZWSDVLR01aQzRIU2tmdXlwaEdpcnNfXzhOSF9VNktRNmM5NW84NE1XeEpYaHVLd1VmWWJnLVNyWDA3RHRJQXQtVkJXQTMwQzVYQU4ySXVuU0xNazNnb3Z4Vmo3b1pIZkZuUzd5aUtVODBMczlEcXN1dFNERjBPclZaeUI0cEFhNDdJWU0zTnZHYzJmNmk0MUY3Z1ZSMkE?oc=5",
-        "published": "Fri, 17 Jul 2026 02:41:00 GMT",
-        "published_iso": "2026-07-17T02:41:00Z",
-        "age": "11h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 13:47 UTC"
-      },
-      {
-        "title": "Rupee flat as central bank intervention halts slide, oil prices remain key",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUEdYNzMtWHE0TXlHR3pCejZWSDVLR01aQzRIU2tmdXlwaEdpcnNfXzhOSF9VNktRNmM5NW84NE1XeEpYaHVLd1VmWWJnLVNyWDA3RHRJQXQtVkJXQTMwQzVYQU4ySXVuU0xNazNnb3Z4Vmo3b1pIZkZuUzd5aUtVODBMczlEcXN1dFNERjBPclZaeUI0cEFhNDdJWU0zTnZHYzJmNmk0MUY3Z1ZSMkE?oc=5",
-        "published": "Fri, 17 Jul 2026 02:41:00 GMT",
-        "published_iso": "2026-07-17T02:41:00Z",
-        "age": "7h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 10:02 UTC"
-      },
-      {
-        "title": "Rupee opens 4 paise higher at 96.31 against US dollar",
-        "source": "livemint.com",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEZFd3RsYUJETWtRbHhndTFTMHZPcHQ5czVFeVBSaklWeDFZX0J3SWNyVmlzRk9QNGFBVzJ3X1kzTjNDM01yRlZqcElkZUJLbG42SjF1RlpsZ0tnUnBDNWJiLUNDd3c5TVp4bWs4bzUxZkRrVlo0R2VNNWZGZEdGRzhVeFZ6b0JlNUFpcGZ1YzZURXhNMWVoWEZMR3ZJX1RNOUluOThnSlLSAa4BQVVfeXFMTXIzN0xCeHZwa3NKZnFfUFJwVmxPNkZyQlBuSWFmTXZqc3NScG1wQVVtSElMemh6WGJpb3Y3VkdDMVcxaTFIYnNwY3JmZEE0VFBQWG5wd3F6bkNMdy1VUlMzM21GSmdrWGF3SUF6ODA5dFNBUi1zMVNxWDN1bW1zVnBTYVZkVVFyQWdCTVVHQW56eUxjTmZFd3hIMEVNQWFMSlBZQWd5djZNSkFXN1Jn?oc=5",
-        "published": "Fri, 17 Jul 2026 03:43:47 GMT",
-        "published_iso": "2026-07-17T03:43:47Z",
-        "age": "6h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 10:02 UTC"
-      },
-      {
-        "title": "Rupee rises 14 paise to 96.28 against US dollar in early trade",
-        "source": "The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN3ZzMmtweEhFdGNGR3p2VFQyLXhJQmNFUDI5TjhtcDJhZ0RINjBybEtvcFNpelZ1NUQ2N0FGbzliN0NKNlktSThiUzdEZjhwUTA0TklXVnZOc0NsQ2tJRlhhVFhocVFGeWc1SFkxVFUzd2dsSDVET1NqZGEzTFAybmtCZzRxeXY0dE9SSks5UG5QT0tqT1RlNl9YZVk2OFZiSHdvamZFV1RNY0hhemJfVE51OFI4aUdtaUZEdjZPOWRKbUHSAcMBQVVfeXFMTTd2czJrcHhIRXRjRkd6dlRUMi14SUJjRVAyOU44bXAyYWdESDYwcmxLb3BTaXpWdTVENjdBRm85YjdDSjZZLUk4YlM3RGY4cFEwNE5JV1Z2TnNDbENrSUZYYVRYaHFRRnlnNUhZMVRVM3dnbEg1RE9TamRhM0xQMm5rQmc0cXl2NHRPUkpLOVBuUE9Lak9UZTZfWGVZNjhWYkh3b2pmRVdUTWNIYXpiX1ROdThSOGlHbWlGRHY2TzlkSm1B?oc=5",
-        "published": "Fri, 17 Jul 2026 04:18:00 GMT",
-        "published_iso": "2026-07-17T04:18:00Z",
-        "age": "9h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 13:47 UTC"
-      },
-      {
-        "title": "NSE Gets SEBI Approval to Launch Nifty India FPI 150 Index Derivatives from August 12",
-        "source": "India Infoline",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSGhTMWRmd2x6ODcyakRDQnE2N0hySF9VQWROVkF5V3JQdUpjTWxtR250VkR4T1ZJUnFEVEdTblZLd2dTeEJLUkJfZlcyeTBiMGtweG5YZHhxVElQcWJOc2FmQ0FRTWd1MFdpWjBJS2NSOWRFa2loYmRHbzlfcmlaYUxQTWpCbUVaajh5Zkp2UHJNT2N3MnJXZXdDdUNkanZaSVpMTHVnczNoRDdvWlVVWVVYbjRuSjJ0dFFKX0U0Ynl1UHFXMjBJ?oc=5",
-        "published": "Fri, 17 Jul 2026 04:40:36 GMT",
-        "published_iso": "2026-07-17T04:40:36Z",
-        "age": "9h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 13:47 UTC"
-      },
-      {
-        "title": "Stock market today: Sensex Opens Higher at 349 points While Nifty Gains 0.38%; IT stocks rally; Check Top Gainers & Losers- What Investors Should Know",
-        "source": "The Sunday Guardian",
-        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNeklfNjlYMlFuZGdUUEUtNllyTmc0NzdWZGhEVFRVTW5zV1JjTGc4akJpeHJBVTBkYWxtcVUwTGhvU3Z6dXRvQTZMTkdqQklYOGVqZ0N3dUI1SEQ5eXBNdUxyMEZKdWFabUFhbzFabXBtSF95czA3dEZHX0RXZFc5eFNyeE9WTGdKeEZlSHlHdXVsZ0tfNjJocWh5MGwtdE9HeHZYODVjY1JnU0szQ2tONnVJYU4tTzFPVVBPVFRRMmtnRmYxWmtQZVFHRWdiZkdFczFyNUMwWFB2VEhzVjRoRnNONTlvVUhGM3l3MTlFSzNSbnlUT3dDODV1Q1pOa0FGR0szRmtTY3JwOFZheVFNT3VpU0dkOFpMZnc?oc=5",
-        "published": "Fri, 17 Jul 2026 05:14:33 GMT",
-        "published_iso": "2026-07-17T05:14:33Z",
-        "age": "8h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 13:47 UTC"
-      },
-      {
-        "title": "Rupee rises 14 paise to 96.28 against U.S. dollar in early trade",
-        "source": "The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaGtSTTBhblVzXzhrMWJRSFl2X05VaVBDSVlHeWRORnM4a1VfWE5QaEpTS2RsVjlZWmgtWFgwUE9PQjZvRDVmekxhbnZEZVBWNE1tVGFpYkl6ZmpkSm1nT2dTYnptNEwxVS1qOHp1WlFRQ3k2YnE5MVJ6a28tXzJDbEk1THNiak5jbmd2OEhMb0I4Z0paRnIteVVpd3dLT2tMRGhtcl9yQS1HS1JoLUprVHdyeWs5YTBDZ01NV21FM1_SAccBQVVfeXFMTXozLWE5c1ZMZi0yYjRtNnplOUd2WkNINHI0aDIxNWQ5N0xKbWtVdl91dlVtX1A4UFdCc1RpaWJSUTVpZWxrY1o4TXV6OEhmcjVtSmpucHJIOGFTYlJIVFF3WThKc0tXRGdSX2Mwa1dpS1pBbGxaaVRBMTloUlhxZER2TVEtUHpLVDRRWTZaTW5jQ0toY2dTamtwZXBKTUhDMFItbWphT1JaN1NPU3VSQlhxQjFVcGc5ZGJjbjdwZEZZSFN1Rl8wdw?oc=5",
-        "published": "Fri, 17 Jul 2026 05:23:15 GMT",
-        "published_iso": "2026-07-17T05:23:15Z",
-        "age": "9h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-17 15:16 UTC"
-      },
-      {
-        "title": "Sensex up 1,000 pts intraday, Nifty above 24,350: What's driving the rally?",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZzkzZFo1Um9CVnBhUXlsRGJOTzhwYnFlaTZjc05MbS1wQ2FibXV0d0tUek5oRmtvOW82OEN1TW1HdkhiRmI1eGVoUzdFSUxMWW1VUHd6dWFCNmR4Vk45RGtWZ3VlZUZ4b1M2Q2RBaWxveVJnMEdNZHZ1ZWRLd2JIbTNwdmVTcnFoYzZDb0tZSUd1c1JTZnNJRFVNY3VPYXF4a3Vqb044M3FWU0U4QTlfZUxOdjNFX0RKRHJVR3U3LTRzVFdFUEZZak9ZWXNtZGZTYy10TkZn0gHbAUFVX3lxTE9aUkVBU3BkNzFPRVFYQkhRcUV4V1JHemNVeFpvWGIxbkFCTUVPX05yX05FX1dMMVpZVG1GQTk1NmdPelZ2NHZjemFhZ1N4M0F4Snptb3JwMUFGVndFTDFXZ0xXalh5b3RVdmNranhWVmNmTnFRbnhmVTNWMEFjOV8tUnhvdWk0cmwtc2c0eVZxeUdiX2p2bE9JM3FocU5VaHhFWF9BZG5iYnZwc25MSHU1MEVXRjJucHROLUZKbzVzTkJCcmJSTDRaNzZubVlVSjVpeDNFSEpxWUtKcw?oc=5",
-        "published": "Fri, 17 Jul 2026 06:22:18 GMT",
-        "published_iso": "2026-07-17T06:22:18Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "Rupee near record low as oil spike, weak inflows and dollar demand pile pressure on currency",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd1ZVM0wtSm9xX2NxWDM5VTJCUjdUamRoVnpQdTA2UGJVRTI5aWpPQUZzZDVGWEphTnBlRnpfUk1zQTdmNURBdVhzLVNXZjVlaTduTm1RSHZiZEhZSDN5dHMwOUUzNjRnYkNIQzYwU056LTRucjc1YmpMa2FmYk1ZeVpDWDhTR3hnZ2hjSmtxS1dIc3BydWsxbDJpMDlGZk1GNzNJVzdqeV92a2dJeUprcGNnQUd1ZC02Uk5JSFBJeWJsVTYtbE40NXV2d1NZRzc0WVZVamdiTE9Sc1Q4b1A2Q2lWZldmQ3BoRzBFU9IB8gFBVV95cUxNMjFmWnRLTG4tSGFPY3FacDRyTXd3S2ZJTU14UjNzSkVPRWlNSUNvSHJJOWE0c2tibVk2ZjNLNFVMUmNxOXFlRmdQWjBLNHpHd2N6c1RMaHZ3ZmZOdkQ4aDdiSUUycExOeER0S0FYZlZyYm5hQWRqdEQ5UkdIc0xUVnhVcmMwTE1Eb0gtRzdYb3puQlpMVEswb3F3TThoaFdNSWs5LWxCZGRBalY4enJhWDhQNndmM2xyMDZKUUptRjVRclVaV1hhcE8tZ3hwNmlmTlI5VjY2bGNzMUdCcUVGVzV1Q3ZBX1laQWFLRUowTlpBQQ?oc=5",
-        "published": "Fri, 17 Jul 2026 06:46:26 GMT",
-        "published_iso": "2026-07-17T06:46:26Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "RBI Should Hike Policy Rate; Long-Term Pressure On Rupee Remains: Natixis Economist",
-        "source": "NDTV Profit",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMGxKQzJIdklCMG9jZHZUX2hmQ1MtV1J2WkF0eFBsdVdtQkZiejhhelZ3QmpOcy1EWUdJYloyVGEtZEF5TjlCQllGTGRuMkFOT19FLTdLclFOWE1ibWhqelB3djViTGREN3VnT2ZrVjNlWjZ3TVdYYXNJcUFseXlGSFJOMlBaSGlHVzBsbGYzUzctU2JQUUozVVZLcFY5UURELV9qc3RpdHRJRy1GbGlpMkg1Znk5VHktMEhkdWJHSmsxZU3SAcsBQVVfeXFMUFdaM0tFSWxsWHN1bVlPNkJOMmxwenpId0gtc3BfZmc2SHJfV3Y5NlpvOWxhcm5iLURScFFxXzNQR0JnSHhoRXczTWNJMU5jR25SU1M0LWpJTjhqcVJVTDZaa0FBZTE1ZXFmWDRFYzI4R0ZWblV3OGVzeVlaaTJSbVl3Nkd2ZGFwNDUxQzNOb3N2UHcxNlk4aFhWcTBiRjNUaXdwNzRGQ0FfNmtnZjF0c2taZ0M5b2k5cmZ2Z2RmWjZfQjBNbzVaa2VRU1k?oc=5",
-        "published": "Fri, 17 Jul 2026 09:08:00 GMT",
-        "published_iso": "2026-07-17T09:08:00Z",
-        "age": "21h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "SENSEX surges 965 points, NIFTY50 ends above 24,300; Reliance rises nearly 3% ahead of earnings",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUWR5cl9NNWFHZGxEX2NnRUZMSkZBcUlnOGF0S2E3OHJ4WnBJNTM4Z0pNck5hYmt1VEgyVEFvcmFoaTlSSl9MMTJJLWdpaXBIVDg0SWZfaW8tTDdNV1ZKZlBhdUY3a1hZSG1yZ1FBVFNHOFZ4bGFsbU9HQ29teFN3M1RKcm94c3E5b1p5MXRUdHhsclc3TGVrWlJVM2dxblRWVFRyalNCU01LUTE2M285bjhHeW5WbVR0OUEzaU5xU3lQaGRzMm1oLUs1YUFDZTJSR05GSjIzUjRnRW1NeU1jX2hhZVZzczA?oc=5",
-        "published": "Fri, 17 Jul 2026 10:20:43 GMT",
-        "published_iso": "2026-07-17T10:20:43Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "India stocks higher at close of trade; Nifty 50 up 1.09%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTElsTFp3am96UEtvZXp3Mm9VUnBremRZTGFjZmZjQVZKUVVqeE1xajJxa0NvYi00ZGExQVF2dlktRk5tZEY2cGRvckpLWlotWjhTdHJ6ODRNNjRFNFJjcWtTdGNtVGxaZEo1WElvWmY3bnNyZXZLUEh3Z3NETlNOYzRRNFZGRnlWX2hKVnh1bzdLMHlsdGFwdi1NcmJVN3J5ZzAxSFY0R3pISzhQVXRr?oc=5",
-        "published": "Fri, 17 Jul 2026 10:33:17 GMT",
-        "published_iso": "2026-07-17T10:33:17Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "Indian Rupee Gains Against US Dollar Amid RBI Intervention",
-        "source": "Rediff MoneyWiz",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWG5lSXZPMFdVbjBKRWRyVGpsY1BMSEJ1TUNRYVo1ZVpXRlJMcW9qOFJFWGR0ZkE5bEQwbXNRZDlsaDFZVnEtWUJHX3pTMkFzQnRlcUxueVpiM0l1YjNvNDJDa0VkMlVldmNUd1hNQTV0c29BUkZSbzEzdk9mbGlyRnlJOVhCX0gzcGRmUEhnNmhRWU5FYkVhalRjbmhOVEU4d2kzd0NaX1YwRDI4YW5z0gG0AUFVX3lxTE5Zay1YQjh1NU9rd2lfYW4zVko4MDY1MlprcTFMRC14QzFza0xabmJYYkJOdW5MWDRKWGgxYkQyUEhaOHNnamtLWEdMTmVxQVZIWXJsWDlDc3JWWXI0bWtlS2pRZDg5YnpNQzNvN0JBU3hrU2x1YndZZllPMTZ4OThGcFRFMHNCNENrTzdWYmVpT0E1MlpLY0VNem9jZkxRQVVjcWVZVjlHUEMzd1Mtdnl4dTVaZA?oc=5",
-        "published": "Fri, 17 Jul 2026 10:41:46 GMT",
-        "published_iso": "2026-07-17T10:41:46Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "Indian Rupee gains temporary ground, higher oil prices keep upside limited",
-        "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdm82UThZc0dGSUlCZUNTdllWdVVLS0FqRXVpOEFHbExKb2xqWmtqTE1QcjRyX01EZTBWcDRfcDR5U21JUm5TWU5IY2MySm5ZTmxTdE02SzJKRXU5SkZONEIxazFETWk1NUpIUVJSb21wdXpEWGFEUW1WcXpKelIxTWhoTnJPWTdpRFQ2RHFkdTAxc3hNeHpWb3FOTll3bUNuc2FkZi1WODZjTElFUDE4?oc=5",
-        "published": "Fri, 17 Jul 2026 11:20:51 GMT",
-        "published_iso": "2026-07-17T11:20:51Z",
-        "age": "18h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "Indian Rupee Touches Record Low Of 96.17 Against US Dollar As Crude Oil Prices Surge",
-        "source": "Goodreturns",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGpfMFZ2aFA0T0RzaUFBTUVCcTNUb04xWVBiU2d6ajF0RVhSSm1KMnpnWHJ2U3puZjFFNlRPQzh2dm5VdDB6WTNXLUtlSmJXU094VU5WdlA4eWVvSlVhTUtFdFFBX3dOR1I0ZVAxSkFRMUFfYkx2TjJ2SUN1U0N3bldRcThCRnU5YkxNVEUxeno3OVJNRVFnZG9ySFlHb1prM3A4R0lDa2stX19xeVJWTE1TdXZFV05CWVZrTlcwRzlmZnh3Mms3NEp6UmwtT2xO?oc=5",
-        "published": "Fri, 17 Jul 2026 13:27:33 GMT",
-        "published_iso": "2026-07-17T13:27:33Z",
-        "age": "20h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 09:37 UTC"
-      },
-      {
-        "title": "Buying across heavyweights lifts market as Sensex and Nifty gain over 1% each",
-        "source": "The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcS1DWXVDNE1haGl6SVlJN0lWekMxdldvUW92YTE5bm1IY2dyemdsTk9qUVV6TWJaSDlLS2dKZ1ZJT2s3dmFpVElUbG9SQ2dZWk9DQmtybHRRaVpDRTJCX1QxNGNRQmxMNDBzcTVOaGg2SFJnZEFTdUpZdlNyRDhEeF9BTjJ2QnNyOWc1MmdyVDhkdW5oX2M5SE1jZ3l3U2R1RGVfLWVHMS1FekVCb2NMX2s2N3B2bFp6ZDFoTXJYaFB5X1RDdGNpdDF30gHXAUFVX3lxTE5adUZMNEZ6bFEtdUVMZUY5QlFmRTFELTVfM1ZmM3Rna2l0R25zQnN5UW9KV3NpVnRTc2pVV2d1c2hTay1BUi01WlBNV1ZuM3lSVzJoQzdfUVhVNG1pNVRGQk5oZ2kxQWpLbExQalRyeEdSYU51ai1lMlJKbHd4Qi11VWxYVzM5Vlo2ZVdRalZ4Mk5PY1hSRHEtaFdtdFpUZG5CQlFSQkowdTh0UXd2QmNtTXQ2SENoemxNSVdndGwtOFFTR2ZEeUgwaDBHemRranRDMndoWDc4?oc=5",
-        "published": "Fri, 17 Jul 2026 17:46:50 GMT",
-        "published_iso": "2026-07-17T17:46:50Z",
-        "age": "12h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 06:08 UTC"
-      },
-      {
-        "title": "Weekly market wrap: NIFTY50, SENSEX rise 1%; NIFTY IT jumps over 4%; check top gainers and losers",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMzhvdWtoRi0tM01zNEJiU3RBUjR2em83eXU0YkNPbjVhOVVtMmRvcnJ3T0FnZFlmV2hiN091YkpkMHVQMjJBd3BMa2VqVWdxUUhpNXRnbGVyZ0NVT0hDXzNNanFLQm9kang0emFJSzduU0ZtdGZudlBpU2pwLWxZUEtlTW00WE9HWnZrSjZialBES3VmcjRJSWNFNHFpMjdnRFh3eTBkek5MRko3dUxXeFhPQy1BcmM5Rnpob2FUQThZMlBCM1pTSVIwVlVwUTBMVWM0U0l5ZGNDYnZSa0llRkpRczRSUQ?oc=5",
-        "published": "Sat, 18 Jul 2026 07:12:11 GMT",
-        "published_iso": "2026-07-18T07:12:11Z",
-        "age": "2h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 09:37 UTC"
-      },
-      {
-        "title": "Rupee Rises 5 Paise To Rs 96.11 Against US Dollar In Early Trade",
-        "source": "BW Businessworld",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTEtOVDFfY1dVSGt1QkZGVEpqci1ON09QSFRzTUFqUklWWW0zcXNxQ0dvbjJmZjVJbUhWamNSZFhMRmhmVTczWXFzRmw1VXJweWZBTjgxZkl1S0tGd1pVUW8tRlhVLURVODRyZVhQTWtJOXFsUjdaZE9oelhGNEdoMncxSy05ck9xRV95U0ZQdDhtdnNpYnp4alhqS1Vka3RCbHYzM3JFR3gtYy10?oc=5",
-        "published": "Sat, 18 Jul 2026 07:53:53 GMT",
-        "published_iso": "2026-07-18T07:53:53Z",
-        "age": "1h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-18 09:37 UTC"
-      },
-      {
-        "title": "RBI keeps repo rate unchanged; Projects India\u2019s real GDP growth for current fiscal at 6.9%",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
-        "published": "Sat, 18 Jul 2026 23:23:27 GMT",
-        "published_iso": "2026-07-18T23:23:27Z",
-        "age": "3h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-19 03:20 UTC"
-      },
-      {
-        "title": "Chartist Talk: Friday's rally still premature to confirm decisive breakout in Nifty 50; Sudeep Shah shares...",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQU05sR19hQThabVFNcThrSUZvelBiT1FySlhvaTZEOXk1TndXMzFGS2RBTXBVLW9XYUxhY2RnVXFyWDFjWkNVNGVQeWJrc2xvTHQ3SHljUXE5QUpyMVY3am90ZDh1VXpvVG55d25SU1hHdGFIMzZidzJIeGVtT0NQV1hwRjNmYjB2OGdPRmlUUXVuNjA3NnF0UE1XMHZBOUdnbDd5MnV2YlBBdWNIbDBPcEMxa01BVnJCY0M5SjUzXzAxOVk3RWtEZlRPcWtVbUtFdHlJc2IyTU1wc1ctNXJPODJFZklialdZUllONG50WnJDWE1nTVRYSE9lSC1XV3pjeFhVMVpHLWtvQmc0VUQyUlNCbFFzdWhTS2RuWHJ4VGhnT0JOaFpIdklMRUxtMC1YYzVobGl4dXJxOFg3M2Nz0gHEAkFVX3lxTE9Wd19UY280STR5bDZKQTdCM21RTmR4Rkl0djBORjFEbzRtMnVTSG1tQXQtQlhKenNzNzhzaERucjhCS1czRXkxbU1md2FBV2lXeXQ5czZNWHFyMlVjbERFdHlXQ3FydnJoUnIyMHQ1Qmp1cTRGVkhLajVhUDh5eXRhS0lISkg2dktETzl1ZXhJLWdUYmI2d09EbGNjY3VEdzR4VWM5Qkw0Q3lhZzFHdE05NVh5REFGVjFGTFRDWHRHU3I0NHJoaHZmQ1Exc2lHVTJHZ2FpMVR4LVRZRnBOUTF0d3BkVjdnY2g2dWFUTHdPUGZab2U4d2dPZzRYekJPSGU3YU0yX25YQ1dtOFZHOTVTMFRSTFRCbTY0cFc4WnVDLU85ZTQ3MXpjak11S0daZnc2bWV5Ujk3dWpLakROT3RQMnFUMw?oc=5",
-        "published": "Sun, 19 Jul 2026 01:09:48 GMT",
-        "published_iso": "2026-07-19T01:09:48Z",
-        "age": "2h ago",
-        "priority": 1,
-        "fetched_at": "2026-07-19 03:20 UTC"
-      },
       {
         "title": "Gold steady as investors gauge US-Iran risks and Fed signals",
         "source": "Reuters",
@@ -1039,6 +819,26 @@
         "fetched_at": "2026-07-24 06:28 UTC"
       },
       {
+        "title": "Intervention shields rupee in face of oil, hedging strain",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSS1jM2NubHJMN3JfRmRUUDBsSXNZZjZ2X2VEQk41aHh2MmJWNS1IMjAxbHJUR2NtRDJVRzZUa2c4aFhUWXBBUkMwM3YyMDhzY3dDU3BIejk5dmNQa1JpUjc5QnNTQlU1cERpdWhUQmtXTmRLb2xpREdqY1prLWdpNTV0RXpyMnNrdjFBWmZiMzhCa3haMXc3NXFrWXM4NWQ3WVBQOGt5NGVKLWJLS3hiY0RmeDhMcm1p?oc=5",
+        "published": "Fri, 24 Jul 2026 02:40:00 GMT",
+        "published_iso": "2026-07-24T02:40:00Z",
+        "age": "11h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-24 13:53 UTC"
+      },
+      {
+        "title": "Markets remain in the red; crude oil retreats below $100, India gets tariff relief",
+        "source": "DhanamOnline",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX2hxaVp6MkZ5UWd3YkhhSHlmdHBkOFZrRjY2MC12dy02bTd2VThwTER3YUpuM3JFZGpxMTEzZHRwNXJUZUxaaFlWdFhoMmNpQXVYQk5qdUo1N0JrcDNIU2c0cU9fanByWXJIbnExdFhyX3FoTFoyTHRBaXBKOFpUQzJ2VUZEclljX1FfcFBaMWxBTkxQcFJyNklKMldCVXVDQjFWWjc0LVRnVjduRUNRRkRqbUlhUXlINGdGNXZ1eFJsVUJ1Yndr0gHUAUFVX3lxTE13d2RpN2dFUmhwRTFJdnNZRG9DNTNYSFhoS1AyVllvS2o2c2txMkJNVXJMZkltRHRualhtNUREbERveDloaGFrTVhicHF0TmE3TmxpR3EyaFVRamYtTnJOd1k2TkhHclhqMDV3WFd1VHdLUjJSczFwZmxaWEtyanhySnBCdloxTnZMM1BiTDQzWkQzUTNldFpKMVdkTTlFbWpUMzQ4Ql9PcXF6VTlLYjF6RHFFRGp0YXYzOTRFVDJvMjNmWk8yZFZJZVZRNGhzZW1pMi1t?oc=5",
+        "published": "Fri, 24 Jul 2026 02:40:05 GMT",
+        "published_iso": "2026-07-24T02:40:05Z",
+        "age": "11h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-24 13:53 UTC"
+      },
+      {
         "title": "Sensex crashes 900 points, Nifty 50 nears 23,600; investors lose \u20b96 lakh crore. Why is market falling? Explained",
         "source": "livemint.com",
         "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPU2huTmdtQ3RtQmtXUkxXcGtIbEN0REljS3JtaVJvSWxlenFDX1BadWc5aTEtQTN4NWNwNWgwVTZkLUZmS3JHZlF4eDBISTR0enJtUFhvT0xkMnFHRWFwdzZDOXNHM2tZb0k1Mno3MGVCeGpGQjRoQjlzbFZuYjc5TnVSR0I1V185enBVZkVxT2NrZ3dxV3I1cmlaM2hTV0FRSHRRYmhPR3B6QzA3Slh5ZjdJS3lPTXNUU3lmY2tuWXJEYXo5cXhEV1hrNTVJSmt2a3dtUHB3empxOVk1cVJzbngyNVBiMFlWMHpSZGxmeDFjeWR0Y1BSRVI2Rnl5QW5nbmoxSGN5TkJHcUhEXzM4V9IBlgJBVV95cUxQN0RyYjkyTmFFT2RSYzlza0hycjdqVWllZUFDTTZCU20yaUp0UkRQN2xhRERIWlNKazF0ZFJXU1lsSzJUbEVJWkpoVmlYTk5XeGtJbzlsWngzSnM1cXpEMEJoMTZVVW5mRWVmMU9yY2RscW84UDJGQ0lqOGhLMGdtME9xSG0yZzBEVEVjbGlLUl9RdWI1eW9HYWh6LVBGOEQ1RlpwWWRMY0tYakpjMXo4dzB1cE5uWFpzV2wyUVFFUzNkckJ2NXU5MTFUdkhZRWFPNXFxTzNHemVSV3A1T2Q0Zm1aSTVCMnJ2RTVSa2xzLXhrWFhLaU9ueGxoMktvU19MMmtza3VBSmdxZ2c1NC1XNWtBaEdmQQ?oc=5",
@@ -1057,6 +857,206 @@
         "age": "6h ago",
         "priority": 1,
         "fetched_at": "2026-07-24 10:23 UTC"
+      },
+      {
+        "title": "Nifty 50 Live | NSE Nifty 50 Index Today - S&P CNX Nifty",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3d2lVaXhrUEVEcWhmZUdIdmlsT2NqNDNGZEZSc3o5TlFrVEt6QnBqSWdVRGptOGlKVlprd182R1ZSMEYzMzhQTHNsaGJTb1RKYXk2R3U5YW9zdHQyd1pXUmxCa2hUbktpZjJORkYxcXc?oc=5",
+        "published": "Fri, 24 Jul 2026 05:45:51 GMT",
+        "published_iso": "2026-07-24T05:45:51Z",
+        "age": "21h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 03:11 UTC"
+      },
+      {
+        "title": "Nifty Today Live: Nifty 50 Extends Five-Day Losing Streak, Slides Below 23,650 as Oil Prices and Weak Earnings Weigh on Sentiment \u2013 Top Gainers, Losers & Outlook",
+        "source": "The Sunday Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQUW1rZzNweExJenFFaTRFUExaRENBQ2xaRi1aejNKeVNxSkUzeGN1b2owZFk2a0ZPNFlsWndmdlBXZDVscFJQOVBZREN0b0dFLVo3RlJEV2NBcFV3cE1RMEN5N3BuQXBzSVA3NnpPSXV6dXZqa3dvTzRNOUVZT2FHcWtXeE5uU1duV21kdW1kenNQZmNFMFVfZGYtN2pEXzBWSDBjZkNGVzhRX2ZMbW5hemxnTzJ1el9VaVVpLVBHQjk3YzNWMXg3RWJ0STk0cHJiRGtyNHkwT2Fka0tXOHVFLURUb05oT2hnbGtMZE9iUHdIQVBXRjV4MXYzbHM2Vzc4MV9Fbkl3bGpVN2liRkFIaTR2cFN2RmMzNjZPTWFDUTVFU0VkMlowTA?oc=5",
+        "published": "Fri, 24 Jul 2026 07:46:22 GMT",
+        "published_iso": "2026-07-24T07:46:22Z",
+        "age": "19h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 03:11 UTC"
+      },
+      {
+        "title": "Stock Market Closing Today, July 24: Sensex falls for 5th day, closes 332 pts lower; Nifty below 23,800; Nifty Auto down 1.10%",
+        "source": "ET Now",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPanpXa3E3dEhGNG0zd05pckwxZDhzck1NdG82Um9aWHdtbWlkZ1JnbGRWazk2di1CQ2RPXy1aUndkV2drQm84ODlTUDE5cUJJUlFuUHIzUEFyZUxQT3V0M3NjUnFpcER6Z2hYMXl1RHNRRTZwQ01YNHB4QXFMdWt3dEhSb0dfeUpkVTNOdXc5dTRfOGJuclRDTVdUc25KcGlYUDhSakcxdnE0V0FKOW9PUTF0TGJMZDVoeXREZW9LVHNmZGZ6cjBXQlRuVFdCOUlGbzMtMWVNWGZ2OHZPUzhEOGZ4ejhKWWlSRFA5T05ZYnk0MXdQRGVJT2tNcUExb1Fx0gGGAkFVX3lxTE9ULXJHb29oOXJmX2VXTXEwNEwwbzRSTWZHYzVUdTQ5VG5odm8tYWpReWVabEZoeWtFT042MWlRSUNEeUZIXzUtTzZXMW9UTGl2XzBnYW5oc01wS1FrVm1ydk9MeGxiMkp1VWRfZ0stX0psY1FwdnRINEVfM3FKdFhubl9ZSlRSVFVFR25Dcmt6eWRFUkFZSGlRSndFQ1F4YUZKS1F2WEFGM0ZvUlZEVHcxUDh3cktHX3d0VW9CNXRhNFIxbllUS2diVFNyTXp0SXNiMGNNVll1ZHZ1QWVIczNmdEVRODFYY1kyNDl6WFZXb2NkS254N2ZyRGlQQkZPVkxEVzRiSEE?oc=5",
+        "published": "Fri, 24 Jul 2026 10:17:18 GMT",
+        "published_iso": "2026-07-24T10:17:18Z",
+        "age": "20h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 06:20 UTC"
+      },
+      {
+        "title": "India stocks lower at close of trade; Nifty 50 down 0.43%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ2ZVTWVoNkttalg0TTlMekRYWXNCbFJ3VDB3SDVqRURDaFJrRW9GUFJZaGRuZi15aGlqVXFfWlJKYUQ4UTJleDJ2M3lVWUs5NVZZSmZqN19oTk1wbXQ4alNZdE9yN2tRYVVjREVrbUY3bmRNVENtVk55bHBmVjk1Vkk1MnllZmRsUGpJS3ZOeXhpMDVNWC1MNUtOWW1nTVU1bVZrVFMxdFZMMjk1YWc1SQ?oc=5",
+        "published": "Fri, 24 Jul 2026 10:37:11 GMT",
+        "published_iso": "2026-07-24T10:37:11Z",
+        "age": "19h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 06:20 UTC"
+      },
+      {
+        "title": "Markets Remain Under Selling Pressure; Sensex, Nifty Extend Losing Run",
+        "source": "DD India",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNTJVREhucktyLUw4RWpEOGFjN21PWU5zNlV0ekF6ZWZWNGU0REJzVFJTSW1ZSy1mZlY1SnBxYkcwcjlnX2Y2RmhhMVBqVEJURUpmbzFoOE9DcVZjcnR5OGx6NTc4YTJxRzA4ZFhYNjlHT3VQcnZNSXJnMW1TZm5WWXlTRHE0T0NjZThtbF9ma2N2Ql9wdjB1QlpzQ18tY0di?oc=5",
+        "published": "Fri, 24 Jul 2026 10:49:00 GMT",
+        "published_iso": "2026-07-24T10:49:00Z",
+        "age": "19h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 06:20 UTC"
+      },
+      {
+        "title": "Nifty Under Pressure: Five Reasons Behind This Week's Market Sell-Off",
+        "source": "India Infoline",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSXVkZ01EUVBEblJmSF9JZlBNLXNVeU9iUV9HT0RkNWhCMk1WdlhNa2V0VTBoeGlqUllTUkVSMDhsYllfbU9mNC1zSFdZdndUR1NuNVgyUU5fVEk0ckIyYVFxSGJIbG1XX3hmYjJtcXY0V2U3akxVNUNneEVVeF9KV2RzTWNuRk5ablU0RGFxMDFGY1BnSWxCRVljZ01nRk1BNlBYRQ?oc=5",
+        "published": "Fri, 24 Jul 2026 14:22:54 GMT",
+        "published_iso": "2026-07-24T14:22:54Z",
+        "age": "15h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 06:20 UTC"
+      },
+      {
+        "title": "West Asia Crisis: Sensex, Nifty fall 2% this week as Brent crude hits $100/barrel mark",
+        "source": "The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLWtWOERCeGtoRXY5Slo0N0ctVmlCVHRLblJPLWt3SG14S3VVaHpzVWhOeFZrM1BWSGtCSlNwWnNQZDNlOFRScVRTRnJRYjNUZTVBcmJnVjlJYkN0MFFYMF93SVByRkRwTElUallhX21tYnFOSmlPeTR5a2FFbEdaNnpnaWJzRTJtVk92RWJzTndGcnRTNjI4OEozanRKcXk4SW1iYWlNbzZ1UlNKM2E4bU9IU01CRjBaMlI1UWRvN2M0VWs0NHdYZlNLb1NRSkdN0gHeAUFVX3lxTE5rd0p4X1lidExseFV6T2psTmJNbk9VVzVhVVhBNTBKZ2JLckhFaVpxS3JfaENqSHZ3X255TUVGV2FPMVNVd21UZlVIYThCRHotaVVteUhyZ1BNelZwWHVyOG1GakhmZS1pcUdyMXh0UjlKTWNpTVVFdlk2Y1Y5T2JJY2FPaG9Kd3pXZE5yakJBb0U5S01GLUFQcXlfeDJpeUZhUmY4TFNjNGR5SWpGNmhLZmJGTVozUkN3dUtmR25OV29CWjl1NFlycXRkVFBaZEtZdDlZVmZ2Sm5xQWU3dw?oc=5",
+        "published": "Fri, 24 Jul 2026 18:20:36 GMT",
+        "published_iso": "2026-07-24T18:20:36Z",
+        "age": "12h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 06:20 UTC"
+      },
+      {
+        "title": "NSE launches Nifty REITs & InvITs 90:10 Index: What it is, how it works and why it matters",
+        "source": "Business Today",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNanQ1NXhtQTFQa0MyZUZEYmVndkxVVVRSVl90bU16ekRiTWNTQmxnVjdfN2lUNjYtRHpZWko3Qmh5UGJWenhRN0pUN2VSX1dLVUJwQXNwX2RIal9kaWpqYkE4bW1ia0pIdElPVzlJMFZSODFFbXY1RUJ2UXJiQkdKcllSbDBqajFwR09fMjVKTjlEOTJROGdTMnBjTjI2Yk1VWFlpXzdpa0xNRWtfUzNDOGxjVENSckJ0N2RBUnJRSkcyM28xTms4NTh6WkJpZlBTRTl3djlZS3hyamZwTlFQYWdYdEJYLURKcTBmYkNHZHF4b3JDODB4Szdn0gH_AUFVX3lxTE9qYl9aNWdLTm1VaVJySWpVMHZkRVU3TGRPdHJMeUN4VndfMnk2Y3VVQngzY3BrUkwyS1lscnJya3cwVVlFcWZCQkVfR1RqU1h5Y3BFX28wQUxDODN5azZVOGFPaktyTUt4Q0lhUHpJREtlaEZ6NlVhTjRLc3k4bUNwd21xWGwtenY5dFRWNzg4Vm9PNV9iOVg0S0c2bWtSM3pydTBieHpTQjZYVW9XTXZwSl85MF9DNXYxVkJjak9FalFueTVNSjc5RDdtbmtxVlpOTlE2SUVSZGZBMnIweGZUVnh1SFlfLVZ0X0h4aWxaRDQzSm96LTVxMjF6TFdaaw?oc=5",
+        "published": "Sat, 25 Jul 2026 04:27:46 GMT",
+        "published_iso": "2026-07-25T04:27:46Z",
+        "age": "16h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 20:57 UTC"
+      },
+      {
+        "title": "India Inc's Profit Growth Is No Longer Concentrated In Nifty 50",
+        "source": "Outlook Money",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVU9Hb2tlS2FGZzdhX1kzTVZXRjZpWk1VZ3NNUlNBOS1NMHh6RlRralJtV0FfYXFKVW9MWWxqMlZVOE80MjllcjFQMzVSX3o3UU1YR3pwQ0VNWUZmdk9oanpWQTc3R0tPR0twU2tYRzZEVnlTbEFQQXJkbVZuckxCVDN2MnV5aGs0N0lnaVRTTjhmbk5HY21RM0FRZmM5QdIBqwFBVV95cUxQd3UwQXlMTzNEY0FRSnFXQ19MWVVBQlM4SnBlN19DYldFQ0xjTE5QaGFmNnNyTm9Lcl8zb0syQmEyRWZJT3R5LWVfTHpnV3RjdlpRbXdGSkdWUWtlQmJTZWdiU0xpYlJablJQbG94QmRHbksxYmkxZ3pCMnFLV3RMNVBPZWt6Qkw4MFlCUkl6SU9oRUlZM0x6emZFNTdNczllRmpTMnQyeHV6TFE?oc=5",
+        "published": "Sat, 25 Jul 2026 11:31:42 GMT",
+        "published_iso": "2026-07-25T11:31:42Z",
+        "age": "2h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-25 13:43 UTC"
+      },
+      {
+        "title": "US Fed meeting to Q1 results FY27, US-Iran war: Top five triggers that may dictate the Indian stock market this week",
+        "source": "livemint.com",
+        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMk5ESllNYUkyTU1rd2c1bVhiWGZyVEtSZm1YZ0QydzIxMGhhMFl1TnVKeFBLYnFCcTNFcjc2MGlIXzQ5VEk5U0NYZ2Jta0FlYXRlamFCdjBkbU53SmhNSExqNmdSckRxN3RQZUc5NmpYdnlQS09fckExQzA3NHlMaFQxc1gzTU5sUTBuVHRSTTAxaE1DdnBxUEpQNUV5OF9rWnBzQW9YTWlVV00xSzh0U0cyR1NnTWtXdVZtMDRZMWVRM3RuUUFRV0wySDBaZ29nRUxodGM0QU9pMXYtMGEyaW9GaGlZcElKS2JCaDBSaTZfX3NOcW1yVUdacVl5bWQxd0kyYkk3d2NGRmFSOUVjZWln0gGXAkFVX3lxTE1LeWFXUkI3WHlpTHI5a25oSEJZNUV3LXZydVNILWl2cnE2aFFQc1Z4MHQxLXI5MGhCUGVjTGNackRCOERUZEQyaGt2UHRWRnNPb1ZDWVpQS3ZmVE13NEVjYU5CMzJqTGZzQ0dYM2hFSF8zV0RieXl2NnlpMDgydmtNdzJlNWxtNTl6YkNtSGJ6bG5NMTVqdEhKbjZIZmFrSl9OSXRqV3RvNGx0QjQ5SEppcUM3WXhnZmM3dFRWX1Bfcmx4TGZVT19qZHVZOXZFT0JRSDhUYW95QUFldGZBZGNiUDNoR3RIeDNxRkhnZUwyRnBuY2ZyRXlwRUMtazZWV2E1OU5aSXFMZkwzM2Jad2R4Rm1tTDJudw?oc=5",
+        "published": "Sun, 26 Jul 2026 02:52:46 GMT",
+        "published_iso": "2026-07-26T02:52:46Z",
+        "age": "just now",
+        "priority": 1,
+        "fetched_at": "2026-07-26 03:25 UTC"
+      },
+      {
+        "title": "Chartist Talk: Is 23,600 likely to remain key battleground for determining near term market direction?...",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNYWxXbEMwSGYxZXdKNU5CcU5QTVNldUFUVGw3NThsSUR6ZzZMSE1jWFZwUzI0YzN1V3EwRk1kVzluZEdCMTdZc0JudzNtT0hpc3hjZTh0WlNSUkxqUUV6RmZIblBOV3doR2dySjZSNXpNQTdyNWlsVVRwOWw4a0hIWFk5cEtWUXZzblgxLXYwWjFkTjM4cC1qejFMTXRTOTlhVnp6QlZGVjk4U0RnSDVjYkEtci1zcTgxc1hKQlYtaWpydDVnSGlULXI1NkNEV1dZQzhSSVFhTVYyeHVXUUI1R05XMXZENHpYQTJCa2dxMVJUUUpuX3g0eGRibVNZUWdHNlRxald4dG1abGJYSHlBMEFVdEZGaDlqRmF0ZWswaU5HZGsxTzE0VWtPVjFUWGxkaW9CalpMWnJESlhUbkpGazN3Y9IByAJBVV95cUxPazJGQVNYZFhwNzYzdU9BZS1jSHFVT3JKWGYtMkxCZDMtckJKRDBTM2V0RUY4blI0S1hTWVJ1YVRmSDNCa3RLcG1GdmhmdjRyTVY2d1BEUDNxR2ZHZW5ZZ0daZjJ1SHhHcm5LOE40amE5UlA2UWhySnpBTUxMUWdWdlJxQWZkVXU3UHJ0NFFONEhTZm9OV2o2TFBheGxSSWFYV3E3SlBaN0xPbFZvUDlTcDcwRExQZWFhNDhPcEV4RmNZZi1RazdES2F6V1RFQTZKckQwSGZEekJMcnNLNXhFcmpxMnlXekpGUkhrSjNYaGpjUFhMcV9Qb2dwTVlyc3A5X1BBUzE1R1hGNDVJMXEyUjhhdWpqcEZtU2NTRGpjYnEwMnF2UzVZeEZqR3ZZSXpOZnpMLWlkYV82YmJxT1c4S2dKV3g3cjR1?oc=5",
+        "published": "Sun, 26 Jul 2026 03:12:55 GMT",
+        "published_iso": "2026-07-26T03:12:55Z",
+        "age": "just now",
+        "priority": 1,
+        "fetched_at": "2026-07-26 03:25 UTC"
+      },
+      {
+        "title": "Sensex declines over 2,000 pts in five sessions; what\u2019s next for Dalal Street this week?",
+        "source": "Fortune India",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWXpyZXA2aVJTU3JTTTYybzVqTUxiOXA5M0RwS1E2UWRCdXNHWERvdG16ci02SlVsNFBlMWVaRWhsMmpoR2drTjRTMXpVajVTLUhwZ0dTNERTZUg0MWN3RjIwRWlGVkhqMS1Ia0VILVJtQWNHREtkQjhRRTdpN1VRa3hyTllsYk5GYzVwWWVveFk0MWE2Nnp5UFdtUkZ2U0ljR0x2b0lISXphbEZHT0w3c3FqZTU1VjhxME51VHhUZmFIVGh6bW5Z0gHUAUFVX3lxTFBZZ0JkNlRiMVlwTjFjU2d0Z05TelAyUlN0cTkyQ25YdGtHbTBBMzlMcUxsQzRmaWlHMk9rOC01a2pYMkJMZk00WjhNRDZOeVVPMkZrdDBBY05HekJZaUIwNjZHakpFX21BaXVQdWhsZGsyVEdUUWMwa050bjI4MjgxRGFOcmpsenBrRjhVZEJ5VXZnVkpMRElRS0F5SzdnRHZfLWNSYjVhZEJtdVUyV2VzS2hNSHFyZmFZVl93TGFPOUlKWnAtNkx6WmlYNVU2anh6VXZC?oc=5",
+        "published": "Sun, 26 Jul 2026 07:11:35 GMT",
+        "published_iso": "2026-07-26T07:11:35Z",
+        "age": "2h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-26 10:03 UTC"
+      },
+      {
+        "title": "Oil prices, US Fed rate decision, West Asia crisis to drive markets: Analysts",
+        "source": "ET EnergyWorld",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMl9ZdU1Lc2Y0VEhUbHg5VTFfYVUtSnF1aDRtNktrMXRMdW1ER0FVMVd0ajZ1WWZjR0l1cXdhNFFzNmsxdTE1S052bGJOdjFrWS1yek91a1JoR2VUR2ZXcEZtMGIyU3BBcTNBMzduNjlHTVNDMy0zSGFtZWU5MG1FNXFVUlFRTThWNDhrMVBycFgtaXdCZnNQbklWVE9aU0pnaXVKZzl1aUd5eGRKcHUxZHhDeUsyeDRhbEpobGd4NDRDdk5ISlJWM3dlSlVCT0hCTlFhQk9aVXppZVZGSHF0MzE3V0jSAeoBQVVfeXFMUHYwOHlHb2thcTF6UC12NlJMb0JpM0cxdXlxaGJuVk4yS0YxY2I2WkI5S0hwbmI0QTlzcmw2eHF2Nkp0WGNLcm5pa2NfN2FWT1hQRF9ud2t3Y0lESU5IMDJLbzlrTTBTcFUxLWdXOF9FNi0xckNORkktb2RUVjhLZ3RVTGJmVTFvWDRabVRjLWlDU0ROclFyMGg2WTIzWXFIRHRWT1FZNFhHeDBfcElJMDFiSjFRR3hSdE9fQm9FcHVSRDNyN2ppRy00UFVZNUFMY05vakVYdGNQVDZaUmdQbmNQbm9WV2NrVTJn?oc=5",
+        "published": "Sun, 26 Jul 2026 08:15:54 GMT",
+        "published_iso": "2026-07-26T08:15:54Z",
+        "age": "5h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-26 13:38 UTC"
+      },
+      {
+        "title": "Stock market outlook: Fed policy, crude oil prices and Q1 earnings to drive trade",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYmFfUmoybUlJaUViQ3NLbVhWS18xcEoyazQxS1o3aVRLNmlRQlpwR0lQTWFHNnNjZEctcUNaV2RFQUZOMjl6UC1GSUJJSDNuVTBRXzhYOENfN2FuMEF4Mlk4UmloZUU2UlVZVktiSEI0X2M3bm8wMjNxMmNSVEo2M0JKSFVXalg1Y1g2ZGh0N215alRuWmRWeHRQb21EaUJhR1RxZG5nbDVKVGI5V3NTbU9URWpLS3VXODF0SGRIRnFvLWl2RWlDSUlhaXo2XzFiUmI0WGtGZnE1bG4wcTM0NkVoUzRackR5NWR2QlA5eEp6dnVwelpVdtIB_gFBVV95cUxQVGZpNVYxdkVLclNiSnYwbWk4LU4zeHdudGFZRUZoaENsbzhJYlcwUDJ5VVJJRGdGZXV2TmEySTBjVmdJMkRxLTNtUFZ6bmhDWXowLU42M1Zqa21ScXJxdG9VdmtzcnNLOHZGeTVmXzI3eGV5Q1BkUGd5OE85dklTYlk0aWd2clNwSEZvRmNxM1hxTmNVSkFPem9sc1ZYTmpQVkpjeG10Q2s5R1BabU5rQ3k3N3FKd0tnQkU2WVZCeThGV1pRTW5iak5rdS0xUUFzbmRPcTFqT21IYWU5dnFqVm9wdkFDNkxaVy1nS3VjelpiVF9vLURsTXVoWkVrQQ?oc=5",
+        "published": "Sun, 26 Jul 2026 09:45:00 GMT",
+        "published_iso": "2026-07-26T09:45:00Z",
+        "age": "just now",
+        "priority": 1,
+        "fetched_at": "2026-07-26 10:03 UTC"
+      },
+      {
+        "title": "US Fed decision, West Asia conflict to steer markets this week",
+        "source": "Telangana Today",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXJLTk83c3hnVGMwaUpfYklqM1ROWG4tbnAtek5ESTNOX19tdnBhTERLZHBrSDQwa1VZNnFlY2RzUkozY3ZROEhkUWZoMzBZMEs4Mm8tdUlnVFpBRnhZQU5FeDRyTUtRLWhrcmxTZFVmVUJ2aGJoMVl2SmVUV3RFZ3R1NGVmOW03Wmp3bFc5WE9Ydw?oc=5",
+        "published": "Sun, 26 Jul 2026 09:47:07 GMT",
+        "published_iso": "2026-07-26T09:47:07Z",
+        "age": "just now",
+        "priority": 1,
+        "fetched_at": "2026-07-26 10:03 UTC"
+      },
+      {
+        "title": "West Asia conflict, US Fed rate decision, crude oil prices to drive market sentiment",
+        "source": "Rediff",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR2o4ZEJOdGwyVGtYbW0zMk5weFltRXlLaDZSUWpBRktFZXM2dkdhanc1bGk5M2U5eGR0ellzT05oUGQ2eFpEU0hTZi1HcjY3R1N2UktrVlBkNkdPUE5vUE1VVFJjWGVRbzVrWTR2UGQtQ2JtMGk4X3BqZHI3N2hGZmplN2xobkRsLURnajAtSWpvY3JjbmhoMW9mczF1anpsSmNvcWwwaXBxX3pwOVdQTDNxTGJPWXlGenpRSlNRYjY3ZTJGX0NUcDFYNE03eHJXLXJF0gHWAUFVX3lxTE9JYjJkc1Z6RzZsRGZFZHZMTEtjSEYtTVNfSi1neDUzUzhEcHlxT3lNMmR2MnpoQTM2a0pBOUhJd1dSUk5BTVZwUmV6UjdwR19CRUxtU3NIV1FNT0ptbXhORWhFN0dBSmtvaUl0Rl9CRHNSaEh5eEJnS2RFcWVKNlJ3RzN2RDh1T3FoTllpdHJJeW1DYmh5RUQ1UlZGXzlOYTNTVmxLS3RUWEhlZXZ2ekRPb1hKOTRvUDFBVk5Rd0dGQWlIMDBpelptSnVVT2l0SGZVVnBRRUE?oc=5",
+        "published": "Sun, 26 Jul 2026 11:01:21 GMT",
+        "published_iso": "2026-07-26T11:01:21Z",
+        "age": "6h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-26 17:06 UTC"
+      },
+      {
+        "title": "US Fed action, oil swings to test bullion as traders eye West Asia risks: Analysts",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQXJkaHQwQ0JSZi1fNVI5QW1hdzVwajFfWlpENTlPWmFGbVpZMURzaGZlOUVXZnBxZ1hBMkx1c3Z1MFZ2QndWWVZRdkxNZ0RlOXlsSTh1NXZ6dmRfUUZDdWREU3dWaFBEYW13UlN4dzRyLXEyNTdDcEN6U3ZIa0lSY0FvaU8zdzNUaEVMWEhuWEk1TlNaQWZqbVNnaGZuNjdLaVJ5RzdQMHNXUXVQdllHRG9vaE5mb0NpMi1wc0N2S1dBOG9PeHRUR1JYaGdXWFI3LW9RaEt0em1OUHpWSThaYkd0XzBtdFNHNmxQS1RSZ9IB7wFBVV95cUxOQXJkaHQwQ0JSZi1fNVI5QW1hdzVwajFfWlpENTlPWmFGbVpZMURzaGZlOUVXZnBxZ1hBMkx1c3Z1MFZ2QndWWVZRdkxNZ0RlOXlsSTh1NXZ6dmRfUUZDdWREU3dWaFBEYW13UlN4dzRyLXEyNTdDcEN6U3ZIa0lSY0FvaU8zdzNUaEVMWEhuWEk1TlNaQWZqbVNnaGZuNjdLaVJ5RzdQMHNXUXVQdllHRG9vaE5mb0NpMi1wc0N2S1dBOG9PeHRUR1JYaGdXWFI3LW9RaEt0em1OUHpWSThaYkd0XzBtdFNHNmxQS1RSZw?oc=5",
+        "published": "Sun, 26 Jul 2026 11:30:00 GMT",
+        "published_iso": "2026-07-26T11:30:00Z",
+        "age": "2h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-26 13:38 UTC"
+      },
+      {
+        "title": "The Week Ahead: Fed Rate Decision in Focus, Apple, Microsoft, Meta and Amazon Earnings Arrive",
+        "source": "TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd2o0UnhxRW44V1NjOU0xWkVGU0FmWW0wUXJLRk9QRVM0ZzhaRkl3OVNid3d0bldKdjZ4eTBMZlh1dUJxUm9KOWZVYUdVSzhJajZETEdTOFhoR01MblpJRUkzVGstUXNLN1RxdnQ1cGV0VnFOYmhLdWdrVWd4Y00zXzNyeFVWMDJJcTMwOWNFNlhpd2lnYjdrZXluTVE0UUVEZDVtazdwWkJqaTdpWmJ3Y1c5N211RmxyRTMwR1FGeGdwaENmeGNpNTJGdUx2V3I1NjFV?oc=5",
+        "published": "Sun, 26 Jul 2026 12:11:15 GMT",
+        "published_iso": "2026-07-26T12:11:15Z",
+        "age": "1h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-26 13:38 UTC"
+      },
+      {
+        "title": "Dalal Street Week Ahead: Q1 earnings, West Asia conflict, oil prices, Fed meet among 10 key factors to...",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTEgtY0prdVVZVmdfZ2lOT3FZV0NPTV9kSWVSOGtjQXlJanViX1lUZG5tSW54NGdNUUJuMUdkNHg0S0k1THRQNGlGNVo0LS1LbVotams5MVNOUlJNREtFTHl4SGpEZ2RUdkRyd0xpVTF4dWFnSmxKOXZ3bEhUVHowN19SVENMSkRxNWFGYzJwU2xMdnNZcUlQQm5PN0tuOEZmUXVTVkU1S0htbmNDUDJ3VjJHODRHQVBDZXRIdnFUUEdEaXUyT2xOVHJULXRzSl84NVRBMWRlSEt6VUNScTB4YlJXQWUyYmQtTjBkbXlaQ1NHUVJSS3E2ZHZsM1Q2dFhJX0VZSktmVkzSAY4CQVVfeXFMTUFHbHZ0Rk1ONFlsTjNtd1NNR3VzNHhDYmlKbm5WanhoRHZDOVZ3bFFUZTJVQ1Vma3had2doNzRBRV83Vy1vN2RFZ1NoSGR2aVR4SkNxQ2lURlpsVG5IV2l0QTNqWTJsbWFjb0Raa0dlREY4YXd4U2FHZ1NoZ19qTGsyVnBnNlR0a01OVThrYXJPME5faFBYdFJaMDBIV3JXUEhGbzlJZkZ4eFg3Z0ZwSUNjZVdNenhiSG9LMHo3VnNpSDNTS1ktQnRYR3BqWjhlcnRXSmZsaVhEWHdaSzNkVzI2dHY4cTNaTWNZaUxYaXhmSVo5ZWtGYS1NSk1oTTRiQi0xbVBQVDZFTEtidGVB?oc=5",
+        "published": "Sun, 26 Jul 2026 17:21:07 GMT",
+        "published_iso": "2026-07-26T17:21:07Z",
+        "age": "10h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-27 03:34 UTC"
+      },
+      {
+        "title": "Warsh remarks, earnings to drive market sentiment",
+        "source": "metroindia.net",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVHlac2hEUHlyWWtlLVE3cnBJRE9vZlc4bHFXb1l1dWl4clhTeHJPLWJ3bGEzTDNpUGpfNVpkMVVVa0dDRDFlejdUWXNBbVlJeGYxSXFKTjMxWFYxbzY5UjdxcUIxak1haW9VQnJqYU9LbkREZkRBVzVjNWszZGlrMlB5WHMyeUFhUURsU1Uzb2tRRGdSUE5Ld0JIY093MTQ?oc=5",
+        "published": "Sun, 26 Jul 2026 17:29:47 GMT",
+        "published_iso": "2026-07-26T17:29:47Z",
+        "age": "10h ago",
+        "priority": 1,
+        "fetched_at": "2026-07-27 03:34 UTC"
       }
     ]
   },
@@ -1071,6 +1071,6 @@
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 52.38
+    "recent_1y_accuracy": 54.37
   }
 }
