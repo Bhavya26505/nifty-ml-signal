@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-07-31 11:58 UTC",
-  "ist_time": "2026-07-31 17:27 IST",
-  "hour_label": "17:00 \u2014 17:59 IST",
+  "generated_at": "2026-08-03 06:48 UTC",
+  "ist_time": "2026-08-03 12:17 IST",
+  "hour_label": "12:00 \u2014 12:59 IST",
   "market_open": true,
   "spot": {
-    "price": 24366.7,
-    "day_open": 24361.45,
-    "day_high": 24429.4,
-    "day_low": 24299.7,
-    "cum_return": 0.02,
-    "vwap": 24373.7
+    "price": 24605.45,
+    "day_open": 24572.7,
+    "day_high": 24608.2,
+    "day_low": 24515.15,
+    "cum_return": 0.13,
+    "vwap": 24581.25
   },
   "signal": {
-    "direction": "SHORT",
+    "direction": "LONG",
     "confidence": "MILD",
-    "prob_up": 43.3,
-    "prob_down": 56.7,
-    "pred_high": 24386.87,
-    "pred_low": 24306.18,
-    "orb_status": 0,
-    "score": -2
+    "prob_up": 56.7,
+    "prob_down": 43.3,
+    "pred_high": 24649.55,
+    "pred_low": 24590.75,
+    "orb_status": 1,
+    "score": 2
   },
   "options": {
     "pcr_oi": 1.0,
-    "max_pain": 24366.7,
-    "call_wall": 24566.7,
-    "put_wall": 24166.7,
+    "max_pain": 24605.45,
+    "call_wall": 24805.45,
+    "put_wall": 24405.45,
     "atm_iv": 14.0,
     "iv_skew": 0.0,
     "straddle": 200.0,
@@ -35,7 +35,7 @@
   },
   "gex": {
     "total_gex": 0.0,
-    "zero_gamma": 24367.0,
+    "zero_gamma": 24605.0,
     "regime": "UNKNOWN",
     "strength": 0.0,
     "is_positive": false
@@ -48,7 +48,7 @@
   },
   "news": {
     "count": 100,
-    "sentiment": "MIXED"
+    "sentiment": "BULLISH"
   },
   "analysis": {
     "full": "Analysis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
