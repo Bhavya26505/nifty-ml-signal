@@ -1,67 +1,17 @@
 {
-  "last_updated": "2026-08-29 03:34 UTC",
+  "last_updated": "2026-08-29 10:55 UTC",
   "date_range": {
     "from": "2026-08-22",
     "to": "2026-08-29"
   },
   "total_headlines": 100,
-  "today_count": 100,
-  "yesterday_count": 0,
+  "today_count": 98,
+  "yesterday_count": 2,
   "week_count": 0,
-  "sentiment_score": "BULLISH",
-  "bullish_count": 36,
-  "bearish_count": 25,
+  "sentiment_score": "MIXED",
+  "bullish_count": 34,
+  "bearish_count": 29,
   "today_headlines": [
-    {
-      "title": "Rupee gains 9 paise to 95.65 against US dollar in early trade",
-      "source": "The New Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXRUSkRvanJ6cWRzakphM0F1R2stRUdNNF9RbjVoNkgxVUhoRXZQVXVZdVY1dWYtMzJLZThDZ0EtcmJBeGUwMHhhSWlZcE1HWjFneW9pcDcwdVB6VEc5MXk5X2FnZVg3YmhjV1VnNnlOUllMZWFqaTdLb1MxMzNNWkFuTFF6Z1JOZzZDRTZrNEdfUkY0bGlubmxfRGp2bTdRdkRSMEU4RXFxandtaFhwMFFmbUbSAcIBQVVfeXFMTWJpRDU4UnZTY2FSN0d2ZlN1RjdxNWdxX1VXLVJVWVhpVEswRGhCRDlLT2hhbFk5WEw3ekNTU2lLUHhtdnRMRFBKUjU2eDZ4VHFLR3FtUzVpNDlfMGZXWTZsSkJtZUxEY21Qbm9WbFBLSjhWTjFmb0tVN2liY3BKbGphUU0zcHd1ZlNPR1VmWm1GWWZ5X1NFa2xQOVdqQW9qQWI2UlRrNFdWaVJxd3VFY2ZkQXdCNzdxUFlILTh3ZldxekE?oc=5",
-      "published": "Fri, 21 Aug 2026 04:23:19 GMT",
-      "published_iso": "2026-08-21T04:23:19Z",
-      "age": "8h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-21 12:54 UTC"
-    },
-    {
-      "title": "Rupee continues to rally, opens 9 paise stronger against US dollar",
-      "source": "The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS0UtZTQ3RklubU5idWl0ZzVZX2tiT25xalNycWQtRjZGRzVnV0VvMmRINEtIeEZWXzVzT3RhS3lQbGwxWUhxVFczR1JnTlRqeTBhdnZFVW4wZ1dLbnlCVElNWlpJOVY1cUFJemtfaTZtT1M5aHdtMThtR244ZkQzMVA4TzNYeWxRNURndWhDa20xZmhMZ09BVkdpamR6czBBWURZQ0ZJQ2paeF9HSVRoQmFmazB4ZGtOcUZ5Snl4bnFIdWFEcjJzZ1FqWGJ1NzA1Qjh0cWtTck45cVU4NlVxS1AxQjdQd9IB6wFBVV95cUxONXB6cFN3ZzFpbFNyNDJtU2tHaG96X2JTTlM3MDRtVlEzSGJFM1NBLVVnV1c1eGJNTzRrc1hSRHlQUTVfTWRMVVVKVV9xRUhROFpVbVJzVFMxeHVKS2xyX203cVlkMTZxQ3N6dWhOWTRGTkdaU3A3OXJ3eGtOdF9sclRrZGhFb1k5ekdyV0ZfNjV5N2RuZ01OQ0Rfd0JxZ3ZfSjZ4QUpfb0tJX19DVTc4U2I3ZkhvbzVMeXBQaWVSWEZ1WWNiT0ZZYTNvc1JtbWJhVDc3d2wzQWw1eUludUdHOFlrVFhFb3g4QmlF?oc=5",
-      "published": "Fri, 21 Aug 2026 05:06:00 GMT",
-      "published_iso": "2026-08-21T05:06:00Z",
-      "age": "13h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-21 18:41 UTC"
-    },
-    {
-      "title": "Rupee gains 9 paise to 95.65 against U.S. dollar in early trade",
-      "source": "The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONXd0UTVNeGgzVWpRRkxoc3VKbTl5bnE1elZPS2NsZFlCOXI5VVBSS0ZzdzJsSXg1aU9tU3NoZGNlSmRNcXpZRjZmcUFLeWw0bm5JQ3MwdFBQUXV5ZE54TFpyaUpsbzZIZEtXZ2IzQTFrUk9BOWl6YWdfWkZBSjdMcGZnVWp1YkdQeDlzVUo1UUdEWERuUFB4aFpLd2ZrTl8zWjFzWWFBQVhDZHB5QnZaUjYtQWVLSFRGbG1yNGNwSdIBxgFBVV95cUxNU19YcVdITDJwcWw1amFzOGNGTGFjdFdlUF9pcFBVR2dNT2VGaGh3VU5oWU5LNkdJR0pYQzVIdHJNWlVPcXI4czRUNldVTmJ4NDNnV2QxVkNKRXFicDVqME1YMkQ0LURUQnBSaTJ6aG03d1pGUmdwbjJoMFo5bkFhWlNOTHZUX2RXUmtETVl5UklEX3lUdzhlXzlGRTFrZmZRY3BLWGFHN1J4ZlhrWTNEdjNsNGZZUmxuOHllN3ZOQmRPMG9lcHc?oc=5",
-      "published": "Fri, 21 Aug 2026 05:31:21 GMT",
-      "published_iso": "2026-08-21T05:31:21Z",
-      "age": "19h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-22 01:25 UTC"
-    },
-    {
-      "title": "India shares higher at close of trade; Nifty 50 up 0.08%",
-      "source": "Investing.com India",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHBzdm5QWWZuT1hsdUlhRWxwb0xLcDhMa0luWlJmTHpsbnJHZlRQMl9pcEMtNk9hQUZZTmZ2TmQ3NWk0Y1BfVlVMdmVkcVktVzhjdXlmNW5jc2dVQTRQdGVHRTdJNTNoQzAyZEczLTYyUFRybjd6U1FnT0paZ3ZibWt6N0FHMnU2Y0EwdUVOT2RDbzh0NE9NY3p2aHdBNXk3NlhYR2twSERkU0haX1E?oc=5",
-      "published": "Fri, 21 Aug 2026 10:33:25 GMT",
-      "published_iso": "2026-08-21T10:33:25Z",
-      "age": "18h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-22 04:36 UTC"
-    },
-    {
-      "title": "India stocks higher at close of trade; Nifty 50 up 0.08%",
-      "source": "Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWUQ0bktSS2xwdk5IekRZdnQ4elIwb0lINFViUHJnTWdQeUF5d3ZRLVU5S1plMUlpWDY2eGd5VEVJUS1Pd3UtWTRYUkI3eEVBZ1N4TUQ3dmpaQWxTNkZVeV9BVzdWVW5UejN1d3ZScmZNNTA5STlaMEl6TWUzYlVRZ2RDRmhRTU05T1ByZTJqcTVZdUxEX0RoY2MwRWxVMms1TW84b1M2OWZzdTNZTm5j?oc=5",
-      "published": "Fri, 21 Aug 2026 10:36:21 GMT",
-      "published_iso": "2026-08-21T10:36:21Z",
-      "age": "17h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-22 04:36 UTC"
-    },
     {
       "title": "Why is the Indian Rupee declining this week despite the US Dollar plunging to a three-month low?",
       "source": "FXStreet",
@@ -1011,62 +961,63 @@
       "age": "9h ago",
       "priority": 1,
       "fetched_at": "2026-08-29 03:34 UTC"
+    },
+    {
+      "title": "Warsh's 'quieter Fed' now includes a smidgen of guidance",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjdvUDdhMzh1TFphU1hNRUdCWk1jcjA3TmFnN2lJRmN3c1N4eHZlZk8xaER2UHZudjNjdmhCQTZpTk1ERnA2MUVMQS1WdERqbTFkb1h2NWR5VWUwR2lEWk9NZUtDZnd1ZzNhSWljZ2JLdmxnZHJaRUZIWHpqMUJkV1RpVkVfRDhQRkw5TU05UXROWUxoNjZqOFVERHV0dndBRFRB?oc=5",
+      "published": "Fri, 28 Aug 2026 21:10:16 GMT",
+      "published_iso": "2026-08-28T21:10:16Z",
+      "age": "13h ago",
+      "priority": 1,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Why hasn\u2019t the West Asia war hurt India\u2019s economy as much as expected?",
+      "source": "The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaXNoejJBaWJNZjY0UEUtclVhTmRBSlkyamtKWkE0UTQ1MllsU29NdUE1VXFmVkp2Um5lR1Y2QUs0STFnQ2ZDMk44dGtkdXU0M2hZSGRmeFBnVnpiUDl4VmVxQUk4OG00VWZNR0Q5SldmWnpjMjF6SkhhQlA2LVkzVF81TVAyTE1FYWJSenczTGpncTFCRGdOUXNKS19Fa1RIazMxT25EcEYyLW1QaGlMWXhBZ1Rvem5iUmNtRXo3YnrSAccBQVVfeXFMTXg5YjFRVWRVNmxXbkhscUg5dG42QUwtcWNqZGN3NDhLSm9DMGFnN3NKZXdWQ0lrOEQtSUNzTVNHUEFjUXprN2pXNXc1aXdvNHhjelBFWlJYZFpJQWN0VzFmQXFnYS1BZXB5MUUtaHY4ZDRxblB3WEhwZFBEV2E3T1EwaDZfUF85RjJBajRkenJ4bEhIMGRoZ3hpNVVnbmRiVVNIT0xSdldpajZ2ZlFaTUhyYkt6bXZ0YUVsNjJheU84NW5ObGpfUQ?oc=5",
+      "published": "Sat, 29 Aug 2026 05:31:46 GMT",
+      "published_iso": "2026-08-29T05:31:46Z",
+      "age": "5h ago",
+      "priority": 1,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Market weekly wrap: SENSEX, NIFTY50 decline for third week in a row; Shriram Finance, Bharti Airtel among top losers",
+      "source": "Upstox",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcGg0TlFZc2ctTVJZdmdHT3B5R0xjMXI0X0NQRk9qS05udnVjZzNJRjhXWkJ0WlpRbjAtNUp3VUZLMGpkRUpNSGFnZ0R0VmVKeGdrMVdKRHFTWVdySmh4alNJZkhWUFpMU2pNWm8yZ0Vnd2ZKZG5qMm11QUY2Z0VPbmRjZi1KWXVOaVI1WDVDMlVweGZ1WTA2OUo2MjEyLTM2bjRXU1F0aTdpTEpiUjZqNE4xaUZIY0lleEhrQUoxaXVkZzd2a2EzdWp6OVkxcmlqazN1YUxjdUZLbkV5cjJ1eFNCdzVPNFdwNXA2NjR6N0dBWllyZmNFTF9aRTVZMjVCbkE?oc=5",
+      "published": "Sat, 29 Aug 2026 06:13:12 GMT",
+      "published_iso": "2026-08-29T06:13:12Z",
+      "age": "4h ago",
+      "priority": 1,
+      "fetched_at": "2026-08-29 10:55 UTC"
     }
   ],
-  "yesterday_headlines": [],
+  "yesterday_headlines": [
+    {
+      "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajRHZzM3ZloxRVktVDFfR290MDdxZDJIVWtvcVJtSUZ1WlVySEJ0aG0wZnJWWVRodVFZM1hCNjYzQ2htWnR0YzVfMU9jVGc1V3VnYXdteDVqbTNCMWd6X2hESnlwcTl5UUVEWVdJUF96X2szeUx2WWlDMkZiZ0pTSjFURThuZ1FaUHk5aF9nZ1QyVk1jSmpjanhvVnZwOXJBNWxpa2tUOGU4c2I2cmFrRFRURHFMTmRNampwSnNteHd0b09vWDhv?oc=5",
+      "published": "Thu, 27 Aug 2026 15:11:19 GMT",
+      "published_iso": "2026-08-27T15:11:19Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd1RUYUM0TDhTNURUOVdtU1ZYc0p2YTZQZGhTREUtRkRNWms5UVN5LUVxelJjWVluQVJkQ0UteTAtMng0V2h1Z014d2xQZXBZUDZfSHdSM2ZXdWljRFBJT0lXR1VHVUo3N0djMVJmaHkzaVh4YWJpWlZtSFM3RjJLYUc0Zw?oc=5",
+      "published": "Fri, 28 Aug 2026 01:56:00 GMT",
+      "published_iso": "2026-08-28T01:56:00Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    }
+  ],
   "week_headlines": [],
   "headlines": [
     {
-      "title": "Rupee gains 9 paise to 95.65 against US dollar in early trade",
-      "source": "The New Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXRUSkRvanJ6cWRzakphM0F1R2stRUdNNF9RbjVoNkgxVUhoRXZQVXVZdVY1dWYtMzJLZThDZ0EtcmJBeGUwMHhhSWlZcE1HWjFneW9pcDcwdVB6VEc5MXk5X2FnZVg3YmhjV1VnNnlOUllMZWFqaTdLb1MxMzNNWkFuTFF6Z1JOZzZDRTZrNEdfUkY0bGlubmxfRGp2bTdRdkRSMEU4RXFxandtaFhwMFFmbUbSAcIBQVVfeXFMTWJpRDU4UnZTY2FSN0d2ZlN1RjdxNWdxX1VXLVJVWVhpVEswRGhCRDlLT2hhbFk5WEw3ekNTU2lLUHhtdnRMRFBKUjU2eDZ4VHFLR3FtUzVpNDlfMGZXWTZsSkJtZUxEY21Qbm9WbFBLSjhWTjFmb0tVN2liY3BKbGphUU0zcHd1ZlNPR1VmWm1GWWZ5X1NFa2xQOVdqQW9qQWI2UlRrNFdWaVJxd3VFY2ZkQXdCNzdxUFlILTh3ZldxekE?oc=5",
-      "published": "Fri, 21 Aug 2026 04:23:19 GMT",
-      "published_iso": "2026-08-21T04:23:19Z",
-      "age": "8h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-21 12:54 UTC"
-    },
-    {
-      "title": "Rupee continues to rally, opens 9 paise stronger against US dollar",
-      "source": "The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS0UtZTQ3RklubU5idWl0ZzVZX2tiT25xalNycWQtRjZGRzVnV0VvMmRINEtIeEZWXzVzT3RhS3lQbGwxWUhxVFczR1JnTlRqeTBhdnZFVW4wZ1dLbnlCVElNWlpJOVY1cUFJemtfaTZtT1M5aHdtMThtR244ZkQzMVA4TzNYeWxRNURndWhDa20xZmhMZ09BVkdpamR6czBBWURZQ0ZJQ2paeF9HSVRoQmFmazB4ZGtOcUZ5Snl4bnFIdWFEcjJzZ1FqWGJ1NzA1Qjh0cWtTck45cVU4NlVxS1AxQjdQd9IB6wFBVV95cUxONXB6cFN3ZzFpbFNyNDJtU2tHaG96X2JTTlM3MDRtVlEzSGJFM1NBLVVnV1c1eGJNTzRrc1hSRHlQUTVfTWRMVVVKVV9xRUhROFpVbVJzVFMxeHVKS2xyX203cVlkMTZxQ3N6dWhOWTRGTkdaU3A3OXJ3eGtOdF9sclRrZGhFb1k5ekdyV0ZfNjV5N2RuZ01OQ0Rfd0JxZ3ZfSjZ4QUpfb0tJX19DVTc4U2I3ZkhvbzVMeXBQaWVSWEZ1WWNiT0ZZYTNvc1JtbWJhVDc3d2wzQWw1eUludUdHOFlrVFhFb3g4QmlF?oc=5",
-      "published": "Fri, 21 Aug 2026 05:06:00 GMT",
-      "published_iso": "2026-08-21T05:06:00Z",
-      "age": "13h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-21 18:41 UTC"
-    },
-    {
-      "title": "Rupee gains 9 paise to 95.65 against U.S. dollar in early trade",
-      "source": "The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONXd0UTVNeGgzVWpRRkxoc3VKbTl5bnE1elZPS2NsZFlCOXI5VVBSS0ZzdzJsSXg1aU9tU3NoZGNlSmRNcXpZRjZmcUFLeWw0bm5JQ3MwdFBQUXV5ZE54TFpyaUpsbzZIZEtXZ2IzQTFrUk9BOWl6YWdfWkZBSjdMcGZnVWp1YkdQeDlzVUo1UUdEWERuUFB4aFpLd2ZrTl8zWjFzWWFBQVhDZHB5QnZaUjYtQWVLSFRGbG1yNGNwSdIBxgFBVV95cUxNU19YcVdITDJwcWw1amFzOGNGTGFjdFdlUF9pcFBVR2dNT2VGaGh3VU5oWU5LNkdJR0pYQzVIdHJNWlVPcXI4czRUNldVTmJ4NDNnV2QxVkNKRXFicDVqME1YMkQ0LURUQnBSaTJ6aG03d1pGUmdwbjJoMFo5bkFhWlNOTHZUX2RXUmtETVl5UklEX3lUdzhlXzlGRTFrZmZRY3BLWGFHN1J4ZlhrWTNEdjNsNGZZUmxuOHllN3ZOQmRPMG9lcHc?oc=5",
-      "published": "Fri, 21 Aug 2026 05:31:21 GMT",
-      "published_iso": "2026-08-21T05:31:21Z",
-      "age": "19h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-22 01:25 UTC"
-    },
-    {
-      "title": "India shares higher at close of trade; Nifty 50 up 0.08%",
-      "source": "Investing.com India",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHBzdm5QWWZuT1hsdUlhRWxwb0xLcDhMa0luWlJmTHpsbnJHZlRQMl9pcEMtNk9hQUZZTmZ2TmQ3NWk0Y1BfVlVMdmVkcVktVzhjdXlmNW5jc2dVQTRQdGVHRTdJNTNoQzAyZEczLTYyUFRybjd6U1FnT0paZ3ZibWt6N0FHMnU2Y0EwdUVOT2RDbzh0NE9NY3p2aHdBNXk3NlhYR2twSERkU0haX1E?oc=5",
-      "published": "Fri, 21 Aug 2026 10:33:25 GMT",
-      "published_iso": "2026-08-21T10:33:25Z",
-      "age": "18h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-22 04:36 UTC"
-    },
-    {
-      "title": "India stocks higher at close of trade; Nifty 50 up 0.08%",
-      "source": "Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWUQ0bktSS2xwdk5IekRZdnQ4elIwb0lINFViUHJnTWdQeUF5d3ZRLVU5S1plMUlpWDY2eGd5VEVJUS1Pd3UtWTRYUkI3eEVBZ1N4TUQ3dmpaQWxTNkZVeV9BVzdWVW5UejN1d3ZScmZNNTA5STlaMEl6TWUzYlVRZ2RDRmhRTU05T1ByZTJqcTVZdUxEX0RoY2MwRWxVMms1TW84b1M2OWZzdTNZTm5j?oc=5",
-      "published": "Fri, 21 Aug 2026 10:36:21 GMT",
-      "published_iso": "2026-08-21T10:36:21Z",
-      "age": "17h ago",
-      "priority": 1,
-      "fetched_at": "2026-08-22 04:36 UTC"
-    },
-    {
       "title": "Why is the Indian Rupee declining this week despite the US Dollar plunging to a three-month low?",
       "source": "FXStreet",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQVNYSzFlM3NwaHQ4YlUwQ0tsajVWbTJSZlpGbXhYcmVJRlVKRUhEYXFqR0FNa0JURkpZNVVteWdfY1lRUHphNzJkYjQxX2tRTkNKWDBVN2pBaUFoSmlRazg0RXBZRXhqRnFZLVlTSHhvbnZ1ZEM5NnJDbDFYYXY4QWV1QUdER3ZyX0NnbC1EV09ZUUNOWnVQb1VtQWRHX2pXRzJWc21PNm1KMkg3THh2NkRLWkZFcjQydUNnS2QxMkJuWWc?oc=5",
@@ -2015,6 +1966,56 @@
       "age": "9h ago",
       "priority": 1,
       "fetched_at": "2026-08-29 03:34 UTC"
+    },
+    {
+      "title": "Warsh's 'quieter Fed' now includes a smidgen of guidance",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTjdvUDdhMzh1TFphU1hNRUdCWk1jcjA3TmFnN2lJRmN3c1N4eHZlZk8xaER2UHZudjNjdmhCQTZpTk1ERnA2MUVMQS1WdERqbTFkb1h2NWR5VWUwR2lEWk9NZUtDZnd1ZzNhSWljZ2JLdmxnZHJaRUZIWHpqMUJkV1RpVkVfRDhQRkw5TU05UXROWUxoNjZqOFVERHV0dndBRFRB?oc=5",
+      "published": "Fri, 28 Aug 2026 21:10:16 GMT",
+      "published_iso": "2026-08-28T21:10:16Z",
+      "age": "13h ago",
+      "priority": 1,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Why hasn\u2019t the West Asia war hurt India\u2019s economy as much as expected?",
+      "source": "The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaXNoejJBaWJNZjY0UEUtclVhTmRBSlkyamtKWkE0UTQ1MllsU29NdUE1VXFmVkp2Um5lR1Y2QUs0STFnQ2ZDMk44dGtkdXU0M2hZSGRmeFBnVnpiUDl4VmVxQUk4OG00VWZNR0Q5SldmWnpjMjF6SkhhQlA2LVkzVF81TVAyTE1FYWJSenczTGpncTFCRGdOUXNKS19Fa1RIazMxT25EcEYyLW1QaGlMWXhBZ1Rvem5iUmNtRXo3YnrSAccBQVVfeXFMTXg5YjFRVWRVNmxXbkhscUg5dG42QUwtcWNqZGN3NDhLSm9DMGFnN3NKZXdWQ0lrOEQtSUNzTVNHUEFjUXprN2pXNXc1aXdvNHhjelBFWlJYZFpJQWN0VzFmQXFnYS1BZXB5MUUtaHY4ZDRxblB3WEhwZFBEV2E3T1EwaDZfUF85RjJBajRkenJ4bEhIMGRoZ3hpNVVnbmRiVVNIT0xSdldpajZ2ZlFaTUhyYkt6bXZ0YUVsNjJheU84NW5ObGpfUQ?oc=5",
+      "published": "Sat, 29 Aug 2026 05:31:46 GMT",
+      "published_iso": "2026-08-29T05:31:46Z",
+      "age": "5h ago",
+      "priority": 1,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Market weekly wrap: SENSEX, NIFTY50 decline for third week in a row; Shriram Finance, Bharti Airtel among top losers",
+      "source": "Upstox",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOcGg0TlFZc2ctTVJZdmdHT3B5R0xjMXI0X0NQRk9qS05udnVjZzNJRjhXWkJ0WlpRbjAtNUp3VUZLMGpkRUpNSGFnZ0R0VmVKeGdrMVdKRHFTWVdySmh4alNJZkhWUFpMU2pNWm8yZ0Vnd2ZKZG5qMm11QUY2Z0VPbmRjZi1KWXVOaVI1WDVDMlVweGZ1WTA2OUo2MjEyLTM2bjRXU1F0aTdpTEpiUjZqNE4xaUZIY0lleEhrQUoxaXVkZzd2a2EzdWp6OVkxcmlqazN1YUxjdUZLbkV5cjJ1eFNCdzVPNFdwNXA2NjR6N0dBWllyZmNFTF9aRTVZMjVCbkE?oc=5",
+      "published": "Sat, 29 Aug 2026 06:13:12 GMT",
+      "published_iso": "2026-08-29T06:13:12Z",
+      "age": "4h ago",
+      "priority": 1,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajRHZzM3ZloxRVktVDFfR290MDdxZDJIVWtvcVJtSUZ1WlVySEJ0aG0wZnJWWVRodVFZM1hCNjYzQ2htWnR0YzVfMU9jVGc1V3VnYXdteDVqbTNCMWd6X2hESnlwcTl5UUVEWVdJUF96X2szeUx2WWlDMkZiZ0pTSjFURThuZ1FaUHk5aF9nZ1QyVk1jSmpjanhvVnZwOXJBNWxpa2tUOGU4c2I2cmFrRFRURHFMTmRNampwSnNteHd0b09vWDhv?oc=5",
+      "published": "Thu, 27 Aug 2026 15:11:19 GMT",
+      "published_iso": "2026-08-27T15:11:19Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-08-29 10:55 UTC"
+    },
+    {
+      "title": "Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd1RUYUM0TDhTNURUOVdtU1ZYc0p2YTZQZGhTREUtRkRNWms5UVN5LUVxelJjWVluQVJkQ0UteTAtMng0V2h1Z014d2xQZXBZUDZfSHdSM2ZXdWljRFBJT0lXR1VHVUo3N0djMVJmaHkzaVh4YWJpWlZtSFM3RjJLYUc0Zw?oc=5",
+      "published": "Fri, 28 Aug 2026 01:56:00 GMT",
+      "published_iso": "2026-08-28T01:56:00Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-08-29 10:55 UTC"
     }
   ]
 }
