@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16 13:16 UTC",
+  "last_updated": "2026-09-16 18:01 UTC",
   "date_range": {
     "from": "2026-09-09",
     "to": "2026-09-16"
@@ -9,19 +9,9 @@
   "yesterday_count": 0,
   "week_count": 0,
   "sentiment_score": "BEARISH",
-  "bullish_count": 26,
-  "bearish_count": 44,
+  "bullish_count": 25,
+  "bearish_count": 43,
   "today_headlines": [
-    {
-      "title": "\u201cFastest-growing economy\u201d: Defence Minister Rajnath Singh highlights India's economic growth, lower inflation during Colombo visit",
-      "source": "ANI News",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVUdNdWFSSFBSTlpySTNyTVB4S29WeVRqNVFUYVhrd2xjVE4xb2Q1cXZWb0Etc0NzMHJHQWEzRmhmU3V2dXljLV9HR3UyS1JXbms2TWNzM0FXNnVqaEdYLXNwZS14cDZtaXhBOGZZVEZzSV9kRkRqQ0VCWkNaQjRrLXl6TmFBZ3BFVWFyc2tVZzRoOVRYejNOUXNETHY0T2NNWnZTa2d0OWwtOUVOemRpbldVUHFqTEdLWTdjbGxOc3l4MjdfSjFDT1cwZHREeWdIRVFVM2dPVVZEOFFVQ0NuR29WaUdMTjIwbzhQcFJET2tmYnJZZ2s0ekloU2MxVE1ZRF9taFZmWi1TWFdnQTRJTUF6NzQ?oc=5",
-      "published": "Tue, 08 Sep 2026 15:19:00 GMT",
-      "published_iso": "2026-09-08T15:19:00Z",
-      "age": "22h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-09 14:15 UTC"
-    },
     {
       "title": "How Asian markets, crude will impact Sensex, Nifty: What GIFT Nifty, Nikkei, Kospi, Taiwan index signals for India",
       "source": "Livemint",
@@ -911,6 +901,16 @@
       "age": "10h ago",
       "priority": 1,
       "fetched_at": "2026-09-16 07:26 UTC"
+    },
+    {
+      "title": "If the Fed hikes rates, here's how the stock market might respond",
+      "source": "marketplace.org",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOalk3SWFmSEdzc2JaS3hMeFBsQk1sUy1BeWNsb0ttcWhPeFJsQnBDa19JUlk0ajFTbktnWFhVdXVRcHE3VE93bTMtTlBSRjlPMVBBdFlBSDNfY04zUy1wS0VVSXU3c3dVc1dyNXZzemxtemZwczhSczZtZWxXLTNWaUw5TXNTZF8zcjFhNXF0R3Exb1EwUmc?oc=5",
+      "published": "Tue, 15 Sep 2026 21:15:00 GMT",
+      "published_iso": "2026-09-15T21:15:00Z",
+      "age": "20h ago",
+      "priority": 1,
+      "fetched_at": "2026-09-16 18:01 UTC"
     },
     {
       "title": "ExplainSpeaking | The danger of rising US government bond yields \u2014 for the world and for you",
@@ -1017,16 +1017,6 @@
   "week_headlines": [],
   "headlines": [
     {
-      "title": "\u201cFastest-growing economy\u201d: Defence Minister Rajnath Singh highlights India's economic growth, lower inflation during Colombo visit",
-      "source": "ANI News",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVUdNdWFSSFBSTlpySTNyTVB4S29WeVRqNVFUYVhrd2xjVE4xb2Q1cXZWb0Etc0NzMHJHQWEzRmhmU3V2dXljLV9HR3UyS1JXbms2TWNzM0FXNnVqaEdYLXNwZS14cDZtaXhBOGZZVEZzSV9kRkRqQ0VCWkNaQjRrLXl6TmFBZ3BFVWFyc2tVZzRoOVRYejNOUXNETHY0T2NNWnZTa2d0OWwtOUVOemRpbldVUHFqTEdLWTdjbGxOc3l4MjdfSjFDT1cwZHREeWdIRVFVM2dPVVZEOFFVQ0NuR29WaUdMTjIwbzhQcFJET2tmYnJZZ2s0ekloU2MxVE1ZRF9taFZmWi1TWFdnQTRJTUF6NzQ?oc=5",
-      "published": "Tue, 08 Sep 2026 15:19:00 GMT",
-      "published_iso": "2026-09-08T15:19:00Z",
-      "age": "22h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-09 14:15 UTC"
-    },
-    {
       "title": "How Asian markets, crude will impact Sensex, Nifty: What GIFT Nifty, Nikkei, Kospi, Taiwan index signals for India",
       "source": "Livemint",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdDVSU2xEV1ZacmJfVFRLbGFDbG9MUFdvVm04XzhsaHFzYXdocU9zeVVjZnRQOTZfeG1qcEIzQUZNb3p0YUllcEE2M0VVMGFCeHJrc3o4VGtnU1g3V25kUW9qTlc2TTFwYWx2T2JpQnR1ZVI5MUJsdDVEQU9yUlQwRmV1WUFFeGtBdzdrWFJ3ZFZnYVFDRkNjVTlVUjVHdzNDTlpHNktsODA0cDRDVGgzaERZb04yam1Ecks5ajhucUl4dDk3RzZvY0NTbnRET0pmV2Z1WmFHQ25Jakx5UnBheWFZRHpsM2hhLXFOUFJQcG51d2tsWmRmOVJiTVlyTXZFZF93N1B3R1VCZ9IBjwJBVV95cUxQTXA3TWI2VU9EM19jY2ZmSDF1TktsWWpFd0VUVXd5bkh5MGNLbGI5eFFRT0xNM3FybmpFSVd2bmhHbDJ3SV82RFRIMTZHTjB4ck9idjBwbW02ZXBtdXN0WkZWWDRreHpMalJFVjU0eDhzT1lzWHNaWjI3VThSeWllYU8zNXU0QkNqZHd6SlVFTVN4b3V6UE9PS0tYRzAzUGhRLTk1MVV0dGYyWGhvRDBram9kRmRqMXk4TGV3NEFYQ20ySGZJNnBxbFBkSFFudkdvYW91X294OE5za3ZXcG9ZRkx2RWc3d0VOVEVuSHdEcUhLYjItSGxGVnVUYzhtTGRvN1VaT2F2dE1FYzR4aWJN?oc=5",
@@ -1915,6 +1905,16 @@
       "age": "10h ago",
       "priority": 1,
       "fetched_at": "2026-09-16 07:26 UTC"
+    },
+    {
+      "title": "If the Fed hikes rates, here's how the stock market might respond",
+      "source": "marketplace.org",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOalk3SWFmSEdzc2JaS3hMeFBsQk1sUy1BeWNsb0ttcWhPeFJsQnBDa19JUlk0ajFTbktnWFhVdXVRcHE3VE93bTMtTlBSRjlPMVBBdFlBSDNfY04zUy1wS0VVSXU3c3dVc1dyNXZzemxtemZwczhSczZtZWxXLTNWaUw5TXNTZF8zcjFhNXF0R3Exb1EwUmc?oc=5",
+      "published": "Tue, 15 Sep 2026 21:15:00 GMT",
+      "published_iso": "2026-09-15T21:15:00Z",
+      "age": "20h ago",
+      "priority": 1,
+      "fetched_at": "2026-09-16 18:01 UTC"
     },
     {
       "title": "ExplainSpeaking | The danger of rising US government bond yields \u2014 for the world and for you",
