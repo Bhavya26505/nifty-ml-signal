@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-21 16:11 UTC",
-  "ist_time": "2026-09-21 21:41 IST",
-  "hour_label": "21:00 \u2014 21:59 IST",
+  "generated_at": "2026-09-22 08:49 UTC",
+  "ist_time": "2026-09-22 14:19 IST",
+  "hour_label": "14:00 \u2014 14:59 IST",
   "market_open": true,
   "spot": {
-    "price": 23414.3,
-    "day_open": 23330.2,
-    "day_high": 23466.8,
-    "day_low": 23314.8,
-    "cum_return": 0.36,
-    "vwap": 23415.13
+    "price": 23384.95,
+    "day_open": 23454.05,
+    "day_high": 23489.0,
+    "day_low": 23285.75,
+    "cum_return": -0.29,
+    "vwap": 23375.45
   },
   "signal": {
-    "direction": "FLAT",
-    "confidence": "NEUTRAL",
-    "prob_up": 53.3,
-    "prob_down": 46.7,
-    "pred_high": 23448.65,
-    "pred_low": 23379.95,
-    "orb_status": 1,
-    "score": 1
+    "direction": "SHORT",
+    "confidence": "MILD",
+    "prob_up": 43.3,
+    "prob_down": 56.7,
+    "pred_high": 23414.92,
+    "pred_low": 23295.03,
+    "orb_status": -1,
+    "score": -2
   },
   "options": {
     "pcr_oi": 1.0,
-    "max_pain": 23414.3,
-    "call_wall": 23614.3,
-    "put_wall": 23214.3,
+    "max_pain": 23384.95,
+    "call_wall": 23584.95,
+    "put_wall": 23184.95,
     "atm_iv": 14.0,
     "iv_skew": 0.0,
     "straddle": 200.0,
@@ -35,7 +35,7 @@
   },
   "gex": {
     "total_gex": 0.0,
-    "zero_gamma": 23414.0,
+    "zero_gamma": 23385.0,
     "regime": "UNKNOWN",
     "strength": 0.0,
     "is_positive": false
@@ -48,7 +48,7 @@
   },
   "news": {
     "count": 100,
-    "sentiment": "BEARISH"
+    "sentiment": "MIXED"
   },
   "analysis": {
     "full": "Analysis failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer a",
