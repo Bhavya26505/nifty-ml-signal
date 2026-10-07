@@ -1,47 +1,17 @@
 {
-  "last_updated": "2026-10-07 05:12 UTC",
+  "last_updated": "2026-10-07 12:58 UTC",
   "date_range": {
     "from": "2026-09-30",
     "to": "2026-10-07"
   },
   "total_headlines": 100,
-  "today_count": 99,
-  "yesterday_count": 1,
+  "today_count": 100,
+  "yesterday_count": 0,
   "week_count": 0,
   "sentiment_score": "BEARISH",
   "bullish_count": 21,
-  "bearish_count": 30,
+  "bearish_count": 32,
   "today_headlines": [
-    {
-      "title": "Sensex, Nifty rebound from near six-month lows amid crude shock",
-      "source": "Livemint",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbnlwRUxnX0Mtc0I1MHBlVmo5dlptQ2NnUm5ib1lSUk5EU1o4TjhNNUgtY2k3TENnYlpQSkptbEZRU1JXaFcydWNEY0F2c2FjcjZhajBmQllqU2dIckQyZDlMcWo2emcxajVEN0xjaWQtSy1NVlBaa2x0QzFlV3cyblVHemQ2X2xSWjVCZVJUNkdjak5SQ0h5NEVqSGZsZUlIQTdCUUZxR1hpUmMtYVZxeHRaRUZpWVcw0gG-AUFVX3lxTE5ySzVLbHhfdWYzTWpxYm1zLWNSUEZ4QVE3c1BhZ1ktWDM0aENCZ0Qtal85VVhCVFFFeVJqbFVwNkRxOEJaTVdyZWZPZTR0bTNDT0xyNndFS0ZlTUtwTDFzNnpQZFprT3pEazRHX0xFbFczaGhoemc1OWNkeWFqQUk0UVUtYnNiUWV6WC1iZHpJQ3U5ZWRSZnh6eWlKNlR2MTkwUmwzSE1pZzh5NzREOUtkRy1Tb2ZvY0Fpa0RickE?oc=5",
-      "published": "Tue, 29 Sep 2026 06:14:17 GMT",
-      "published_iso": "2026-09-29T06:14:17Z",
-      "age": "22h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-30 04:52 UTC"
-    },
-    {
-      "title": "India GDP growth seen at 7.5% in 2026, to moderate to 7.1% in 2027",
-      "source": "Firstpost",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVBsX1VfZ0VDQ1N0MDA1blJjanpFVElnWHVxYWd6VThYTmdhWlpETDZ6Wkh1S0xVYXhmVUxoQ0pqc3VqdTM5RHNOVWJCUFFzZjl1NGhfZGlDQzI0c3dCaEFlcEw1NmZJTGRCLWdfZ0hvb0FGQXVBNlJHN014bFd5MVJydlFQbnlUa1k1eTh6ZDNUcmt2RU5makpLQ3lNRnp2bWR6cGVwd2hLU3lKaWI3Vkpn0gG3AUFVX3lxTE53UVdpbkY3UjZoYXVCUXM1MEFELVAzZFhpelhsZExocHJtV0w3OVlkeGE3c2k0WDV0MTBnWC1rNkl2MnY5dlc2eDk2MjAwVFlKaVpySHVZelUwR0V5MUUzdmxKb1JXY2o3YjZpWE4waC1ldGVrcHdkV0l1ZUFNcFQzaWtIVnlFZ2JSVl9wNTFKUmxzSDc4N2dkb1dwclF0NHBPZHJpMVFMd2FrekRqMnpRUUliOXBETQ?oc=5",
-      "published": "Tue, 29 Sep 2026 08:38:56 GMT",
-      "published_iso": "2026-09-29T08:38:56Z",
-      "age": "20h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-30 04:52 UTC"
-    },
-    {
-      "title": "RBI may face two hikes, one dilemma as repo rate is seen hitting 5.75% soon: Report",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbFR3NndVczBQbGctcUptSzhwUW9ZZXNUTWs1aUVPc2RXWk8yRDk1dmYxSGVLWnVna3NSd1JwUkJMYktVa3FfcTBtSVVQSnJpVEljc1l5N3F4M2NzM0pheTFtb3Vqa2F4RmhVUXJDeklUamJhenNTS3l4R29NLXRLWENIekxGNXkwSHRXVlpNMFJtYmVSNzk2SHJvc0tmVXBTQTFINENiU1AxX19UNGhaS3U3UUJfbUkwcXZrMVAxazVKak1nYWtmWjZNZnNuUXdaTDZoVTgxU3FZbG9Yck8yVTFiWWsyUGl2UDRQNm5CVdIB9AFBVV95cUxOWmE3dkM4cEY2TlRWQTVPdUVEMkVkdnhrUFFVQnhLTGoxUE5aQ3RIQW9uZmFJeHBWUUVCMmsyWWg3cnluU01qVzgwZXBuRVhjQ0FWbS1xdkZmd0VRRGxRZnkwZ3k4SmtuMVNpYkI1UU1nT0JkQjMtNXhSNnVZMkVKMW9tRnpWMzhMQTZJUnNoMW1EOUVQLW1EN1JUUDVndzd0cy15ZmhMc1ljNzd3SmNxUUhsUzE4U0xMSTVmbDB1dGVibndIYncyRDlSd3R6c1RNU3Znd25ZMG40dW1LbjU0Zy1aYkxDV1h1d3MzbWFhcER2WU5W?oc=5",
-      "published": "Tue, 29 Sep 2026 12:22:52 GMT",
-      "published_iso": "2026-09-29T12:22:52Z",
-      "age": "23h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-30 12:12 UTC"
-    },
     {
       "title": "Rupee settles marginally up 3 paise at 95.94 against US dollar",
       "source": "ThePrint",
@@ -913,6 +883,16 @@
       "fetched_at": "2026-10-06 13:03 UTC"
     },
     {
+      "title": "Dollar gains as oil climbs and investors focus on the Fed",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnY5bzdPR0xZNUZ6VEJzWUhMVmJQZEI0bzY0cHpWV21LdHRFeDlIWkxnMURDYVFDVU9nZEVPYU9TNWNNV3NvWUE5MlJPaUVXT2VqaGJQQVFwNmtHWE5nNUF2SU5Ob3dmYVlSOENZVmRBc3lVUjFMM1NYYlBfLUJ6ZzJaU0FQQlQwMkh0cXlrZEItc0ZKeC1YLXdOd2wzRWxHeUlSUDg4STVVQTVGdmc?oc=5",
+      "published": "Wed, 07 Oct 2026 01:14:00 GMT",
+      "published_iso": "2026-10-07T01:14:00Z",
+      "age": "11h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
       "title": "RBI Monetary Policy Meeting October 2026 LIVE: Will Governor Sanjay Malhotra hike interest rate after 4 pauses?",
       "source": "The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZFJiWVZscUlzOTRrRWVxQTVVTjZVQVlJazFNVEtYM0NjaUdrdEZPbXcyZ2d2dnp6dmtWNWZOVUtpcEJuVzRoZXJDb2pfc1JkWHVrcnlrbDFXUG5LZEZBS0VsLWl3NjlJYXkwaFlhVUN4Szg3YmNQb0ViM3A0NnMxNXJ1UUZNNDlLTU1HTzRjbFBpWFVURXRMT3c5NVA2aVpiMENJcEhVMG92QkhHak9UcXhKVXFvWm1RVVBZZDhPaVhPN3BMRFJKM3JNTFV0UWU4cGRyUVhQc1hrT2550gHjAUFVX3lxTE5meGV0MEFGN0N2bndHMTIyVklIMjlaRUw3eUkxRWNGSlFoZWZBYUpsaWRpSFJEZk54anRmUmhpNzd2MDVfMUhZdjd5bHkyN3NJbkhNREhyd1ZrczdGYjhUZ3lZZmc4cG82Mk5ZR3pWWFdwM19aR3FSTU9VWnpIbi1LcjJLNzRycVgtU3MtY2hKaE1Fc3RsMmxWeFdsOVdHdElVQkVDZ3R3ZmpZRFBIaDJYRWtDaHZSZHFqUy1lNjVOQUVieHVWcUdSUGJfVzNIUU43SnVLd2ZnRnhCME1CeFhvUDNz?oc=5",
@@ -953,6 +933,16 @@
       "fetched_at": "2026-10-07 05:12 UTC"
     },
     {
+      "title": "RBI set to announce repo rate decision amid geopolitical tensions",
+      "source": "DD News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNTRHOVQyMkdXS1E4eG9mVEozXzZCdUZQWlJPSUpwMDJQT3RzbjdMVjJXUV9QZE9NMFRfdllGWlQ1NVZMZUlGTk9lX1dGeWtSYmd1NVFYUm5scjk4NFJRVGtxYlJZR3VPcXV3Y2xLODljeWdYajNJMko4SUh3dHRZOEs0NjFRcFo3RElBTDd5enBUZ21jblE?oc=5",
+      "published": "Wed, 07 Oct 2026 04:29:57 GMT",
+      "published_iso": "2026-10-07T04:29:57Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
       "title": "RBI Policy Highlights October 2026: Repo rate hiked 25 bps to 5.5%, stance changed to 'calibrated...",
       "source": "Moneycontrol.com",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcDA2UHlJb1BRUXJ6TmtsbC1rbXFUU2U4N3BEbWhmdnZWVHR5bEtzZWdfUXl1R0xBclJ5bGFlUjlGQU9MX2otWnZuV0pHTHN1WlgyaTZUM0RmbThfNUNRcUl0M0szYlB1S0ZNSWM1XzdxLTRna2xTNDFzQVp5UHFjR29BZ3dXZUp4dTNxd2t2SHFUZV9LbkZwdUdsbHp2dG53OVBsN1ZyUUttcVEwWHZUaU9GOVBHYS12aXFMdS1aODdKMnNld1d6N2ZMTnk3X3k1eUp5LXk0Rmg0aF96S0tZSHRUQjNpRGt2b0hudFVNMGdaVk1XdjktTFB2QjZPdFZKREFLd3d1M2hRUdIBjwJBVV95cUxPaVBrUjN3QURQUktWVzNVVFFTTVNHZlJoOTBIbDROY1VRN1h5NkdjSHQ4eTlrek5DZDFfLUljWGotMkQxLVJELXVfdFJqbmpObHdLc01sWjlpdEZWd0lUcWVjV29jalFIRVRpUHRqZmZyTGNJbVlPN2ZRWms2bzB2bVZNNkdhc0xVQ3BtSUFXX3dzLVVWM3NjSGxrSlJtclBTcXRxOFViWEhLUktFbWt3aDdyWVpwMTM3OHNpTzBSV0NEMWowdzVuMGFmbXBsdE14U2ZXUUY1VVg1SFdEa3pnd09YY3RVd3FtT2lVTkRSWVJuX3QwYk1rSEgyRHZOR2xQN0UtV1IycEs4cThuQWFn?oc=5",
@@ -961,6 +951,26 @@
       "age": "just now",
       "priority": 1,
       "fetched_at": "2026-10-07 05:12 UTC"
+    },
+    {
+      "title": "India joins global rate-tightening wave with first hike in nearly 4 years",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQlZCVTJBN0oxSFUtU3pHLXZBVzVpQVJfMXRkVnRMMWFXeUhrczVkVmRkelVJckVZOGc4QVZkVDBlSDRCVE1XMEJEUXBmWlVGaklQcDRxUTlFNVl0a3h6TlhqWmpVT1gyMmR4VTZtdmRWSTU3SUtPeGZPYndYdjlaVEsxWUdJU2U1RjhaS3Z2YU8xZ3lHbXVsaklld1hCTkRzS0lpTGJzcnJNX01TallDRQ?oc=5",
+      "published": "Wed, 07 Oct 2026 04:33:00 GMT",
+      "published_iso": "2026-10-07T04:33:00Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
+      "title": "RBI Hikes Repo Rate By 25 Basis Points To 5.5% Amid Rising Inflation",
+      "source": "NDTV",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVFBS2FLMEx0Ums1R0tieENHb19icTNBcWF0cHB5cjhZbk9CYzBLVjhWUHQzV0JuZGR5Rk5XV1NYS21BV2dZN1FSdFV4WnFBM0poYlhtbmtITFZjMnBQclpYbnVZY0VpaXVNdkkzZVpmdVRjU0RJcjdheHN0OHdTMGxEWVdjc3hGbjBFaTZuRVVKT29TVkw5N29rR0kzM0w0eU5Bc1ZMVVBLaXNycDlUQ2p5bjBTMHZHSmFDWHhwVdIBxwFBVV95cUxObWdFMU1jYURLblc2VVJIZTBuZlpmVDNwX1Z5bFlEUW5NbU1seTNLcVpDUEN2ZVZxVDlzLU5fQzJUNFJZV09ITWV1clpXeFRTZHZuS2FNelFmVHJCODF2b3V3Z0pIT2RuOGRrZnBFXzd3UjlNZjJsVVNyVXAwa0czNlRucHZrLTdidEhWY3Vrc3l4N0d0bUVGMDRJSHdXR0hXaFBhSEE2dmVQai02M1NZVnRIZllIUUZ5NW4xcHBOUlNSSnZHOUhF?oc=5",
+      "published": "Wed, 07 Oct 2026 04:33:21 GMT",
+      "published_iso": "2026-10-07T04:33:21Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
     },
     {
       "title": "RBI MPC Meeting LIVE: RBI Hikes Repo Rate By 25 Basis Points To 5.5% Amid Rising Inflation",
@@ -973,81 +983,40 @@
       "fetched_at": "2026-10-07 05:12 UTC"
     },
     {
-      "title": "RBI raises repo rate to 5.5%, first hike since 2023",
+      "title": "RBI hikes repo rate by 25 bps to 5.5% as inflation fight takes centre stage",
+      "source": "Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcXRESDR4ZXljT0JYRDRjWEZjRjVudzRNMG13c1IyZ2VSWU5ZbUxoaGFGYm9rOTBrb2dHT1VRdXQ2V2ZieWsyYnNUaWVmTFdGdHUxam5RS1FOMGFDVlhlNldUM0dVMWlEeDUyWE9rdFl4R2FIR2dENDllbnducUtIN3FKSEkweU8wX2RvUmgta192N0ZEUUNkZzU3dDZlR2FFeEhqSkdxNGhMbzM4QkhyQjJCb2tNUE1xWlhuQnpxNWnSAcYBQVVfeXFMTjM4WjctM1Ayd2tfeUxQbEpWclpiMEFReVI3cTR2a0xQN3RCdVJYOWs1RTJXci0zR3RUaXd2bkd0T0xfR0ZKLTRqVWlxZFFETWozOURTVXNlTnBubTh1dy14MzJiUHZPN1NsMl95T0lPN2xWS0M3enIxR3B0VGQ5VkxpNERFdlBITTFfUS1TWmRzTUVwX3NFY1Z1QjRLN0JDWENja3BxaXM0Ml9oOWpoeHpPaUNzR1p5bkU1SGc5X3FMSUFJOXp3?oc=5",
+      "published": "Wed, 07 Oct 2026 04:33:33 GMT",
+      "published_iso": "2026-10-07T04:33:33Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
+      "title": "RBI raises repo rate by 25 bps to 5.50% as per market expectations as inflation risks strengthen",
+      "source": "ANI News",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaVdDQ2Q5eGNValEtakRIcWt2R242S0lvOXBkTzZZRUg3dnI2aUkxVTdzaVZ6UjhESDVMejhJY3gxTDcxQ1ZRdlRjTzFDaFJiX1d4LVF1TTZLemwzZTI0MWtpeUZGeF9pUzFiOG1FTnhUWXdSbU9IRVktaHZFQXlkb2YzQTdRUG1IT3JlazlpcllrQ3MteHNJTG1MRVhiTUNkMFAwMVBYLV9HUEc3cUhpdU5qSGRhRDg3eVg1WU5pbVl2MU1IZFJTTlFJTWR3MXpxVmN0QWRUR29ZR242WlE?oc=5",
+      "published": "Wed, 07 Oct 2026 04:39:00 GMT",
+      "published_iso": "2026-10-07T04:39:00Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
+      "title": "Repo rate hiked by 25 bps to 5.50 pc: Why RBI has hiked interest rates; EMIs of borrowers set to rise",
       "source": "The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaVhfR0I4dlFlYVBPeUtnV0M0aEVqbVVtcTRjejdnRUFBcE5iZkFXVFZHN1dPQW1IaEFmRG12UVNPbTBna2tVZENHdnZ2Q2tOWWRoTWdEN2p2ZWJRcEU4TmZUcW9JY0s3TlNnUXNheU1qa0VQMDRvZ2lPSFFnc20yVzRfT2JNRHRqZTFSRzkxbEtVazVWcG1zbWFyeE9vWDVsOXVhaTcyNnEzNHI1cS1GN00wYnNJUEHSAb4BQVVfeXFMTl81R1J2Qmc0R1pkZWpvZTlXV2VoRzNSaDZsZDV6d1NWQWRoRkgyZkJKNHpOdC1jVEhoc3IzdnoxNlZ0V2lfTnNWc2FqT2VEUjlsNUdxT1FLa0V4REd3SGVIMVcyT3pjLV91QlhBeVY5eGRabG9yMUZVNFhSNFplcWl4RWZmNE5IX0VTVmZXVW5OaGZKbzJPODhFUWMyS3pIdUI5Z2lZOW5PTWVkZm9ZNTRiR2h1c3pwMFFDWjZKdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcjd3QzZYajgyRTkwV0RpUFVxYVlwZDdmYVZCM1FHNnpnd0V5aUdNcnRJZjkxTlY1bGh2TXFWOHpFNW9rYWtFYVd4SWFERFBHcnZqRUNZVnh6RGJBYW43Z0RhUDlzcmNOTjZkRzNzY0FOd210bURmdjRpLUpuMzF0VWtFOThzdnFuN25WMVh1ZVYxYUljLVHSAZwBQVVfeXFMTmVRTEsyVVFPdUF3Tl81SUw3V0dIMkFlZXp5VHF6TW0tUGtyMTFWbTlhWXNlTndQcDNqMVBXeFg1N2w1UmdiWDVDTEdwZzJuNndWUFM1RER2cHdObEJNenhTS1dsWkpIZG5xSFl2d1UwVFZXWnJVV2tLNjhLQW5uRVI2UHR0aWR5Q2U1ekZaVEN5Zk4tZkFsTUpuckx1?oc=5",
       "published": "Wed, 07 Oct 2026 04:41:10 GMT",
       "published_iso": "2026-10-07T04:41:10Z",
-      "age": "just now",
+      "age": "8h ago",
       "priority": 1,
-      "fetched_at": "2026-10-07 05:12 UTC"
-    },
-    {
-      "title": "RBI Monetary Policy Committee raises repo rate to 5.50% after August pause",
-      "source": "Mathrubhumi English",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU2pKdWZlcVgwTEdvdUtzbDRBVnV0M3VSRWZIbG9sWXpCYV9OWmhHVmVtX0UzRnpFMVdDX2tzcWxhZGV2V1cydnNnb3N5SE1lWFZrS21VcHNmYWwtNWdDLURKTFRFYUV3dEJWNnhLc2R5eGFLRDRfaHdnQXZXR1FTRVJqS29zNGJkWVI2YzAxU3IyY1pm0gGaAUFVX3lxTE5kYnRWUUNMY01iOEtBX09YbS1NcHZsOUVQOUxMWTV0WUhXZk92a0xlUlV2ZHFoYjlCQ2R0emdUVEhIVmJjZGFXRklYZ1kwY2RuMktBZU1rTk53ckJvcXlNVjItVXJ0T285NEQyUDF4SkJyVlhrcVdBeXB5aHJBQU5pM0JFU3ZUSDNCVU5JVkl6azA3V01ZZWVOT3c?oc=5",
-      "published": "Wed, 07 Oct 2026 04:43:02 GMT",
-      "published_iso": "2026-10-07T04:43:02Z",
-      "age": "just now",
-      "priority": 1,
-      "fetched_at": "2026-10-07 05:12 UTC"
-    },
-    {
-      "title": "RBI MPC meeting 2026: Repo rate hiked by 25 basis points to 5.5%",
-      "source": "Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUy1UbFIxLVE3TTNfbEJ6X2pRZWN4N2ZWRjFQT3RndlVIS19ZX3hNQXJtS19HSmZwYWhoTzIyMUJrQ1pwcUpHUE4tTFY2MkI1dkJpQS0wQTlOdDhiTUlOZUlkMHhqT2JNb0tVQ0J2SjRVOVhuWTdweldkRkJsTmhLWW9uZnJTRW5yR0tMTFp4ZmYyWkRsNjRKcGJobjZKU0N3emp6VUVFZkRldzIxaUxGQklzQXJLZWd4?oc=5",
-      "published": "Wed, 07 Oct 2026 04:45:33 GMT",
-      "published_iso": "2026-10-07T04:45:33Z",
-      "age": "just now",
-      "priority": 1,
-      "fetched_at": "2026-10-07 05:12 UTC"
+      "fetched_at": "2026-10-07 12:58 UTC"
     }
   ],
-  "yesterday_headlines": [
-    {
-      "title": "Rupee Near 96/$ as Oil Prices, FPI Outflows Weigh",
-      "source": "HDFC Sky",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4WWpfY0pFdndidXZVQk9PcmFhQm95MU1qcUMxZTM3NUxxRUZzRWotNk1GU0lySnRxbU5CN2R4X013TkM5VTltLWNsaFJyMF9kek1sRVdmN2lwelBZRndyX3FkZkZhZw?oc=5",
-      "published": "Mon, 05 Oct 2026 05:21:17 GMT",
-      "published_iso": "2026-10-05T05:21:17Z",
-      "age": "yesterday",
-      "priority": 2,
-      "fetched_at": "2026-10-07 05:12 UTC"
-    }
-  ],
+  "yesterday_headlines": [],
   "week_headlines": [],
   "headlines": [
     {
-      "title": "Sensex, Nifty rebound from near six-month lows amid crude shock",
-      "source": "Livemint",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbnlwRUxnX0Mtc0I1MHBlVmo5dlptQ2NnUm5ib1lSUk5EU1o4TjhNNUgtY2k3TENnYlpQSkptbEZRU1JXaFcydWNEY0F2c2FjcjZhajBmQllqU2dIckQyZDlMcWo2emcxajVEN0xjaWQtSy1NVlBaa2x0QzFlV3cyblVHemQ2X2xSWjVCZVJUNkdjak5SQ0h5NEVqSGZsZUlIQTdCUUZxR1hpUmMtYVZxeHRaRUZpWVcw0gG-AUFVX3lxTE5ySzVLbHhfdWYzTWpxYm1zLWNSUEZ4QVE3c1BhZ1ktWDM0aENCZ0Qtal85VVhCVFFFeVJqbFVwNkRxOEJaTVdyZWZPZTR0bTNDT0xyNndFS0ZlTUtwTDFzNnpQZFprT3pEazRHX0xFbFczaGhoemc1OWNkeWFqQUk0UVUtYnNiUWV6WC1iZHpJQ3U5ZWRSZnh6eWlKNlR2MTkwUmwzSE1pZzh5NzREOUtkRy1Tb2ZvY0Fpa0RickE?oc=5",
-      "published": "Tue, 29 Sep 2026 06:14:17 GMT",
-      "published_iso": "2026-09-29T06:14:17Z",
-      "age": "22h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-30 04:52 UTC"
-    },
-    {
-      "title": "India GDP growth seen at 7.5% in 2026, to moderate to 7.1% in 2027",
-      "source": "Firstpost",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVBsX1VfZ0VDQ1N0MDA1blJjanpFVElnWHVxYWd6VThYTmdhWlpETDZ6Wkh1S0xVYXhmVUxoQ0pqc3VqdTM5RHNOVWJCUFFzZjl1NGhfZGlDQzI0c3dCaEFlcEw1NmZJTGRCLWdfZ0hvb0FGQXVBNlJHN014bFd5MVJydlFQbnlUa1k1eTh6ZDNUcmt2RU5makpLQ3lNRnp2bWR6cGVwd2hLU3lKaWI3Vkpn0gG3AUFVX3lxTE53UVdpbkY3UjZoYXVCUXM1MEFELVAzZFhpelhsZExocHJtV0w3OVlkeGE3c2k0WDV0MTBnWC1rNkl2MnY5dlc2eDk2MjAwVFlKaVpySHVZelUwR0V5MUUzdmxKb1JXY2o3YjZpWE4waC1ldGVrcHdkV0l1ZUFNcFQzaWtIVnlFZ2JSVl9wNTFKUmxzSDc4N2dkb1dwclF0NHBPZHJpMVFMd2FrekRqMnpRUUliOXBETQ?oc=5",
-      "published": "Tue, 29 Sep 2026 08:38:56 GMT",
-      "published_iso": "2026-09-29T08:38:56Z",
-      "age": "20h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-30 04:52 UTC"
-    },
-    {
-      "title": "RBI may face two hikes, one dilemma as repo rate is seen hitting 5.75% soon: Report",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbFR3NndVczBQbGctcUptSzhwUW9ZZXNUTWs1aUVPc2RXWk8yRDk1dmYxSGVLWnVna3NSd1JwUkJMYktVa3FfcTBtSVVQSnJpVEljc1l5N3F4M2NzM0pheTFtb3Vqa2F4RmhVUXJDeklUamJhenNTS3l4R29NLXRLWENIekxGNXkwSHRXVlpNMFJtYmVSNzk2SHJvc0tmVXBTQTFINENiU1AxX19UNGhaS3U3UUJfbUkwcXZrMVAxazVKak1nYWtmWjZNZnNuUXdaTDZoVTgxU3FZbG9Yck8yVTFiWWsyUGl2UDRQNm5CVdIB9AFBVV95cUxOWmE3dkM4cEY2TlRWQTVPdUVEMkVkdnhrUFFVQnhLTGoxUE5aQ3RIQW9uZmFJeHBWUUVCMmsyWWg3cnluU01qVzgwZXBuRVhjQ0FWbS1xdkZmd0VRRGxRZnkwZ3k4SmtuMVNpYkI1UU1nT0JkQjMtNXhSNnVZMkVKMW9tRnpWMzhMQTZJUnNoMW1EOUVQLW1EN1JUUDVndzd0cy15ZmhMc1ljNzd3SmNxUUhsUzE4U0xMSTVmbDB1dGVibndIYncyRDlSd3R6c1RNU3Znd25ZMG40dW1LbjU0Zy1aYkxDV1h1d3MzbWFhcER2WU5W?oc=5",
-      "published": "Tue, 29 Sep 2026 12:22:52 GMT",
-      "published_iso": "2026-09-29T12:22:52Z",
-      "age": "23h ago",
-      "priority": 1,
-      "fetched_at": "2026-09-30 12:12 UTC"
-    },
-    {
       "title": "Rupee settles marginally up 3 paise at 95.94 against US dollar",
       "source": "ThePrint",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMlludEN3SjdXUUlLS2FHQ09LeUlveTh3UUg1dHRvemkxbmdtNFpWUVlqaGlGMzUyODVyQ2dnRktHWXhGS2t0Q2YxNDlhbDZYZkdXRHQyMUpjMThuOFhtaGQ2RmdGWDJvVDd4TFZCQkFfUDBzTW5sN0I0OFNMcnhtUVdFVHNNRzdTWlVRR1A0NTlkMGUwVEVHYmdGaGJoVWVJ0gGmAUFVX3lxTE5iampKV3lHRDAtWFg4cjlraWpHcmtOOG15d1M0R09fUXppdDQ3UEczd0dLaEhuYVhaMUVCaHNSVUR3eEF0QjJ0bm9zQWpGdUtBVmhLOUppSkZDOTgzQVoyQXRUbW4yNXlSYWw4cFhuaWg4TlE1TGhhSTlBa29TLWlROU5fLUtlRDVWQzNqUFJ1QVR0VjQtX04zWmJHZW1lUklqRFZWd3c?oc=5",
@@ -1918,6 +1887,16 @@
       "fetched_at": "2026-10-06 13:03 UTC"
     },
     {
+      "title": "Dollar gains as oil climbs and investors focus on the Fed",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnY5bzdPR0xZNUZ6VEJzWUhMVmJQZEI0bzY0cHpWV21LdHRFeDlIWkxnMURDYVFDVU9nZEVPYU9TNWNNV3NvWUE5MlJPaUVXT2VqaGJQQVFwNmtHWE5nNUF2SU5Ob3dmYVlSOENZVmRBc3lVUjFMM1NYYlBfLUJ6ZzJaU0FQQlQwMkh0cXlrZEItc0ZKeC1YLXdOd2wzRWxHeUlSUDg4STVVQTVGdmc?oc=5",
+      "published": "Wed, 07 Oct 2026 01:14:00 GMT",
+      "published_iso": "2026-10-07T01:14:00Z",
+      "age": "11h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
       "title": "RBI Monetary Policy Meeting October 2026 LIVE: Will Governor Sanjay Malhotra hike interest rate after 4 pauses?",
       "source": "The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZFJiWVZscUlzOTRrRWVxQTVVTjZVQVlJazFNVEtYM0NjaUdrdEZPbXcyZ2d2dnp6dmtWNWZOVUtpcEJuVzRoZXJDb2pfc1JkWHVrcnlrbDFXUG5LZEZBS0VsLWl3NjlJYXkwaFlhVUN4Szg3YmNQb0ViM3A0NnMxNXJ1UUZNNDlLTU1HTzRjbFBpWFVURXRMT3c5NVA2aVpiMENJcEhVMG92QkhHak9UcXhKVXFvWm1RVVBZZDhPaVhPN3BMRFJKM3JNTFV0UWU4cGRyUVhQc1hrT2550gHjAUFVX3lxTE5meGV0MEFGN0N2bndHMTIyVklIMjlaRUw3eUkxRWNGSlFoZWZBYUpsaWRpSFJEZk54anRmUmhpNzd2MDVfMUhZdjd5bHkyN3NJbkhNREhyd1ZrczdGYjhUZ3lZZmc4cG82Mk5ZR3pWWFdwM19aR3FSTU9VWnpIbi1LcjJLNzRycVgtU3MtY2hKaE1Fc3RsMmxWeFdsOVdHdElVQkVDZ3R3ZmpZRFBIaDJYRWtDaHZSZHFqUy1lNjVOQUVieHVWcUdSUGJfVzNIUU43SnVLd2ZnRnhCME1CeFhvUDNz?oc=5",
@@ -1958,6 +1937,16 @@
       "fetched_at": "2026-10-07 05:12 UTC"
     },
     {
+      "title": "RBI set to announce repo rate decision amid geopolitical tensions",
+      "source": "DD News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNTRHOVQyMkdXS1E4eG9mVEozXzZCdUZQWlJPSUpwMDJQT3RzbjdMVjJXUV9QZE9NMFRfdllGWlQ1NVZMZUlGTk9lX1dGeWtSYmd1NVFYUm5scjk4NFJRVGtxYlJZR3VPcXV3Y2xLODljeWdYajNJMko4SUh3dHRZOEs0NjFRcFo3RElBTDd5enBUZ21jblE?oc=5",
+      "published": "Wed, 07 Oct 2026 04:29:57 GMT",
+      "published_iso": "2026-10-07T04:29:57Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
       "title": "RBI Policy Highlights October 2026: Repo rate hiked 25 bps to 5.5%, stance changed to 'calibrated...",
       "source": "Moneycontrol.com",
       "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcDA2UHlJb1BRUXJ6TmtsbC1rbXFUU2U4N3BEbWhmdnZWVHR5bEtzZWdfUXl1R0xBclJ5bGFlUjlGQU9MX2otWnZuV0pHTHN1WlgyaTZUM0RmbThfNUNRcUl0M0szYlB1S0ZNSWM1XzdxLTRna2xTNDFzQVp5UHFjR29BZ3dXZUp4dTNxd2t2SHFUZV9LbkZwdUdsbHp2dG53OVBsN1ZyUUttcVEwWHZUaU9GOVBHYS12aXFMdS1aODdKMnNld1d6N2ZMTnk3X3k1eUp5LXk0Rmg0aF96S0tZSHRUQjNpRGt2b0hudFVNMGdaVk1XdjktTFB2QjZPdFZKREFLd3d1M2hRUdIBjwJBVV95cUxPaVBrUjN3QURQUktWVzNVVFFTTVNHZlJoOTBIbDROY1VRN1h5NkdjSHQ4eTlrek5DZDFfLUljWGotMkQxLVJELXVfdFJqbmpObHdLc01sWjlpdEZWd0lUcWVjV29jalFIRVRpUHRqZmZyTGNJbVlPN2ZRWms2bzB2bVZNNkdhc0xVQ3BtSUFXX3dzLVVWM3NjSGxrSlJtclBTcXRxOFViWEhLUktFbWt3aDdyWVpwMTM3OHNpTzBSV0NEMWowdzVuMGFmbXBsdE14U2ZXUUY1VVg1SFdEa3pnd09YY3RVd3FtT2lVTkRSWVJuX3QwYk1rSEgyRHZOR2xQN0UtV1IycEs4cThuQWFn?oc=5",
@@ -1966,6 +1955,26 @@
       "age": "just now",
       "priority": 1,
       "fetched_at": "2026-10-07 05:12 UTC"
+    },
+    {
+      "title": "India joins global rate-tightening wave with first hike in nearly 4 years",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQlZCVTJBN0oxSFUtU3pHLXZBVzVpQVJfMXRkVnRMMWFXeUhrczVkVmRkelVJckVZOGc4QVZkVDBlSDRCVE1XMEJEUXBmWlVGaklQcDRxUTlFNVl0a3h6TlhqWmpVT1gyMmR4VTZtdmRWSTU3SUtPeGZPYndYdjlaVEsxWUdJU2U1RjhaS3Z2YU8xZ3lHbXVsaklld1hCTkRzS0lpTGJzcnJNX01TallDRQ?oc=5",
+      "published": "Wed, 07 Oct 2026 04:33:00 GMT",
+      "published_iso": "2026-10-07T04:33:00Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
+      "title": "RBI Hikes Repo Rate By 25 Basis Points To 5.5% Amid Rising Inflation",
+      "source": "NDTV",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVFBS2FLMEx0Ums1R0tieENHb19icTNBcWF0cHB5cjhZbk9CYzBLVjhWUHQzV0JuZGR5Rk5XV1NYS21BV2dZN1FSdFV4WnFBM0poYlhtbmtITFZjMnBQclpYbnVZY0VpaXVNdkkzZVpmdVRjU0RJcjdheHN0OHdTMGxEWVdjc3hGbjBFaTZuRVVKT29TVkw5N29rR0kzM0w0eU5Bc1ZMVVBLaXNycDlUQ2p5bjBTMHZHSmFDWHhwVdIBxwFBVV95cUxObWdFMU1jYURLblc2VVJIZTBuZlpmVDNwX1Z5bFlEUW5NbU1seTNLcVpDUEN2ZVZxVDlzLU5fQzJUNFJZV09ITWV1clpXeFRTZHZuS2FNelFmVHJCODF2b3V3Z0pIT2RuOGRrZnBFXzd3UjlNZjJsVVNyVXAwa0czNlRucHZrLTdidEhWY3Vrc3l4N0d0bUVGMDRJSHdXR0hXaFBhSEE2dmVQai02M1NZVnRIZllIUUZ5NW4xcHBOUlNSSnZHOUhF?oc=5",
+      "published": "Wed, 07 Oct 2026 04:33:21 GMT",
+      "published_iso": "2026-10-07T04:33:21Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
     },
     {
       "title": "RBI MPC Meeting LIVE: RBI Hikes Repo Rate By 25 Basis Points To 5.5% Amid Rising Inflation",
@@ -1978,44 +1987,34 @@
       "fetched_at": "2026-10-07 05:12 UTC"
     },
     {
-      "title": "RBI raises repo rate to 5.5%, first hike since 2023",
+      "title": "RBI hikes repo rate by 25 bps to 5.5% as inflation fight takes centre stage",
+      "source": "Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcXRESDR4ZXljT0JYRDRjWEZjRjVudzRNMG13c1IyZ2VSWU5ZbUxoaGFGYm9rOTBrb2dHT1VRdXQ2V2ZieWsyYnNUaWVmTFdGdHUxam5RS1FOMGFDVlhlNldUM0dVMWlEeDUyWE9rdFl4R2FIR2dENDllbnducUtIN3FKSEkweU8wX2RvUmgta192N0ZEUUNkZzU3dDZlR2FFeEhqSkdxNGhMbzM4QkhyQjJCb2tNUE1xWlhuQnpxNWnSAcYBQVVfeXFMTjM4WjctM1Ayd2tfeUxQbEpWclpiMEFReVI3cTR2a0xQN3RCdVJYOWs1RTJXci0zR3RUaXd2bkd0T0xfR0ZKLTRqVWlxZFFETWozOURTVXNlTnBubTh1dy14MzJiUHZPN1NsMl95T0lPN2xWS0M3enIxR3B0VGQ5VkxpNERFdlBITTFfUS1TWmRzTUVwX3NFY1Z1QjRLN0JDWENja3BxaXM0Ml9oOWpoeHpPaUNzR1p5bkU1SGc5X3FMSUFJOXp3?oc=5",
+      "published": "Wed, 07 Oct 2026 04:33:33 GMT",
+      "published_iso": "2026-10-07T04:33:33Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
+      "title": "RBI raises repo rate by 25 bps to 5.50% as per market expectations as inflation risks strengthen",
+      "source": "ANI News",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaVdDQ2Q5eGNValEtakRIcWt2R242S0lvOXBkTzZZRUg3dnI2aUkxVTdzaVZ6UjhESDVMejhJY3gxTDcxQ1ZRdlRjTzFDaFJiX1d4LVF1TTZLemwzZTI0MWtpeUZGeF9pUzFiOG1FTnhUWXdSbU9IRVktaHZFQXlkb2YzQTdRUG1IT3JlazlpcllrQ3MteHNJTG1MRVhiTUNkMFAwMVBYLV9HUEc3cUhpdU5qSGRhRDg3eVg1WU5pbVl2MU1IZFJTTlFJTWR3MXpxVmN0QWRUR29ZR242WlE?oc=5",
+      "published": "Wed, 07 Oct 2026 04:39:00 GMT",
+      "published_iso": "2026-10-07T04:39:00Z",
+      "age": "8h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-07 12:58 UTC"
+    },
+    {
+      "title": "Repo rate hiked by 25 bps to 5.50 pc: Why RBI has hiked interest rates; EMIs of borrowers set to rise",
       "source": "The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaVhfR0I4dlFlYVBPeUtnV0M0aEVqbVVtcTRjejdnRUFBcE5iZkFXVFZHN1dPQW1IaEFmRG12UVNPbTBna2tVZENHdnZ2Q2tOWWRoTWdEN2p2ZWJRcEU4TmZUcW9JY0s3TlNnUXNheU1qa0VQMDRvZ2lPSFFnc20yVzRfT2JNRHRqZTFSRzkxbEtVazVWcG1zbWFyeE9vWDVsOXVhaTcyNnEzNHI1cS1GN00wYnNJUEHSAb4BQVVfeXFMTl81R1J2Qmc0R1pkZWpvZTlXV2VoRzNSaDZsZDV6d1NWQWRoRkgyZkJKNHpOdC1jVEhoc3IzdnoxNlZ0V2lfTnNWc2FqT2VEUjlsNUdxT1FLa0V4REd3SGVIMVcyT3pjLV91QlhBeVY5eGRabG9yMUZVNFhSNFplcWl4RWZmNE5IX0VTVmZXVW5OaGZKbzJPODhFUWMyS3pIdUI5Z2lZOW5PTWVkZm9ZNTRiR2h1c3pwMFFDWjZKdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcjd3QzZYajgyRTkwV0RpUFVxYVlwZDdmYVZCM1FHNnpnd0V5aUdNcnRJZjkxTlY1bGh2TXFWOHpFNW9rYWtFYVd4SWFERFBHcnZqRUNZVnh6RGJBYW43Z0RhUDlzcmNOTjZkRzNzY0FOd210bURmdjRpLUpuMzF0VWtFOThzdnFuN25WMVh1ZVYxYUljLVHSAZwBQVVfeXFMTmVRTEsyVVFPdUF3Tl81SUw3V0dIMkFlZXp5VHF6TW0tUGtyMTFWbTlhWXNlTndQcDNqMVBXeFg1N2w1UmdiWDVDTEdwZzJuNndWUFM1RER2cHdObEJNenhTS1dsWkpIZG5xSFl2d1UwVFZXWnJVV2tLNjhLQW5uRVI2UHR0aWR5Q2U1ekZaVEN5Zk4tZkFsTUpuckx1?oc=5",
       "published": "Wed, 07 Oct 2026 04:41:10 GMT",
       "published_iso": "2026-10-07T04:41:10Z",
-      "age": "just now",
+      "age": "8h ago",
       "priority": 1,
-      "fetched_at": "2026-10-07 05:12 UTC"
-    },
-    {
-      "title": "RBI Monetary Policy Committee raises repo rate to 5.50% after August pause",
-      "source": "Mathrubhumi English",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU2pKdWZlcVgwTEdvdUtzbDRBVnV0M3VSRWZIbG9sWXpCYV9OWmhHVmVtX0UzRnpFMVdDX2tzcWxhZGV2V1cydnNnb3N5SE1lWFZrS21VcHNmYWwtNWdDLURKTFRFYUV3dEJWNnhLc2R5eGFLRDRfaHdnQXZXR1FTRVJqS29zNGJkWVI2YzAxU3IyY1pm0gGaAUFVX3lxTE5kYnRWUUNMY01iOEtBX09YbS1NcHZsOUVQOUxMWTV0WUhXZk92a0xlUlV2ZHFoYjlCQ2R0emdUVEhIVmJjZGFXRklYZ1kwY2RuMktBZU1rTk53ckJvcXlNVjItVXJ0T285NEQyUDF4SkJyVlhrcVdBeXB5aHJBQU5pM0JFU3ZUSDNCVU5JVkl6azA3V01ZZWVOT3c?oc=5",
-      "published": "Wed, 07 Oct 2026 04:43:02 GMT",
-      "published_iso": "2026-10-07T04:43:02Z",
-      "age": "just now",
-      "priority": 1,
-      "fetched_at": "2026-10-07 05:12 UTC"
-    },
-    {
-      "title": "RBI MPC meeting 2026: Repo rate hiked by 25 basis points to 5.5%",
-      "source": "Deccan Herald",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUy1UbFIxLVE3TTNfbEJ6X2pRZWN4N2ZWRjFQT3RndlVIS19ZX3hNQXJtS19HSmZwYWhoTzIyMUJrQ1pwcUpHUE4tTFY2MkI1dkJpQS0wQTlOdDhiTUlOZUlkMHhqT2JNb0tVQ0J2SjRVOVhuWTdweldkRkJsTmhLWW9uZnJTRW5yR0tMTFp4ZmYyWkRsNjRKcGJobjZKU0N3emp6VUVFZkRldzIxaUxGQklzQXJLZWd4?oc=5",
-      "published": "Wed, 07 Oct 2026 04:45:33 GMT",
-      "published_iso": "2026-10-07T04:45:33Z",
-      "age": "just now",
-      "priority": 1,
-      "fetched_at": "2026-10-07 05:12 UTC"
-    },
-    {
-      "title": "Rupee Near 96/$ as Oil Prices, FPI Outflows Weigh",
-      "source": "HDFC Sky",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4WWpfY0pFdndidXZVQk9PcmFhQm95MU1qcUMxZTM3NUxxRUZzRWotNk1GU0lySnRxbU5CN2R4X013TkM5VTltLWNsaFJyMF9kek1sRVdmN2lwelBZRndyX3FkZkZhZw?oc=5",
-      "published": "Mon, 05 Oct 2026 05:21:17 GMT",
-      "published_iso": "2026-10-05T05:21:17Z",
-      "age": "yesterday",
-      "priority": 2,
-      "fetched_at": "2026-10-07 05:12 UTC"
+      "fetched_at": "2026-10-07 12:58 UTC"
     }
   ]
 }
