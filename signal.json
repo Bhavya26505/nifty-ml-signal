@@ -1,48 +1,48 @@
 {
-  "date": "07 Oct 2026",
-  "generated_at": "2026-10-07 17:24 UTC",
-  "next_trading_day": "08 Oct 2026 (Thursday)",
+  "date": "08 Oct 2026",
+  "generated_at": "2026-10-08 17:22 UTC",
+  "next_trading_day": "09 Oct 2026 (Friday)",
   "market": {
-    "close": 22603.05078125,
-    "open": 22690.44921875,
-    "high": 22717.650390625,
-    "low": 22546.30078125,
-    "prev_close": 22776.099609375,
-    "change": -173.05,
-    "change_pct": -0.76,
+    "close": 22231.80078125,
+    "open": 22599.05078125,
+    "high": 22599.05078125,
+    "low": 22179.900390625,
+    "prev_close": 22603.05078125,
+    "change": -371.25,
+    "change_pct": -1.64,
     "week_52_high": 26328.55078125,
-    "week_52_low": 22331.400390625
+    "week_52_low": 22231.80078125
   },
   "prediction": {
-    "signal": "LONG",
-    "confidence": "MILD",
-    "action": "MILD BUY \u2014 small position only",
-    "prob_up": 59.9,
-    "prob_down": 40.1,
-    "hist_accuracy": 54.1,
-    "pred_close": 22937.56,
-    "pred_high": 22811.36,
-    "pred_low": 22659.51,
-    "pred_change": 334.51,
-    "pred_change_pct": 1.48
+    "signal": "FLAT",
+    "confidence": "NEUTRAL",
+    "action": "Park in Liquid Fund / FD (~6% p.a.)",
+    "prob_up": 52.8,
+    "prob_down": 47.2,
+    "hist_accuracy": 50.0,
+    "pred_close": 22855.02,
+    "pred_high": 22875.4,
+    "pred_low": 22631.49,
+    "pred_change": 623.22,
+    "pred_change_pct": 2.8
   },
   "indicators": {
-    "rsi_14": 35.41,
-    "rsi_note": "NEUTRAL",
-    "bb_pctb": 0.172,
-    "macd_hist": -30.42,
+    "rsi_14": 28.58,
+    "rsi_note": "OVERSOLD",
+    "bb_pctb": -0.001,
+    "macd_hist": -43.97,
     "macd_note": "BEARISH",
-    "volatility_20": 0.74,
-    "momentum_5d": -0.5,
-    "momentum_20d": -4.95,
+    "volatility_20": 0.8,
+    "momentum_5d": -1.72,
+    "momentum_20d": -5.94,
     "volume_ratio": 0.0,
-    "atr": 203.02,
+    "atr": 220.82,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 23796.13,
-    "ma_200": 24306.92,
-    "bb_upper": 23826.7,
-    "bb_lower": 22349.62
+    "ma_50": 23761.06,
+    "ma_200": 24287.94,
+    "bb_upper": 23802.93,
+    "bb_lower": 22233.06
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,96 +58,6 @@
     "count": 100,
     "sentiment": "BEARISH",
     "headlines": [
-      {
-        "title": "Rupee settles marginally up 3 paise at 95.94 against US dollar",
-        "source": "ThePrint",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMlludEN3SjdXUUlLS2FHQ09LeUlveTh3UUg1dHRvemkxbmdtNFpWUVlqaGlGMzUyODVyQ2dnRktHWXhGS2t0Q2YxNDlhbDZYZkdXRHQyMUpjMThuOFhtaGQ2RmdGWDJvVDd4TFZCQkFfUDBzTW5sN0I0OFNMcnhtUVdFVHNNRzdTWlVRR1A0NTlkMGUwVEVHYmdGaGJoVWVJ0gGmAUFVX3lxTE5iampKV3lHRDAtWFg4cjlraWpHcmtOOG15d1M0R09fUXppdDQ3UEczd0dLaEhuYVhaMUVCaHNSVUR3eEF0QjJ0bm9zQWpGdUtBVmhLOUppSkZDOTgzQVoyQXRUbW4yNXlSYWw4cFhuaWg4TlE1TGhhSTlBa29TLWlROU5fLUtlRDVWQzNqUFJ1QVR0VjQtX04zWmJHZW1lUklqRFZWd3c?oc=5",
-        "published": "Tue, 29 Sep 2026 14:48:19 GMT",
-        "published_iso": "2026-09-29T14:48:19Z",
-        "age": "21h ago",
-        "priority": 1,
-        "fetched_at": "2026-09-30 12:12 UTC"
-      },
-      {
-        "title": "RBI keeps repo rate unchanged at 5.25%, retains neutral policy stance",
-        "source": "ddnews.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYVdNR3pSSEdvNWpvQmRQUE93bnc4NEZFbDVMNmc5VEJrOFJFUVYtWW9idk45V0lqWW95WUo5cVpDYzRhZkRyZ1k5SjRIRkphRnZ2UGtRaDFndEdvZkRmeUw1UFdna21uRFRsajhUTkNIYUtkczFzUzVxdnBWVDg0dkIxVEtTMW5fVkFSUFhKWGE5emRHdWlsdQ?oc=5",
-        "published": "Tue, 29 Sep 2026 19:19:59 GMT",
-        "published_iso": "2026-09-29T19:19:59Z",
-        "age": "16h ago",
-        "priority": 1,
-        "fetched_at": "2026-09-30 12:12 UTC"
-      },
-      {
-        "title": "Stock Market Today: Sensex slips 50 points, Nifty below 22,700; IT stocks shine",
-        "source": "Zee Business",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS1FtclY4WEhnX25JNDRmU205V0JRSGEtTWE4Zl8zRWVldmZFc1MwZkZDNWtvMnZkaFdCZUlUbURUU2xlOUZUbS1COEtTMHVGcDFMR2JTNkV0ZmZPZFBKWDJMNS00LXloYzJ2U3A2Smk1RmR2SmpxaFZ4dHNOUW41V2ZHQkotc1BFUDVwV3o2djdRWG1OSjA5SXhJZUNaX3VIb3RRdHpjaURjXzZ5QkxpQmh2dVRxMndRQVhsNkVFdw?oc=5",
-        "published": "Wed, 30 Sep 2026 03:49:35 GMT",
-        "published_iso": "2026-09-30T03:49:35Z",
-        "age": "19h ago",
-        "priority": 1,
-        "fetched_at": "2026-09-30 23:34 UTC"
-      },
-      {
-        "title": "Why RBI may raise repo rate by 100 bps through H1 2027",
-        "source": "Firstpost",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFJhdWxmWDRQZWRZSkQ4VkxQRUVsWmFPanJIRTVNU25ybnYzWUowYzlPeUpvSnkzU1M3Qlo3YUpfZnc0YTMtaFlOeVBvTnQ3TDRKY2YyVWxrZmhnRW9EM2cwdkJ3MjVSME9URE1jNEY0S0hWZ3ZmRFhYenpKNTYwTEhfTi02RGk5SGFWNzVCb1BMQm5CRm1aQ0xwTkVHSTJtQW10SzBR0gGrAUFVX3lxTFBDVERZN2xtUEcwNm1hcTBsRURVWEEzNkVCcHNPcWtVajBNelJiSG5TM3Y3NE8wSDQyd0NqOHdwamlWMmMzMHpPZVF0b251Y1J6OU9JaWxxc1BqSERPc2JFX0NJLTdtUGpKSG9BMGVBRlFCaEFRSlR5aEhPY0lWZGhjNHdXa183dW8yOHpuMkd6UUZWMUlqMFFEa2ZNRTF0SkhMYkZfTGM5VDl4Zw?oc=5",
-        "published": "Wed, 30 Sep 2026 06:18:33 GMT",
-        "published_iso": "2026-09-30T06:18:33Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-10-01 05:05 UTC"
-      },
-      {
-        "title": "BSE shares fall 2.5% on profit booking after Nifty inclusion; Ujjivan SFB, Siemens India rise up to 2.5%...",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPeWZSNzBWYzA5RW5zbzFCSGp2Sk8wR2ZSZ0FzNGxnRHpnRHVSM21jU1kxTThLQjdCSmdBRU9fU1BvRDh2VG0xcG5iRTl1elpzRGhLNlRFNHNvWFRoZUVjZmNRTGZPZDBoUnhYbUd1bkdEdXJpWGJXTjJLazVpakloVFZLeExJd09SYkI3dHVFVDYxTXdnSEoyQ3ZPZE1jbnRJWkpRdlYtdno4dE9KYXB4TTNUa1VZc2NRMEg0ZkRuR3hiM3N4S0lYRXdoUFo5aV92b3dLUlJqR3EwdVpUSlZtOVQzZTROWVp6OWFwY2RTUkZ0SlBhT25uTWFpOXo2ZlR5WmJMWndVNmszUdIBjwJBVV95cUxNTmJCaV9mZkRZLWk2akNFZWFzZVNoLXRscWxId0t0ZDY5UDd5TjBnVXJ1UGtUMDNzekVrdWZBaDROdlJTRnR4VVYtTDVILUgwbkttYXBVU3EwdzJFLW9ZcE1oaVpEMDRWZ2hlWWZDZ0RQbnNXd1VkRTFJUFVZY0lISW1UOWFYeEl3WnNHeXB6SEVKLVJpem8xWHU5N05Qa3o2bHZYOVZLWnlvMmNBRmFGZG9sWUJ5UHZhY2twZjNEbFZwcVdBdzFEUkN5S2lWR3ZhcDRGMkRMdERScUdWMEhRVU1Xc01veUktbEtxUXE5UWpVdFpvTjBBeWxrdTZZWmt3RTRpUFFKV0c3VllpR3BN?oc=5",
-        "published": "Wed, 30 Sep 2026 08:09:55 GMT",
-        "published_iso": "2026-09-30T08:09:55Z",
-        "age": "20h ago",
-        "priority": 1,
-        "fetched_at": "2026-10-01 05:05 UTC"
-      },
-      {
-        "title": "RBI rate hikes ahead? BofA sees 100 bps repo rate increase through H1 2027",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVnRjSmpHZGVYTS1LR1o4cy1EYXhrSTk1VWV4QTljbVh5MTFwVzB2QVBHcTdMT3NWTmdrWW52SzFVZDdzekotMmhRd0kwZFZGR09JY1dYVmMxTFdjbGNOZUZRcFJxYVg4WUctNThJVU5yalNsMGNxMUlnMEZUVEFxT2ZJNzNpS0JCbjkxSzBjWVczVm5iQWZKY3BrYzB6RVBBVFMyQVJnSjZ5VUZoZHl0cm0wWXZYWUpTaEZaLU9Dc2xDMmtQRldZXzdkSGI5QlpocmIwcUhoTGN1WGFqbWFpRlRZWGdpeHZDU3V6R3FoOHTSAfYBQVVfeXFMTW9qUFB5VG5MLUlsbjdwTVNTMVNqNmx1ZkZLcDN2S292a3ZBNU1qamN5SG1qN2hXN1VIYVZ3Q242cEFCT1hnOV8ySXFhaVplNkRvU3dyN1NRREJNb0t0eTV0V2k2alRmaDhCamF3bEJOY1lYUDVybXNuTVNqc2g3cVRHa1FnbHpZeEExYk16LW5Gbi1Pc3pXMXphbmlIblNnX1ZaVFQxS0U4M3pMQmZPVm93N3RaeFlMU3BrNDB4bEs5c1RCR0VhcHVQNmNEQndWS3k5Z2FaRjljTlFQM0pBa3Y0QjN2bmQwTXR0YzdDX2JWZkRfVmdR?oc=5",
-        "published": "Wed, 30 Sep 2026 08:29:00 GMT",
-        "published_iso": "2026-09-30T08:29:00Z",
-        "age": "20h ago",
-        "priority": 1,
-        "fetched_at": "2026-10-01 05:05 UTC"
-      },
-      {
-        "title": "Rupee Rises 13 Paise Against US Dollar Amid Oil Retreat",
-        "source": "Rediff MoneyWiz",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZVg1R3NrRWVoQWJjMEYtTUlScF9ldkFQckUzZHZZSkF3SVFEQW9qdFFTWlFUSlhFNHVNNXVTekNGNDdlU3ZqUm9sdUxmcVdKR0tsMmdYakVBUTFYSzNNRDlfZ05TSk5RNW44U0FETmpsalRQaVNnOHlidy14b3dWcTg3QWVCTXRnS3JOVkpJNldQT3UyeHJWRVh0RjdNQlR2LWVwRUdFSVFpMzAtdUJWNdIBtgFBVV95cUxOU1VyUWxSdzFzc1A4bzBlUHlBbnZRZFRlUGZTeEtEUmJFOXU3a1RpRk5tdUczaVhaQzN4dGhWTFJEcWMyR0daMUZfSFYxa0xUR1NHbXh1WEloY0gxc1g4MF9pYThsMzFKMlJZWUdocm11ZEhGOFh2Wm9Gak9ILVh3QlVrQkdycHg1VUNQaGN2TTNXb280TlB3S0podHIzakhJbkV3blJaUG9QVzFNTnRqLXdPc0lwUQ?oc=5",
-        "published": "Wed, 30 Sep 2026 10:31:48 GMT",
-        "published_iso": "2026-09-30T10:31:48Z",
-        "age": "18h ago",
-        "priority": 1,
-        "fetched_at": "2026-10-01 05:05 UTC"
-      },
-      {
-        "title": "India stocks lower at close of trade; Nifty 50 down 0.42%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM2s5YzMycm1LQVFwV0piQ3oweU9yd1NpdlpyOTA2MEJsSVRVUW56RUtlcmhpOE1QNTd2WTl1NWRfSkxkSUMzWXNyWWV0V1JoNE94eG5ZTkVlUk55dVdPQmtEZkFDOElRUi1iNlpmVDNERlNVa1VsdjgyQTNqMXBqQjM5dUFoZDhGa1pOYndjZ3YxU0dZSGVxMFhlYXEtajFzYjl0bFZ3NGVUSk0zbXEzXw?oc=5",
-        "published": "Wed, 30 Sep 2026 10:39:15 GMT",
-        "published_iso": "2026-09-30T10:39:15Z",
-        "age": "18h ago",
-        "priority": 1,
-        "fetched_at": "2026-10-01 05:05 UTC"
-      },
-      {
-        "title": "What stages a recovery for Indian Rupee on Wednesday?",
-        "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdXVrVVAtdTQyWS1RRE8ydXhyVG5jMmFnNmFQYlBhOENGWHpCWC16Q0ZpRkR0ejVSSU5UZ09wSmNuZ3g0cmU2Yy1MamhpR3NQSjJMLXJ2Y3lac1l5ekloNnhxR1JIT0dDdHp0alB2ZWlRclVieGxwYUdCSWRqbXRyaVRvZ3hxNW0ycjktdVg0aFc1cFpoa2dlQW94UDZoTzF6M3BFZGx4Z24wcWxzZWdsSmQwUm12ZTdVa0FF?oc=5",
-        "published": "Wed, 30 Sep 2026 11:54:25 GMT",
-        "published_iso": "2026-09-30T11:54:25Z",
-        "age": "17h ago",
-        "priority": 1,
-        "fetched_at": "2026-10-01 05:05 UTC"
-      },
       {
         "title": "Indian benchmark shares post longest weekly losing run in 25 years",
         "source": "Reuters",
@@ -1049,6 +959,16 @@
         "fetched_at": "2026-10-07 12:58 UTC"
       },
       {
+        "title": "Repo rate hiked by 25 bps to 5.50 pc: Why RBI has hiked interest rates; EMIs set to rise",
+        "source": "The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbzJWdkc5dU5NOFBpbDFZVzBTUjFjak5wN25wOGdmNDVMTEhpS2VFMEZLOURvVDB1NjNLVUV5RUlwLU1lcm9NbHlQZGt2cFhKVUc2TFo3bk9FekQweUl4YWt3YnRRQ0xfa09hVWdIWHk2ZVA0Mk05WVlHWkE1Y3dpR1ZVM2JJUmxBNDJXeFZMekVhYnpyeHZMaEVn0gGgAUFVX3lxTE13Tjd4NE1wQXppN2owb1A0Y0lXdHRocFZ6cWdOOXRDZzJPaHFhMWx3U0pqeFExS2pzNzBoYjJxRE0wUmk4S080aXYxWENtVjZKWmRqSnVQeDA2ek84Q001aHhMZWxEY0dqRjAwR3EtNWJlN3hISnZOZ0dDXy1Dd2htWTVVenpjd3FuSXhlXzhSTEh2VkYxcy1DbHJDZWNuVHo?oc=5",
+        "published": "Wed, 07 Oct 2026 04:41:10 GMT",
+        "published_iso": "2026-10-07T04:41:10Z",
+        "age": "19h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 00:04 UTC"
+      },
+      {
         "title": "Repo rate hiked by 25 bps to 5.50 pc: Why RBI has hiked interest rates; EMIs of borrowers set to rise",
         "source": "The Indian Express",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcjd3QzZYajgyRTkwV0RpUFVxYVlwZDdmYVZCM1FHNnpnd0V5aUdNcnRJZjkxTlY1bGh2TXFWOHpFNW9rYWtFYVd4SWFERFBHcnZqRUNZVnh6RGJBYW43Z0RhUDlzcmNOTjZkRzNzY0FOd210bURmdjRpLUpuMzF0VWtFOThzdnFuN25WMVh1ZVYxYUljLVHSAZwBQVVfeXFMTmVRTEsyVVFPdUF3Tl81SUw3V0dIMkFlZXp5VHF6TW0tUGtyMTFWbTlhWXNlTndQcDNqMVBXeFg1N2w1UmdiWDVDTEdwZzJuNndWUFM1RER2cHdObEJNenhTS1dsWkpIZG5xSFl2d1UwVFZXWnJVV2tLNjhLQW5uRVI2UHR0aWR5Q2U1ekZaVEN5Zk4tZkFsTUpuckx1?oc=5",
@@ -1057,6 +977,86 @@
         "age": "8h ago",
         "priority": 1,
         "fetched_at": "2026-10-07 12:58 UTC"
+      },
+      {
+        "title": "RBI Monetary Policy Committee raises repo rate to 5.50% after August pause",
+        "source": "Mathrubhumi English",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU2pKdWZlcVgwTEdvdUtzbDRBVnV0M3VSRWZIbG9sWXpCYV9OWmhHVmVtX0UzRnpFMVdDX2tzcWxhZGV2V1cydnNnb3N5SE1lWFZrS21VcHNmYWwtNWdDLURKTFRFYUV3dEJWNnhLc2R5eGFLRDRfaHdnQXZXR1FTRVJqS29zNGJkWVI2YzAxU3IyY1pm?oc=5",
+        "published": "Wed, 07 Oct 2026 04:43:02 GMT",
+        "published_iso": "2026-10-07T04:43:02Z",
+        "age": "15h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-07 19:48 UTC"
+      },
+      {
+        "title": "India shares lower at close of trade; Nifty 50 down 0.76%",
+        "source": "Investing.com India",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU0Nvc1FKa0EwSG8yUHZKRHZxZlRnZk8tMTNwQ2pVZXdPQU5UNVJIWXBQcDEycDRoUkNGVnZTUWktbTRWdWg3cVF3cGdaZG4xVC1uc0piR3FoMWRfbUp2VGFydnlUb2lRZUJmenB5czNzc20xQ3I2eldsQkhuUkVfQndaVWlWSmt3MDV6QkQycTFEdExvT1AxVm9IOW1nMVdsT3NnMWlMb3VsVVhYOGVJ?oc=5",
+        "published": "Wed, 07 Oct 2026 10:35:21 GMT",
+        "published_iso": "2026-10-07T10:35:21Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 08:37 UTC"
+      },
+      {
+        "title": "India stocks lower at close of trade; Nifty 50 down 0.76%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkhIbEltSFh6T0J1cG5uc2FRaEoyR1JITnltZTdkcENKWnh3X0Juamt6NHVTOXdOWWdBQ2V3SlJoRzlsWnBPa0VPY2xIRmFiLWRyODI3Vk5OTmQwSEFteWFTV2JhdXk2RG5zXzh5eVZndGVJWnYtd1pNYzZyRzVDdi1ISW9Wdmp2ZFlaRVIwWndqdkpyWE1QSzRTMGg2dENoWjlXVjJPblBCSWZUbll3VA?oc=5",
+        "published": "Wed, 07 Oct 2026 10:37:27 GMT",
+        "published_iso": "2026-10-07T10:37:27Z",
+        "age": "21h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 08:37 UTC"
+      },
+      {
+        "title": "RBI raises rates amid rising inflation and global risks outlook",
+        "source": "BBC",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HaFhnN1dxaGRKTU9oOTNhRnA1SFZJaDczMDYxZ09TMUNfaHNUX21TcEx0RXI1eVNHMHR0UmMxRXczZnFNdXRFX0lXd0RLVDJhemN6UjExTXY4YnM?oc=5",
+        "published": "Wed, 07 Oct 2026 10:44:02 GMT",
+        "published_iso": "2026-10-07T10:44:02Z",
+        "age": "21h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 08:37 UTC"
+      },
+      {
+        "title": "RBI Hikes Repo Rate to 5.50%: What It Means for Car Loan Interest Rates and EMIs",
+        "source": "Autopunditz",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWC1xbW9tQnNqNDZBUDJLZVhDX2ttOEppbnhWcU1zTzg5ejloZmNGVjRqVE5xMy1fOGVUWnQ5QThZM0d6Nmc4QnlQdDAwbTBNZlFzVnd2YnEtOHkyXzhoMnc2UWJCRUp0b0dWVWRrcWhlaElnRmhDVjNLZUEtaVFYaU9QbFJKN1haN1FBcWdyNXU?oc=5",
+        "published": "Wed, 07 Oct 2026 11:02:26 GMT",
+        "published_iso": "2026-10-07T11:02:26Z",
+        "age": "21h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 08:37 UTC"
+      },
+      {
+        "title": "Foreign investors pull out $26.3 billion from emerging markets in September as hawkish Fed pushes US Treas",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOTEl1YzBwSGQ0SHFpdVpRaXdFbWZLamVtMmpkTkFHbkQ3aTJaNUNQSlJTdXpNWW5kV2szR3UtQnpYcXVENXU5Q0xHRXhMclpHbGVvVE5pc0h1ZmFpZFlHT2ZybVNybVphWW9ETW00UG1mSUlINy1iYnJSYXNaeHh5Q1EzVkEzd3QwMFNEUlF1Sm5BcTZicEJ0c2o2aS1McDNnV3cyWmpfU2RKX29jWGJVYWhXNVVhQ3FIeGtxYlVZTkJuUjlybTVFQVhvUEJhVXFDVDMwRG5scVVJempTMkpjU1JzdElUU1JKX05TSVhNTkZVOWhvWWFiSTZyQVpiRHNKWk9SUHREcGpvanJxblc5RWIxaGlzRDI1YU4wcjJvaUxWWWdhME5FZnZZYXFQRlhtWFM1R3pPcnNBMzVSY1hiaVpONNIBvAJBVV95cUxQZmRWVDMxYnBxU3BMSGQyMkhfeS1XX01yRDRxU0JHQWVTaFVRTFV5TTFQNndhSVE2SS1pYVZYNnR5VUl1dU9LeElvRUtsWVl1bm0wMVpMdEZDalgxMXRYUnFzWGE5N0x0bWttNHl6V1BzeW1kc0pLNTI1cVZ2Y09oTVR3dzhOMG5PSzZ6TEd5R2xTamEzUnlzR1M0ZkdmQ0o2MXNiN2JtQU5wVXNPQzRiRi12SjFRXzUwUDlJUTF3SGhYeE1Bd3JWWTZaMkRxOS01T2cwQWdPWVhzeGhHSk52WU43LW4tRGNJOXhDOUpfWkFOTDBWTFZFWDU5WENZZ2lFcVNFUUhFeS03ckZBWjdudGRqdFp0ZEhTSDd4MlRabUlQR1NER1lJTXcyVkZFUGZIcjBXeFlCaW9pRUxE?oc=5",
+        "published": "Wed, 07 Oct 2026 18:26:54 GMT",
+        "published_iso": "2026-10-07T18:26:54Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 17:17 UTC"
+      },
+      {
+        "title": "Opinion: Spiralling chaos from the bond market will shake the world economy",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYVdCZVJrcTNrd1RUb29fb2IwT2t4cmlVWmlxZGN3eXhRVXd5N1Y2b0JXdTQwMlVIX0lTX01NWWFQSGkwVGI0QklXV1dJa0J6TThtVkgtMEkyX3JVS1ZUN2xiaFZOTzVWVVpxUzZBZjVvWlZIREVLV2pwWE90QWN1eTRkTkdHTVdCNVVQT3RtbGxWMTkxRmNkM1ZaeHVSYkM5VkRyOFVKQm1WY3c3cDBnSmROZFVXY2s1Z2NpVVJNS0h3M1N3bHc?oc=5",
+        "published": "Wed, 07 Oct 2026 23:25:40 GMT",
+        "published_iso": "2026-10-07T23:25:40Z",
+        "age": "17h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 17:17 UTC"
+      },
+      {
+        "title": "India's Sensex slumps to 32-month low on oil surge, foreign exodus",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGc3d3VfemdCVm9OMG8tZFo3MFpXMmtQR3paUW9yMWFia0txelBIS0w2M3RSeDdRdzV2WkR0WmU2ZFdNVkUyUWJMbWQ1YVA0M3d0Y3hRQkMxa3FlMDMtSXZ1OHF6UWNaTzRmTklWVnpSNHp2bzdRT0F3SlNvVzVFQ0trU21MeHlOMmU4R3U1c0NNTmw0dGtoT1lORzRBOGdTaUMyRjFtWFc4bXdsemFV?oc=5",
+        "published": "Thu, 08 Oct 2026 02:23:00 GMT",
+        "published_iso": "2026-10-08T02:23:00Z",
+        "age": "14h ago",
+        "priority": 1,
+        "fetched_at": "2026-10-08 17:17 UTC"
       }
     ]
   },
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6200,
+    "training_days": 6201,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 51.19
+    "recent_1y_accuracy": 51.59
   }
 }
