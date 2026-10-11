@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-10-11 18:42 UTC",
+  "last_updated": "2026-10-11 23:30 UTC",
   "date_range": {
     "from": "2026-10-04",
     "to": "2026-10-11"
   },
   "total_headlines": 100,
   "today_count": 96,
-  "yesterday_count": 3,
-  "week_count": 1,
+  "yesterday_count": 4,
+  "week_count": 0,
   "sentiment_score": "BEARISH",
   "bullish_count": 19,
-  "bearish_count": 30,
+  "bearish_count": 31,
   "today_headlines": [
     {
       "title": "Daily Voice: Another Fed rate hike possible, but prolonged tightening unlikely, says Vipul Bhowar of...",
@@ -1003,20 +1003,19 @@
       "age": "yesterday",
       "priority": 2,
       "fetched_at": "2026-10-11 12:24 UTC"
-    }
-  ],
-  "week_headlines": [
+    },
     {
-      "title": "Weekly market commentary",
-      "source": "BlackRock",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkJPa3I0ekJyVEI0RFJhY210TmplVHJZQ0xJNy1qenNkc0lMMHk0TmZwdDV1TEVZNmJoV3dfVlNTT3UyZHE5Q01SdmQ4eDd4WjAzZVhFMFB3VUd5QjlYXzZ5MWFRYzdIQVRVM1JMZXNyQ05aTExrejM4cHdBSktKSlJOOWxkY0V4YkNRRDZZTzlDZUYzZHlUWXdhTFUxNXJSNXc?oc=5",
-      "published": "Sun, 04 Oct 2026 07:00:00 GMT",
-      "published_iso": "2026-10-04T07:00:00Z",
-      "age": "7d ago",
-      "priority": 3,
-      "fetched_at": "2026-10-11 12:24 UTC"
+      "title": "US bond market under strain: 5 factors fuelling the Treasury selloff",
+      "source": "The Financial Express",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWThQOXkxWHV5YnMzeFpZX2F3VUlncU55WG9idUw5NnZEZ0ZCVEwzYjdJbEdRdHpET0U3WThzeWpfa1FoY0dQU0FXUGRMOHZQTWRvcFRNYXJsMTZDc0ZaeExKT0dubHpwY0RFTUxZSHZsdC1wUjBiWkFJR0NwYV9DMUdrZW9BTzQtSDNpUGktTzZyV19yNUdLY281c2FaTXAyT3R1b3dGOGlnbkFkdzQwRldCSWZ2cUFRUlNqZ0tWa2x1TW1LcjVFdmxud9IB0gFBVV95cUxPN3l2YlNIV19sNFJyQVM1bktXVjdjYTJzb0NOcXQ1ekljWkxvODEtVDhFOE9GSVVOWkl6X1V5VkoyZGQ3MmNzYjNZZUpZTUtYcWhoWGVrT0pxLVRiajNkZHBzYXQzTDlocmhnTVZkbEd1Um9fTnNob1YtR2l0S0FvaWVDZ0xseWJxQk9nY2ZuVk00MXp0ZGo3NDFNNUZxWmFMRU1JOU9ZdjRmRWdEWnM5aGN2OHRhNWRMR3M0dzhUYUlqaGtEVWVIcENLOEFlT3Z1NGc?oc=5",
+      "published": "Sat, 10 Oct 2026 08:11:43 GMT",
+      "published_iso": "2026-10-10T08:11:43Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-10-11 23:30 UTC"
     }
   ],
+  "week_headlines": [],
   "headlines": [
     {
       "title": "Daily Voice: Another Fed rate hike possible, but prolonged tightening unlikely, says Vipul Bhowar of...",
@@ -2009,14 +2008,14 @@
       "fetched_at": "2026-10-11 12:24 UTC"
     },
     {
-      "title": "Weekly market commentary",
-      "source": "BlackRock",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkJPa3I0ekJyVEI0RFJhY210TmplVHJZQ0xJNy1qenNkc0lMMHk0TmZwdDV1TEVZNmJoV3dfVlNTT3UyZHE5Q01SdmQ4eDd4WjAzZVhFMFB3VUd5QjlYXzZ5MWFRYzdIQVRVM1JMZXNyQ05aTExrejM4cHdBSktKSlJOOWxkY0V4YkNRRDZZTzlDZUYzZHlUWXdhTFUxNXJSNXc?oc=5",
-      "published": "Sun, 04 Oct 2026 07:00:00 GMT",
-      "published_iso": "2026-10-04T07:00:00Z",
-      "age": "7d ago",
-      "priority": 3,
-      "fetched_at": "2026-10-11 12:24 UTC"
+      "title": "US bond market under strain: 5 factors fuelling the Treasury selloff",
+      "source": "The Financial Express",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWThQOXkxWHV5YnMzeFpZX2F3VUlncU55WG9idUw5NnZEZ0ZCVEwzYjdJbEdRdHpET0U3WThzeWpfa1FoY0dQU0FXUGRMOHZQTWRvcFRNYXJsMTZDc0ZaeExKT0dubHpwY0RFTUxZSHZsdC1wUjBiWkFJR0NwYV9DMUdrZW9BTzQtSDNpUGktTzZyV19yNUdLY281c2FaTXAyT3R1b3dGOGlnbkFkdzQwRldCSWZ2cUFRUlNqZ0tWa2x1TW1LcjVFdmxud9IB0gFBVV95cUxPN3l2YlNIV19sNFJyQVM1bktXVjdjYTJzb0NOcXQ1ekljWkxvODEtVDhFOE9GSVVOWkl6X1V5VkoyZGQ3MmNzYjNZZUpZTUtYcWhoWGVrT0pxLVRiajNkZHBzYXQzTDlocmhnTVZkbEd1Um9fTnNob1YtR2l0S0FvaWVDZ0xseWJxQk9nY2ZuVk00MXp0ZGo3NDFNNUZxWmFMRU1JOU9ZdjRmRWdEWnM5aGN2OHRhNWRMR3M0dzhUYUlqaGtEVWVIcENLOEFlT3Z1NGc?oc=5",
+      "published": "Sat, 10 Oct 2026 08:11:43 GMT",
+      "published_iso": "2026-10-10T08:11:43Z",
+      "age": "yesterday",
+      "priority": 2,
+      "fetched_at": "2026-10-11 23:30 UTC"
     }
   ]
 }
