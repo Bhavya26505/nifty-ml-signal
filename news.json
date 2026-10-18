@@ -1,57 +1,17 @@
 {
-  "last_updated": "2026-10-18 03:50 UTC",
+  "last_updated": "2026-10-18 08:43 UTC",
   "date_range": {
     "from": "2026-10-11",
     "to": "2026-10-18"
   },
   "total_headlines": 100,
-  "today_count": 89,
+  "today_count": 87,
   "yesterday_count": 10,
-  "week_count": 1,
+  "week_count": 3,
   "sentiment_score": "MIXED",
-  "bullish_count": 38,
-  "bearish_count": 38,
+  "bullish_count": 40,
+  "bearish_count": 35,
   "today_headlines": [
-    {
-      "title": "RBI Hikes Repo Rate by 25 Basis Points to 5.50% in October 2026",
-      "source": "CAclubindia",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMnJqSkdLNlk4aHd1RVZFX3hzTEVtM3IzZGZoMVdUYmI5NVUzQ29obGk1UDZwV2pzTVR1UUY1a3JOMWJyUlNFcXN2akdTN2g3ZEx4dmVtb0xVeVRpWXdnbzdkMlBKSk5JckFIR2NWWlpSQWtZQ3B6VzNpTmQ3V1dnUkRMd2RjNi15cDVyaGF3RW1HYnVmbEhIeW04b2FXM1dOeEpkb1ZoRVkyTXlVM0hLTXJRWQ?oc=5",
-      "published": "Sat, 10 Oct 2026 03:51:00 GMT",
-      "published_iso": "2026-10-10T03:51:00Z",
-      "age": "19h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 23:20 UTC"
-    },
-    {
-      "title": "Euro falls, set for fifth straight weekly drop as oil prices rise",
-      "source": "ET EnergyWorld",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXJDQWd0NU1xSE9qV292SmlFNUhQZVVpZHNTMk1JcngtbTdTOFlhendwWUZDUzZVOEhsUnZZbkVGOVIzdkhyaEctcFJVeDlGeW5oZ2xCUFU2MWNaQnhBeWRpY1hlbEJBN3g4STFodUNfTDR4SjdtYnlfR2Ffa0FGQXBabWdKWUxnOFF4eGxvVXRmcloxTExWY19PRF9heTBIMUlVdklFbDBNRFoxeVFVd09ELTNqSWVjU0liVUh1ZkNUYXdtVElOY2RtVnRmSTA4cEtFX0p30gHWAUFVX3lxTE5FckNBZ3Q1TXFIT2pXb3ZKaUU1SFBlVWlkc1MyTUlyeC1tN1M4WWF6d3BZRkNTNlU4SGxSdlluRUY5UjN2SHJoRy1wUlV4OUZ5bmhnbEJQVTYxY1pCeEF5ZGljWGVsQkE3eDhJMWh1Q19MNHhKN21ieV9HYV9rQUZBcFptZ0pZTGc4UXh4bG9VdGZyWjFMTFZjX09EX2F5MEgxSVV2SUVsME1EWjF5UVV3T0QtM2pJZWNTSWJVSHVmQ1Rhd21USU5jZG1WdGZJMDhwS0VfSnc?oc=5",
-      "published": "Sat, 10 Oct 2026 04:48:54 GMT",
-      "published_iso": "2026-10-10T04:48:54Z",
-      "age": "7h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 12:10 UTC"
-    },
-    {
-      "title": "Market weekly wrap: SENSEX, NIFTY50 break 8 weeks of losing streak; oil prices, RBI rate hike, among key triggers",
-      "source": "Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQWFHQ1V5WDE1NlJMS1c2RUZfT1k0MFdob1ZJVlROWmJrRkRxQ1YwdHo5VEFmT3VJVmgyREJMeWtoYXdSNWZQMHh2TmxLVDI4MXBwS0piY0F0YkVleEhWUDJDb082SEpFNEpfeUNkZ2RQTzBTcWZHbzkxNGd5bWFUUDFaczQtQTRwUVl1NEJCRGRBNV9Zb1g3a0cwdFVDUzNxN1dLZWgtSmh2LUdhUjdENDM3WGJVT1VQZTBCY3Y3N3hyV3B2SVZtNWdEZE5WUlF3RFhQNXI0MnRWaXVYeENrSHRNclRFN3lUalAxWnNqa2JqOEN3NEJDS01GOVk?oc=5",
-      "published": "Sat, 10 Oct 2026 05:24:12 GMT",
-      "published_iso": "2026-10-10T05:24:12Z",
-      "age": "12h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 18:20 UTC"
-    },
-    {
-      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbHU0TEdGNGd3Q0pncDMwSnZ6cXBQUHdBalBaSXRWdHVjS0w0Vm5Xcm9pYWRXSGxqVFFObXQ1QmNGTVFNcnNQcEVlWF9QRjdXQWF4dTdGa0pxSVBRM3J5NGhNc3JPanFlUVdiVWpwMmtUYS1fdm5rWElrX0hIdVllOGlmTXJYYkVoSE0xWnNfcEZCUFdGaENVZWZDd2hmNURUSFMycm9VRVpNbUJxU05sSWRsQ3ZXUnZfbEtHUXFmQXVSSk1lU25PUWhoZVY5STc0UkVBV2RScmJCRV82ZFVnbmFGdktKZHfSAewBQVVfeXFMT1FCOXdkQW9xWWozZ2dmZ0MtOU5heGszLXpxZ2ZZc1NPV2pOX2JPeUxST2EzS19sUUF4aXIxaWlkdUQ2ZF81b19qQmV1UldYd1ZyalFIb3l6bFdUZUQ0ZkxrQXVfSjhweE1YRTBWNEtEbnJJcnNVR3pkcWVxUkZ0Um1zYjVvQkgxV09SaWNQaGEyRUJsdERMdGFoMVFpak5tUTRieUNibElwUEUtSEFuaGw4b3VwQUg1Q3dpTmdodFFuQTVFc1Q0b1F5M3djMGdWc1FUYm9JWmZLZFdjeHFRbzhqRlk3SEtObkJlYXE?oc=5",
-      "published": "Sat, 10 Oct 2026 05:56:50 GMT",
-      "published_iso": "2026-10-10T05:56:50Z",
-      "age": "12h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 18:20 UTC"
-    },
     {
       "title": "RBI\u2019s Monetary Policy Committee meeting begins in Mumbai | Akashvani News",
       "source": "News On AIR",
@@ -901,6 +861,26 @@
       "age": "just now",
       "priority": 1,
       "fetched_at": "2026-10-17 08:23 UTC"
+    },
+    {
+      "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+      "source": "The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN0t1eXh6SzJveUIzUGh3YWFrS2NlbmlrZlhfZnBCN3FWRFZ4NzV0M0FLNklpUG0xQ0hmeUx3aHFFbXNkVHh1N0hnMmhuLThsUjhhZkRUVlNjYi1uNUZSdVFoLW83cnJZZ01GUmd1akxpTlczRDZTV1F5QXJKV3BVaVZOUGY3ejQzVExZVmFxaVplaHhQbVVlOHlieHY4UHVfem14NXpFYTNMQUVOcUl0T1NQVWczVkRDTk5DR1hyczV2U3JhSVZCRGdpdmdmVVc2aW9pcGcyQ2dLTHR3ejZybzAtNNIB6AFBVV95cUxQSG8wM0Y0ZVgxMUJBYnZ4NTB2TWtyY0VqQktsbk5OeFBvblo3eGN5bkt4T203cEhQRlQwb1d1VW1GLVN4eXpiWk1tdXhjSjdJY1NCbEhCSmZhSUFXRTUxdjc1eWNKV3NOOTRyQTRqanRlM0EtWmpiNFZaMnpIcXFDdjVacUpQRDg2cTRnUUpUQ25zTkdtTUtBRXA5bzFfV01QOEU0S1lqXzhteHpwSThqM29xc0tXMFRpNG5nSVlUUDBDNTAxUDFRZkU0MHBHWGJXZ1pJMjNlcmh5UmVYMG1FQ2tWNkRhZ0ta?oc=5",
+      "published": "Sun, 18 Oct 2026 06:33:22 GMT",
+      "published_iso": "2026-10-18T06:33:22Z",
+      "age": "2h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-18 08:43 UTC"
+    },
+    {
+      "title": "Mcap of nine of top-10 most valued firms surges by \u20b93.65 trn, TCS shines",
+      "source": "Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYkctR2VCRmZoQUpBbno1elVJMVRWZ1BRcTBXdDVBYlBOdHpYSnRrQVhoNTlQU0lha0pHYWtLYXFGWUV6c3lyX2hUNVlsaFNrbHA1b2R0c25NUHpHQ3p3cXJmb1FMYlp2c3NfZGhsYWhHMWhwaHpDUmNucnZadGhKell5WUlLMmQ2OEdBZmNZZ2pualNUanpUUGNuc3NzX0luWktoTnB0TTFuSnphRW9PNjRRX2JJV3lLNG1OcS0wTUp1bTV1NGpBNENKSnhHaUlOaC1N0gHYAUFVX3lxTE9lNDdLZjlMQXQ0VmdDUzlnbTlYNU5zTE8wX3NDSXlDNTgxYUlFaU10a2JONHhsOWs3ZzBTZ2ViQXFsWlFEbWt1SjZ2a3VreFNCRzFJS1VRcUdTcERFN3M4RTlrZUpuNmcybnpMY0FNdFRuRHlWM3FjUENWMmRacy0xVm1JOEVrY3YxVTRDU2VtNDk5dXJobEJ2M2d4eWR1andkbEVwZWpnNThXZndkRjAzY1RsRFRKdzU1dzhrMjJBUjl6THdfN3NZem9aeTVZNGpTZTJmbTM1Xw?oc=5",
+      "published": "Sun, 18 Oct 2026 06:41:19 GMT",
+      "published_iso": "2026-10-18T06:41:19Z",
+      "age": "2h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-18 08:43 UTC"
     }
   ],
   "yesterday_headlines": [
@@ -1015,49 +995,29 @@
       "age": "6d ago",
       "priority": 3,
       "fetched_at": "2026-10-17 23:52 UTC"
+    },
+    {
+      "title": "Rupee jumps 91 paise to 95.80 against US dollar in early trade",
+      "source": "The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakJZdTNKcHBDaFJ6OWhEbWFUaHZmWC1jcEc2ckZvdEE1dGo1X3ZoamgtWUhKRTJyQndGem9WV21iemxQWTVSaUFPSlFzU2MzMl96aGVBeXZfbVdMdUFEYkF3ZlBnQzZRUnVldUMtTGI1Y3dYT01GVGUwc0wxczNJNWR0Njg4U2tUazZXTTR4U3VsMmR3d0RMYVZmWWVHc3o1MjBqeVdZWGpJcWpVUUZhZXBXZFg4Z9IBwwFBVV95cUxPUGQ0THVrbmRUSXFVRE15ZXU2SUVHTUxRYUlFaGw4c0Y3c0NTazB1UV83cFNGSW5ra3FuZGlTZGZvYlJJWnBFTFFFUFY0NFptNlFCa0xNYlQ3YmMzLXhEWWx4dEJ1YmpnUWYtWGNKZF9jbnkwMF93cER3VG9ZNXYwTXk5SnduZnR6WUZSekpWYlYtX0VHWkgxbHFvdjZSYmJzOXJLNzN3MXdvWHljaU9WOTVKUkdjU01HZDN3TkZseTBUY0E?oc=5",
+      "published": "Mon, 12 Oct 2026 04:27:39 GMT",
+      "published_iso": "2026-10-12T04:27:39Z",
+      "age": "6d ago",
+      "priority": 3,
+      "fetched_at": "2026-10-18 08:43 UTC"
+    },
+    {
+      "title": "Steel Authority of India (NSEI:SAIL) Stock Forecast & Analyst Predictions",
+      "source": "Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMFFrWlIwckZhZEhnazBkR3ZqbFBmWTVlNnZGMEtxd0RlNVF1cFdVcDFpNURfSm5ORG9qcGotNlU4Zi1vRW5ZSDZGUUpUS25BbmRBX1E4VkVKQTFRdEwzVlF5LUtLbjB0bmZEYnhjVlF2WW50SDJ4ZlVPei1uMHVTN1VBUWtXdzM4WFdyblUzVWNPX2s?oc=5",
+      "published": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "published_iso": "2026-10-13T07:00:00Z",
+      "age": "5d ago",
+      "priority": 3,
+      "fetched_at": "2026-10-18 08:43 UTC"
     }
   ],
   "headlines": [
-    {
-      "title": "RBI Hikes Repo Rate by 25 Basis Points to 5.50% in October 2026",
-      "source": "CAclubindia",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMnJqSkdLNlk4aHd1RVZFX3hzTEVtM3IzZGZoMVdUYmI5NVUzQ29obGk1UDZwV2pzTVR1UUY1a3JOMWJyUlNFcXN2akdTN2g3ZEx4dmVtb0xVeVRpWXdnbzdkMlBKSk5JckFIR2NWWlpSQWtZQ3B6VzNpTmQ3V1dnUkRMd2RjNi15cDVyaGF3RW1HYnVmbEhIeW04b2FXM1dOeEpkb1ZoRVkyTXlVM0hLTXJRWQ?oc=5",
-      "published": "Sat, 10 Oct 2026 03:51:00 GMT",
-      "published_iso": "2026-10-10T03:51:00Z",
-      "age": "19h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 23:20 UTC"
-    },
-    {
-      "title": "Euro falls, set for fifth straight weekly drop as oil prices rise",
-      "source": "ET EnergyWorld",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXJDQWd0NU1xSE9qV292SmlFNUhQZVVpZHNTMk1JcngtbTdTOFlhendwWUZDUzZVOEhsUnZZbkVGOVIzdkhyaEctcFJVeDlGeW5oZ2xCUFU2MWNaQnhBeWRpY1hlbEJBN3g4STFodUNfTDR4SjdtYnlfR2Ffa0FGQXBabWdKWUxnOFF4eGxvVXRmcloxTExWY19PRF9heTBIMUlVdklFbDBNRFoxeVFVd09ELTNqSWVjU0liVUh1ZkNUYXdtVElOY2RtVnRmSTA4cEtFX0p30gHWAUFVX3lxTE5FckNBZ3Q1TXFIT2pXb3ZKaUU1SFBlVWlkc1MyTUlyeC1tN1M4WWF6d3BZRkNTNlU4SGxSdlluRUY5UjN2SHJoRy1wUlV4OUZ5bmhnbEJQVTYxY1pCeEF5ZGljWGVsQkE3eDhJMWh1Q19MNHhKN21ieV9HYV9rQUZBcFptZ0pZTGc4UXh4bG9VdGZyWjFMTFZjX09EX2F5MEgxSVV2SUVsME1EWjF5UVV3T0QtM2pJZWNTSWJVSHVmQ1Rhd21USU5jZG1WdGZJMDhwS0VfSnc?oc=5",
-      "published": "Sat, 10 Oct 2026 04:48:54 GMT",
-      "published_iso": "2026-10-10T04:48:54Z",
-      "age": "7h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 12:10 UTC"
-    },
-    {
-      "title": "Market weekly wrap: SENSEX, NIFTY50 break 8 weeks of losing streak; oil prices, RBI rate hike, among key triggers",
-      "source": "Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQWFHQ1V5WDE1NlJMS1c2RUZfT1k0MFdob1ZJVlROWmJrRkRxQ1YwdHo5VEFmT3VJVmgyREJMeWtoYXdSNWZQMHh2TmxLVDI4MXBwS0piY0F0YkVleEhWUDJDb082SEpFNEpfeUNkZ2RQTzBTcWZHbzkxNGd5bWFUUDFaczQtQTRwUVl1NEJCRGRBNV9Zb1g3a0cwdFVDUzNxN1dLZWgtSmh2LUdhUjdENDM3WGJVT1VQZTBCY3Y3N3hyV3B2SVZtNWdEZE5WUlF3RFhQNXI0MnRWaXVYeENrSHRNclRFN3lUalAxWnNqa2JqOEN3NEJDS01GOVk?oc=5",
-      "published": "Sat, 10 Oct 2026 05:24:12 GMT",
-      "published_iso": "2026-10-10T05:24:12Z",
-      "age": "12h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 18:20 UTC"
-    },
-    {
-      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbHU0TEdGNGd3Q0pncDMwSnZ6cXBQUHdBalBaSXRWdHVjS0w0Vm5Xcm9pYWRXSGxqVFFObXQ1QmNGTVFNcnNQcEVlWF9QRjdXQWF4dTdGa0pxSVBRM3J5NGhNc3JPanFlUVdiVWpwMmtUYS1fdm5rWElrX0hIdVllOGlmTXJYYkVoSE0xWnNfcEZCUFdGaENVZWZDd2hmNURUSFMycm9VRVpNbUJxU05sSWRsQ3ZXUnZfbEtHUXFmQXVSSk1lU25PUWhoZVY5STc0UkVBV2RScmJCRV82ZFVnbmFGdktKZHfSAewBQVVfeXFMT1FCOXdkQW9xWWozZ2dmZ0MtOU5heGszLXpxZ2ZZc1NPV2pOX2JPeUxST2EzS19sUUF4aXIxaWlkdUQ2ZF81b19qQmV1UldYd1ZyalFIb3l6bFdUZUQ0ZkxrQXVfSjhweE1YRTBWNEtEbnJJcnNVR3pkcWVxUkZ0Um1zYjVvQkgxV09SaWNQaGEyRUJsdERMdGFoMVFpak5tUTRieUNibElwUEUtSEFuaGw4b3VwQUg1Q3dpTmdodFFuQTVFc1Q0b1F5M3djMGdWc1FUYm9JWmZLZFdjeHFRbzhqRlk3SEtObkJlYXE?oc=5",
-      "published": "Sat, 10 Oct 2026 05:56:50 GMT",
-      "published_iso": "2026-10-10T05:56:50Z",
-      "age": "12h ago",
-      "priority": 1,
-      "fetched_at": "2026-10-10 18:20 UTC"
-    },
     {
       "title": "RBI\u2019s Monetary Policy Committee meeting begins in Mumbai | Akashvani News",
       "source": "News On AIR",
@@ -1909,6 +1869,26 @@
       "fetched_at": "2026-10-17 08:23 UTC"
     },
     {
+      "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+      "source": "The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN0t1eXh6SzJveUIzUGh3YWFrS2NlbmlrZlhfZnBCN3FWRFZ4NzV0M0FLNklpUG0xQ0hmeUx3aHFFbXNkVHh1N0hnMmhuLThsUjhhZkRUVlNjYi1uNUZSdVFoLW83cnJZZ01GUmd1akxpTlczRDZTV1F5QXJKV3BVaVZOUGY3ejQzVExZVmFxaVplaHhQbVVlOHlieHY4UHVfem14NXpFYTNMQUVOcUl0T1NQVWczVkRDTk5DR1hyczV2U3JhSVZCRGdpdmdmVVc2aW9pcGcyQ2dLTHR3ejZybzAtNNIB6AFBVV95cUxQSG8wM0Y0ZVgxMUJBYnZ4NTB2TWtyY0VqQktsbk5OeFBvblo3eGN5bkt4T203cEhQRlQwb1d1VW1GLVN4eXpiWk1tdXhjSjdJY1NCbEhCSmZhSUFXRTUxdjc1eWNKV3NOOTRyQTRqanRlM0EtWmpiNFZaMnpIcXFDdjVacUpQRDg2cTRnUUpUQ25zTkdtTUtBRXA5bzFfV01QOEU0S1lqXzhteHpwSThqM29xc0tXMFRpNG5nSVlUUDBDNTAxUDFRZkU0MHBHWGJXZ1pJMjNlcmh5UmVYMG1FQ2tWNkRhZ0ta?oc=5",
+      "published": "Sun, 18 Oct 2026 06:33:22 GMT",
+      "published_iso": "2026-10-18T06:33:22Z",
+      "age": "2h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-18 08:43 UTC"
+    },
+    {
+      "title": "Mcap of nine of top-10 most valued firms surges by \u20b93.65 trn, TCS shines",
+      "source": "Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYkctR2VCRmZoQUpBbno1elVJMVRWZ1BRcTBXdDVBYlBOdHpYSnRrQVhoNTlQU0lha0pHYWtLYXFGWUV6c3lyX2hUNVlsaFNrbHA1b2R0c25NUHpHQ3p3cXJmb1FMYlp2c3NfZGhsYWhHMWhwaHpDUmNucnZadGhKell5WUlLMmQ2OEdBZmNZZ2pualNUanpUUGNuc3NzX0luWktoTnB0TTFuSnphRW9PNjRRX2JJV3lLNG1OcS0wTUp1bTV1NGpBNENKSnhHaUlOaC1N0gHYAUFVX3lxTE9lNDdLZjlMQXQ0VmdDUzlnbTlYNU5zTE8wX3NDSXlDNTgxYUlFaU10a2JONHhsOWs3ZzBTZ2ViQXFsWlFEbWt1SjZ2a3VreFNCRzFJS1VRcUdTcERFN3M4RTlrZUpuNmcybnpMY0FNdFRuRHlWM3FjUENWMmRacy0xVm1JOEVrY3YxVTRDU2VtNDk5dXJobEJ2M2d4eWR1andkbEVwZWpnNThXZndkRjAzY1RsRFRKdzU1dzhrMjJBUjl6THdfN3NZem9aeTVZNGpTZTJmbTM1Xw?oc=5",
+      "published": "Sun, 18 Oct 2026 06:41:19 GMT",
+      "published_iso": "2026-10-18T06:41:19Z",
+      "age": "2h ago",
+      "priority": 1,
+      "fetched_at": "2026-10-18 08:43 UTC"
+    },
+    {
       "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORElLSHBNa1VvRjk5dmRWaE5HR21Hd3JwY0tBX19SRUpOOTZTd2RlV2tDN3RVa1lPd0NZU2tUQVBCMWxtclJpeE5jZzlYNUtGaXdIeFFBR0xsSmVVQ1lreURiLTFOcjN6eTZHZzdmM19aNzZUSHB1dGFlcFlVX0gxckN6NDFMemNnbnZWOVVBYTFMZDl4QWI2cFFUQ2JpckFqSVk5eTU2cU9wcHpBQnZaQTVRYVZSTFhVbVE?oc=5",
@@ -2017,6 +1997,26 @@
       "age": "6d ago",
       "priority": 3,
       "fetched_at": "2026-10-17 23:52 UTC"
+    },
+    {
+      "title": "Rupee jumps 91 paise to 95.80 against US dollar in early trade",
+      "source": "The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakJZdTNKcHBDaFJ6OWhEbWFUaHZmWC1jcEc2ckZvdEE1dGo1X3ZoamgtWUhKRTJyQndGem9WV21iemxQWTVSaUFPSlFzU2MzMl96aGVBeXZfbVdMdUFEYkF3ZlBnQzZRUnVldUMtTGI1Y3dYT01GVGUwc0wxczNJNWR0Njg4U2tUazZXTTR4U3VsMmR3d0RMYVZmWWVHc3o1MjBqeVdZWGpJcWpVUUZhZXBXZFg4Z9IBwwFBVV95cUxPUGQ0THVrbmRUSXFVRE15ZXU2SUVHTUxRYUlFaGw4c0Y3c0NTazB1UV83cFNGSW5ra3FuZGlTZGZvYlJJWnBFTFFFUFY0NFptNlFCa0xNYlQ3YmMzLXhEWWx4dEJ1YmpnUWYtWGNKZF9jbnkwMF93cER3VG9ZNXYwTXk5SnduZnR6WUZSekpWYlYtX0VHWkgxbHFvdjZSYmJzOXJLNzN3MXdvWHljaU9WOTVKUkdjU01HZDN3TkZseTBUY0E?oc=5",
+      "published": "Mon, 12 Oct 2026 04:27:39 GMT",
+      "published_iso": "2026-10-12T04:27:39Z",
+      "age": "6d ago",
+      "priority": 3,
+      "fetched_at": "2026-10-18 08:43 UTC"
+    },
+    {
+      "title": "Steel Authority of India (NSEI:SAIL) Stock Forecast & Analyst Predictions",
+      "source": "Simply Wall Street",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMFFrWlIwckZhZEhnazBkR3ZqbFBmWTVlNnZGMEtxd0RlNVF1cFdVcDFpNURfSm5ORG9qcGotNlU4Zi1vRW5ZSDZGUUpUS25BbmRBX1E4VkVKQTFRdEwzVlF5LUtLbjB0bmZEYnhjVlF2WW50SDJ4ZlVPei1uMHVTN1VBUWtXdzM4WFdyblUzVWNPX2s?oc=5",
+      "published": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "published_iso": "2026-10-13T07:00:00Z",
+      "age": "5d ago",
+      "priority": 3,
+      "fetched_at": "2026-10-18 08:43 UTC"
     }
   ]
 }
