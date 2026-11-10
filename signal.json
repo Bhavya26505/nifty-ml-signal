@@ -1,15 +1,15 @@
 {
-  "date": "09 Nov 2026",
-  "generated_at": "2026-11-09 20:40 UTC",
-  "next_trading_day": "10 Nov 2026 (Tuesday)",
+  "date": "10 Nov 2026",
+  "generated_at": "2026-11-10 17:44 UTC",
+  "next_trading_day": "11 Nov 2026 (Wednesday)",
   "market": {
-    "close": 25030.349609375,
-    "open": 24538.19921875,
-    "high": 25030.349609375,
-    "low": 24388.05078125,
-    "prev_close": 24536.599609375,
-    "change": 493.75,
-    "change_pct": 2.01,
+    "close": 25044.650390625,
+    "open": 25076.400390625,
+    "high": 25084.05078125,
+    "low": 24838.75,
+    "prev_close": 25030.349609375,
+    "change": 14.3,
+    "change_pct": 0.06,
     "week_52_high": 26328.55078125,
     "week_52_low": 22231.80078125
   },
@@ -17,32 +17,32 @@
     "signal": "LONG",
     "confidence": "STRONG",
     "action": "BUY / HOLD \u2014 Nifty ETF (NIFTYBEES)",
-    "prob_up": 68.3,
-    "prob_down": 31.7,
+    "prob_up": 79.3,
+    "prob_down": 20.7,
     "hist_accuracy": 60.3,
-    "pred_close": 24147.0,
-    "pred_high": 24141.9,
-    "pred_low": 23834.83,
-    "pred_change": -883.35,
-    "pred_change_pct": -3.53
+    "pred_close": 24342.24,
+    "pred_high": 24528.68,
+    "pred_low": 24154.85,
+    "pred_change": -702.41,
+    "pred_change_pct": -2.8
   },
   "indicators": {
-    "rsi_14": 80.54,
+    "rsi_14": 87.92,
     "rsi_note": "OVERBOUGHT",
-    "bb_pctb": 1.181,
-    "macd_hist": 261.43,
+    "bb_pctb": 1.057,
+    "macd_hist": 278.73,
     "macd_note": "BULLISH",
-    "volatility_20": 1.03,
-    "momentum_5d": 8.58,
-    "momentum_20d": 12.59,
-    "volume_ratio": 1.36,
-    "atr": 325.44,
+    "volatility_20": 1.02,
+    "momentum_5d": 6.84,
+    "momentum_20d": 11.21,
+    "volume_ratio": 1.11,
+    "atr": 319.37,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 23248.02,
-    "ma_200": 23998.93,
-    "bb_upper": 24522.48,
-    "bb_lower": 21710.59
+    "ma_50": 23264.76,
+    "ma_200": 23995.83,
+    "bb_upper": 24860.6,
+    "bb_lower": 21624.89
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,66 +58,6 @@
     "count": 100,
     "sentiment": "BULLISH",
     "headlines": [
-      {
-        "title": "Trade Setup For Nov. 2: Nifty Eyes Resistance At 23,200; Can Bulls Push Index Above 24,000?",
-        "source": "NDTV Profit",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRHE0TVJGZURIYkh0UXhBdHRPcktZYTNOeGxyU09OZll2RnFSeVdvWERZcXRXNGVDZ2NzSFBKbmhLbjFMU1B3TnA5WmtUazRqblJCdVVQa2N2SlU4UzNZSDJ0b2tQLVBrNFR0eVd1OUJ5NXlKeHZTZUpOZS02S3B6WXNQVlNBUndMU0FHVEIzQk10WUZEZk42OTcyMlZ5QTRUY1B2a2FDWTU0UkliQVlwbWZZaUJzRVRMdFhHUVhPemR3TFo0LTBYdml1Y9IB0wFBVV95cUxOUXdsMENaTllhLXpFOUNHczBIMEJNemxZRGJiTDFkRmRIeFF0TDBNNWJCRFpyUG1OTjhiN1FsejNOX19WZmk5c0tpdG9BNjI2VmxYemVGTmRmQTN6amNNYzdqbVdDYy1xN3hISzJLSmFZc0o5MFI3T18zRTJySmpRNTE3bW5ZaUVlU0VFcF9qOVlCRzI1QkFfZWU3cmVpNmpiRXAzOGZYTXNHTU9JOGNiX2JzUDJrZkJmdGJ1dEdCQUU5QXVPRnJ4c0NWZWxYUFhyQUhR?oc=5",
-        "published": "Sun, 01 Nov 2026 16:33:07 GMT",
-        "published_iso": "2026-11-01T16:33:07Z",
-        "age": "16h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-02 09:05 UTC"
-      },
-      {
-        "title": "Stock market outlook today, 2 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-        "source": "Livemint",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTlFfOXJmNXYteGRXMGlYQkU2QWtCMlFRbWF4X0FNa05FYlFSbldpcU1xWUlEOEFBN2ZnQVgzU1BUUHRYYm5BZ0tNREpnY0d0Rk50WlktMUxIOEVVUXl0czc2UVJZcG0yeUc1U0JBZ29GS01JeW1rNkpjWk42RDFNRXNLc2x2YnVjcU5rUkpXZmdTS19pY21QdXdKb0V2X3ZraTQxT3lWT0pRSUlJWG5VRVRyc202eDJMZWhaSGw5SjBWUExkZFkwX2F5N252YUcxeWxsUTVQSVhxQndVemRBWm1MYnEtQ0xWcGVSRld6M09tY1UzQzZlUU5nR2htOUM1LWdv0gGIAkFVX3lxTE1UaV9xRDAxeW9XVEtUWW82NWRuVFpVN3gxaXktLVBtNVVoalBkX0hRMzI3OFA3RGNRMkVDT3MzdWxZX1N4Q24tWVJQMnpsRmo4ZU5OemVyNVFPeVNNbTkxdktPZFhwYU1icmtmWTlma0dzWlhjREZBeGY0djVGYWFDVHVoTFhsY1VkRXJiS01BUGRkSlFhV1N4Y2h2ZlRPRG1ZTGZZZGJRalJEVUxmc1F3NXlqaHM0N3BJRFVzLXhaQjkwa001YUxiQUZxY1VzVVp2bE5zNGQ0aERLdVJjWjdxdm5aUmVvcXdjV3pRaEl5VExpOV82d3BsNzdnY3A1c0dhd0lpWURoUQ?oc=5",
-        "published": "Mon, 02 Nov 2026 01:22:54 GMT",
-        "published_iso": "2026-11-02T01:22:54Z",
-        "age": "18h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-02 20:05 UTC"
-      },
-      {
-        "title": "Reliance earnings, lower oil prices power India's Sensex to near two-month high",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRV9nWF8tcV9tRkNYTENXRnRyTDhkcnRoZEJmMFJ1Wm1USDJwbDNxcEFuU0xNbE9JSnRJb2xScTBmWWVpZWJ5SmlhXzdBajNuSDhnOWdULWQ4UUZ2T3RRdjhpNWxZb08tcEQxR01tdks4dkhLTUN1WjJiZVFSa1JCbHBRdGVsZVZqNzFoQ2ZDdF9zbE9MeUlvRHhzZGRRM05SeGxlaFB1MFZjWVB3TVZjbTBfUlprRTZ2eTA3bFBFQVpLdw?oc=5",
-        "published": "Mon, 02 Nov 2026 02:42:00 GMT",
-        "published_iso": "2026-11-02T02:42:00Z",
-        "age": "17h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-02 20:05 UTC"
-      },
-      {
-        "title": "Rupee ends little changed as traders stay cautious despite oil, dollar drop",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeC1WaUFNMi1wWEN5WFRyenJJLUxoa0lkUGdFM1dOU3VkVUYyak9ZdWRVV3N0b1NPX0xFTjZ0NVRlNWpadXdGMVltUmxMcm1zcVdQdjQwMV9ialVNaGliVmhXOS1zTm5kNUp0VXlqTUpaVVRqUUhuX2xaRVpQWlFXbFlMS2EwNTJqYUZ3elRFLXUzcmtpaXhFMHlFTjBVaHJSMFVULUhrQVJlYWpaUnljMTVwSjA?oc=5",
-        "published": "Mon, 02 Nov 2026 02:57:00 GMT",
-        "published_iso": "2026-11-02T02:57:00Z",
-        "age": "17h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-02 20:05 UTC"
-      },
-      {
-        "title": "Rupee opens flat as crude oil eases, AI-led selloff weighs on Asian currencies",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQTgwQ0wyYWN5bU5weWlJdUFDaXVhdURwTjVvOTZNRWU3R3NnaVAtNE5lZ3VQYnNDaElqLXpXMkdWeHJJNk00d2NBSFpjS2xMVEVoTnpPZkI2RFhPYjAxSXhoeW5GaHY2RElWbzl0aDQwY3lYX2RLN1hEZWpoQWtEcUtfUWxvZS1qUUJrU3FUWnF0Um5EOGhyQmloUzRKRXNoUmt1ZGY3VG80WXplZVhGQnpObnhEaXdTM2RWNjZsR3RraEtYQ0pYUUFSN0plMTRHNTIzaGhFYw?oc=5",
-        "published": "Mon, 02 Nov 2026 03:48:00 GMT",
-        "published_iso": "2026-11-02T03:48:00Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-03 03:22 UTC"
-      },
-      {
-        "title": "RBI monetary policy: Repo rate unchanged at 6.5%, GDP projection lowered to 7%",
-        "source": "ET Government",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNDlQSnRlZndOWHMtWF9XRTN5YmFNNDFMWFQ2b1pSS2RFNzQ1MXRVbEM2bG5fd1BtUThKRmUxa2dBSW9PbzN5QXhJby1MbDJjMDlndzZwanFDcU9Ra0RpY0kyVmpFbW5haTNzLS14blZuTkFrV3ZqS0VLMFVnQi1acmZ0bDdoM1F6bnhfZG5DYnAyZXZxTWpweUUtOGxodE5DN1NlM3lxMFk4RDBGc0E4Z09icU9WTlAxTkxLY3VZWjRtOTFRa2M4V0RCcFZYTXFaOE5OTDhYRHdhN3duNzhfdnhNZUw2VzhmbFRQSGZHa2NWOG1oUEEyTGZSLUVuWXVy0gH7AUFVX3lxTE8wSk5PLWg5aG13RzlSLWtZOE5TaFduTmFSY1ROVmFyRkVnZko4TnVaVHFpR1ZDbW93Vm9xekhrMDZJV1V0cVFvWE1CWHR0SFN6Qk0zZnBxdWVTaHJJZlZWVXQwaVBrb3RfZE1fSUtvQnQxNGY4dmNtaFdqNS13STVuQ3BGdEd6OURNV1V0M3NqTUxod3FjVDl0Rm1hU1BUZ25qWTNOWElnTnJaM1k5MFMyOEZMSThlcDJaaDRuaUU4bWFyZjFSMERaQi1vTFJJNVEwbnlLRHE4bXhvRjJwTXFVT1ZVbWczQk9EOXJsekM3MzViYWFtR3Z2U1dv?oc=5",
-        "published": "Mon, 02 Nov 2026 13:35:58 GMT",
-        "published_iso": "2026-11-02T13:35:58Z",
-        "age": "22h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-03 11:44 UTC"
-      },
       {
         "title": "Q2 results, Nov 3: SBI, NSE, Bajaj Finserv, Solar Industries, Lupin, MCX, Graphite India, Gujarat Fluorochemicals, GSK, others to post earnings",
         "source": "Upstox",
@@ -1057,6 +997,66 @@
         "age": "15h ago",
         "priority": 1,
         "fetched_at": "2026-11-09 15:41 UTC"
+      },
+      {
+        "title": "Analysts Have Made A Financial Statement On Dabur India Limited's (NSE:DABUR) Second-Quarter Report",
+        "source": "Simply Wall St",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZmpPazcydjRNaTNtalJHMkp6bUpYbFFZaHVaOE9kdDZyWUh5VktaT0c1enQ2RnJSb0h5czNUaG1pYjlrWlBJUzhKajRuc3NobG9NQ3VjbHRsaFhIS1owcDBZYTdoT05DX3Z5b0FyWGJKSk1VeS15blNJQXREUm40ZmFvM0xtX1gxbTg1MTROcFhpMzg2bFBrS0hYX0NpcGRHUGcxb2RYcThaU2gyMzZDUkdaeWRZUzdUdEU3cnkxck1EamFUV2dmVkdJczNYbWdnOEHSAdcBQVVfeXFMTmpCdUdRX1FpQUROaXhlQ0hYMXQ3R3FYbm9ZbDVyUGpxZFF1bnZaOFV6WmZWbzFkRkJDVHlJQUJ2bnhKdzJlUmFVTW5JRlhkbU5GcklEbFhJSW52d0RNWTlLWWZwdzkxb0RjSUxXRENlWnNYUno4VE5BVkItcDlLUDExRjhJcU1GTGkwaVlJLXpKV1pRQVZEVktDWUxGVU1fbHpxajFwcWxMUjZFTWQ1TFhaSWVQb0licThialFyLUw2TE9fVzcxYXZQYUc1OW9MemtndkhWQTA?oc=5",
+        "published": "Mon, 09 Nov 2026 00:28:07 GMT",
+        "published_iso": "2026-11-09T00:28:07Z",
+        "age": "23h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-10 00:01 UTC"
+      },
+      {
+        "title": "India stocks higher at close of trade; Nifty 50 up 0.23%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSmZKRncwTlIyeUk1QUFycktMQXlnc2xyNjZHWml3OW8zRGRLZWpVSmxQb2dTOERwRnlGeEhXdjhST0NtMjdXSlFGcHlLLVVNQUl6NXFsWHVPdHplRGFjMXE5ZmFBa2xRVXd6MHVmNklkc3V1RDBicWhmWkhuaVUzWk9PSDdOTUdCZnFrZFZYQ0pDa1RiOHNrMm1ySGZBV2FQQlU4RmFyT0FlN0loRUsw?oc=5",
+        "published": "Mon, 09 Nov 2026 10:37:35 GMT",
+        "published_iso": "2026-11-09T10:37:35Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-10 09:29 UTC"
+      },
+      {
+        "title": "Stock market holiday tomorrow: BSE, NSE shut on November 10 for Diwali Balipratipada after Sunday Muhurat,...",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSmRxeW5QSzhsYWt0MktaMTBGc2EwdHRmMEttbk1aMFRCSjk4Sld6ZjJ6bzZTd0VGd3NiOXowWlN1MlpMZmVHV3VKMlVBSlB4MmtxcG1hMENENGNSLWRGQnpCbGM3TzZBZ2gyOHMxTkd1RjA5ZmczelU1SnlrbHpOT2pMQTRWVndEdkIxbjhPVV9weVNKdE9DQkdBUHZtRzNqbmhDeXdpbVNnU2xUZ2FIRVgxNXV2UUlST3lVWkhFejhkTV9Fc0NaRllCV1h2UGFTZUpCNjJYUEIzNVVxQjRPMC1UbGdQSU1NcnpLb01ZMXhsckYyME9lVTJuYndFM2l2ZDZPRXNZcHFGRmlMREHSAZMCQVVfeXFMTWJrVlN1TE53VUFUTDgzaGJrMUtmemZYOTFKSk9jRWtTb0dROXV4YUkzREJVOHNsR2p2Tm40MmE1SmNERkM4eUFob0tFdXhnNVd5SEdDbVZYN1ZTUm5UNnlPZlQ5R28wWjdJS3Z5YVJ5bG5PeEhiM1pyYTVEUlF5bnJ5QXZ6MXBhWE82ZlRPNU5fUlNKWVcxVVpGYW9pMlVzemRtakd2dklzNTNSU3dLd19LZXI1UW1rb294QUhmMmhrUEI0Vlgwd2VWQXU3UzczeXg5YXE1UHExRWcwQVNJWXY4WlVENV9LczRLNURJbEhETWtnQnd3ZHhhRUt6WVh2b0dJQlp2dmRrczB1LVFPUGFIdVU?oc=5",
+        "published": "Mon, 09 Nov 2026 10:41:35 GMT",
+        "published_iso": "2026-11-09T10:41:35Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-10 09:29 UTC"
+      },
+      {
+        "title": "Rupee Closes at 93.93; Gains on Crude, FII Inflows",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT01TSm9xYVM5RVpjRjYzM29ra3NqZFdVVnR6Z004TDAwMnowN291Q3k2b3BqUDZodjZ4Sm1qcTJMak9mamRua29TNjBQUmJSVkNHejhqa1I5WURKVm81bHNIY1ZFMGhhSnZ5UllhaDRHNG5nZERIeVRfVHZQLTZkLUJsMnhXZ28?oc=5",
+        "published": "Mon, 09 Nov 2026 11:07:48 GMT",
+        "published_iso": "2026-11-09T11:07:48Z",
+        "age": "22h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-10 09:29 UTC"
+      },
+      {
+        "title": "Rupee settles at 93.93 against US dollar amid softer crude prices",
+        "source": "Telangana Today",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzN2eW8yVDdxa1UyX0huNlRmemhSZTJKTmQxVXFIVGw0QUdDaEY3Szk4ZTRkdF8zbjVBaGRKU3otbUp5b3RmWFVBY0kwRHdscWgweDNhdVEwbnhvNm43cDN0LUVzSTFRUS1vVDRacXVXeVdqMjZxOUVvR0RpUnRLM1F4N21sN293c1dDRmhQTzFIWXZ2aHJR?oc=5",
+        "published": "Mon, 09 Nov 2026 11:51:44 GMT",
+        "published_iso": "2026-11-09T11:51:44Z",
+        "age": "21h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-10 09:29 UTC"
+      },
+      {
+        "title": "BSE SENSEX Today: Sensex Edges Up 0.13% to 81,106.65, Its Highest Close in More Than Eight Months",
+        "source": "BBN Times",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSDFhSThvQUEwVVB0RnhSZXp0UUpwa01RdmlMdzRoSlpYWWtoVjI1RU9BQlhqME9DajhqVGcwd09ra0VFYlpKRTVxTjA3cVF1V3JJNkZUZU94bExaV2thdlVkT21UM0FITHFubGJJWVotNDZsWDU0MUFUcmdmcWtQU19MS2cxMVdOQ3JCZXZRWlNWbGVSQkRwVDdFdThISnNUQU5KSkhrbmRuOWstUWR6S3JMYURueDRvUWE5c3U3ZUtlWVdYQnd0V3FMVU95eDQ?oc=5",
+        "published": "Mon, 09 Nov 2026 20:55:52 GMT",
+        "published_iso": "2026-11-09T20:55:52Z",
+        "age": "20h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-10 17:34 UTC"
       }
     ]
   },
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6221,
+    "training_days": 6222,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 48.81
+    "recent_1y_accuracy": 45.24
   }
 }
