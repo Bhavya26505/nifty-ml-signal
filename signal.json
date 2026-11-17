@@ -1,48 +1,48 @@
 {
-  "date": "16 Nov 2026",
-  "generated_at": "2026-11-16 20:21 UTC",
-  "next_trading_day": "17 Nov 2026 (Tuesday)",
+  "date": "17 Nov 2026",
+  "generated_at": "2026-11-17 19:08 UTC",
+  "next_trading_day": "18 Nov 2026 (Wednesday)",
   "market": {
-    "close": 25144.30078125,
-    "open": 25209.849609375,
-    "high": 25246.349609375,
-    "low": 25054.400390625,
-    "prev_close": 25299.349609375,
-    "change": -155.05,
-    "change_pct": -0.61,
+    "close": 25291.099609375,
+    "open": 25206.150390625,
+    "high": 25337.599609375,
+    "low": 25172.099609375,
+    "prev_close": 25144.30078125,
+    "change": 146.8,
+    "change_pct": 0.58,
     "week_52_high": 26328.55078125,
     "week_52_low": 22231.80078125
   },
   "prediction": {
-    "signal": "FLAT",
-    "confidence": "NEUTRAL",
-    "action": "Park in Liquid Fund / FD (~6% p.a.)",
-    "prob_up": 50.6,
-    "prob_down": 49.4,
-    "hist_accuracy": 50.0,
-    "pred_close": 24860.66,
-    "pred_high": 25045.95,
-    "pred_low": 24853.22,
-    "pred_change": -283.64,
-    "pred_change_pct": -1.13
+    "signal": "SHORT",
+    "confidence": "MILD",
+    "action": "MILD SHORT \u2014 small position only",
+    "prob_up": 43.6,
+    "prob_down": 56.4,
+    "hist_accuracy": 47.5,
+    "pred_close": 24905.29,
+    "pred_high": 25167.12,
+    "pred_low": 24812.7,
+    "pred_change": -385.81,
+    "pred_change_pct": -1.53
   },
   "indicators": {
-    "rsi_14": 92.93,
+    "rsi_14": 92.92,
     "rsi_note": "OVERBOUGHT",
-    "bb_pctb": 0.869,
-    "macd_hist": 245.73,
+    "bb_pctb": 0.859,
+    "macd_hist": 218.72,
     "macd_note": "BULLISH",
-    "volatility_20": 0.97,
-    "momentum_5d": 2.48,
-    "momentum_20d": 11.15,
-    "volume_ratio": 0.64,
-    "atr": 294.11,
+    "volatility_20": 0.93,
+    "momentum_5d": 1.04,
+    "momentum_20d": 9.97,
+    "volume_ratio": 0.95,
+    "atr": 279.8,
     "bull_regime": false,
     "regime": "BEAR",
-    "ma_50": 23331.79,
-    "ma_200": 23991.76,
-    "bb_upper": 25679.11,
-    "bb_lower": 21605.45
+    "ma_50": 23356.5,
+    "ma_200": 23992.43,
+    "bb_upper": 25896.61,
+    "bb_lower": 21617.33
   },
   "macro": {
     "macro_repo_rate": 6.25,
@@ -58,36 +58,6 @@
     "count": 100,
     "sentiment": "BULLISH",
     "headlines": [
-      {
-        "title": "First since 2017, Sensex & Nifty end in red on Diwali; snap 7-day winning run",
-        "source": "The Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORUFpS1hyRUd0clhzQkVUZmZJS0ZpWXV5VlIzbGpuNVJjeEdNTmtFUldPZmtFN0hOcjBWc1paLVVmRDk1T0RuRnN3WEs4QUNUVlhtdWRKY1kyOTE4M1Z6dW9LOGtBNVFNQUF4VWlZekJ2bTFLdTd1UlRxUmNYaGdXS2hGekRhNFpGMVFOdTFYLWJpNFZHSkthZTE0eFJzZ040Q294am91TU5OVWttX3RpdzJXdU9lQ1lOQnhBLUhKNFBfSnBDekhlMzVLa3VvRmdOV0HSAdgBQVVfeXFMTUNJSmRyS2xPX2p0NG5VbmoyWTFkbFUxRWFSMUNkZjdQbGZyVmVDd1V3d0NPbmNlQTQ5QnZqWExXQnl5aDdRQWVVZUZ6SzcyT1lzVHIzalFyMEZVRjFBbFRHVWhFV2UtSXJjOGdKUHZXamwzTkE5RThoZlctVngya1pjZG5UeE8tYzFlS1lfeDJlcnBKZkFldXJXZmh2NkU2R3AyWmxXMXJzeFdWcHlSVFVYMTgyZUF0MjRnemVwd0kxRzN2RFlxazRLcjU3LXRpLUQ1ZGlja3lZ?oc=5",
-        "published": "Sun, 08 Nov 2026 22:33:00 GMT",
-        "published_iso": "2026-11-08T22:33:00Z",
-        "age": "17h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-09 15:41 UTC"
-      },
-      {
-        "title": "LG Electronics India Limited (NSE:LGEINDIA) Just Released Its Interim Results And Analysts Are Updating Their Estimates",
-        "source": "Simply Wall St",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNjM4NUVzTVJoY1N6dlI5ZkkyYkdBcHR6VzB5MmZuZWVsZzN0cTl2ZjhjUzE2VVFlUUEzOFVkVThaOFo3LU5HbjdtNXlxMGp1QWF0NkpyTEpSaUhJNW5wM1FLalE4SG5ybHhmQ1ktZTc1Q01VMGd1UHhfRkllUWgtYWNNd2U3NnpSREtZY1BGWW52N0tNZEFDZG85b1VVRE5tOFhacEhmcUZ4b3NiU01keFRFdHdFMkl6N3VHS0xkR3FHSkp3ZWRPQ05takFJd0pVUllrMU9feGtEUWRWbndKdFhHVWVXYXk5MEhRcdIB8gFBVV95cUxOUDlmZ2ZoUWJ6RFVTMHl3S0pnLTFkWFJOdF9vZ0RBdHZSUlQ1VVRETXJUY0pWeWIzZi1ZZTBVMG9iSG4tTDFaUV9jeFBrc09ONXQ0ZkhOMUZrODZTU1huVUZYc3dONGN5X2NNeTc0elNZWkM3Q3c0UF9kOF9DSGQtMmVDR1ZyVlVaV2JXcDBKazloUTA1TlZ6MXVGZnhtcXpBclM3NnExMGVqOFU0WkEzeEJhWThRVDZwcUphTnlOWXVEVlYwY0UwQVZrbXpReGZpbzdEb2h3ZFZ6b01SblBaT3k5Slkwa1pvaHVRdzJHS1ZBdw?oc=5",
-        "published": "Mon, 09 Nov 2026 00:18:57 GMT",
-        "published_iso": "2026-11-09T00:18:57Z",
-        "age": "15h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-09 15:41 UTC"
-      },
-      {
-        "title": "Analysts Have Made A Financial Statement On Dabur India Limited's (NSE:DABUR) Second-Quarter Report",
-        "source": "Simply Wall St",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZmpPazcydjRNaTNtalJHMkp6bUpYbFFZaHVaOE9kdDZyWUh5VktaT0c1enQ2RnJSb0h5czNUaG1pYjlrWlBJUzhKajRuc3NobG9NQ3VjbHRsaFhIS1owcDBZYTdoT05DX3Z5b0FyWGJKSk1VeS15blNJQXREUm40ZmFvM0xtX1gxbTg1MTROcFhpMzg2bFBrS0hYX0NpcGRHUGcxb2RYcThaU2gyMzZDUkdaeWRZUzdUdEU3cnkxck1EamFUV2dmVkdJczNYbWdnOEHSAdcBQVVfeXFMTmpCdUdRX1FpQUROaXhlQ0hYMXQ3R3FYbm9ZbDVyUGpxZFF1bnZaOFV6WmZWbzFkRkJDVHlJQUJ2bnhKdzJlUmFVTW5JRlhkbU5GcklEbFhJSW52d0RNWTlLWWZwdzkxb0RjSUxXRENlWnNYUno4VE5BVkItcDlLUDExRjhJcU1GTGkwaVlJLXpKV1pRQVZEVktDWUxGVU1fbHpxajFwcWxMUjZFTWQ1TFhaSWVQb0licThialFyLUw2TE9fVzcxYXZQYUc1OW9MemtndkhWQTA?oc=5",
-        "published": "Mon, 09 Nov 2026 00:28:07 GMT",
-        "published_iso": "2026-11-09T00:28:07Z",
-        "age": "23h ago",
-        "priority": 1,
-        "fetched_at": "2026-11-10 00:01 UTC"
-      },
       {
         "title": "India stocks higher at close of trade; Nifty 50 up 0.23%",
         "source": "Investing.com",
@@ -1029,6 +999,16 @@
         "fetched_at": "2026-11-16 05:41 UTC"
       },
       {
+        "title": "Kalyan Jewellers KALYANKJIL Q2 FY27 Earnings Call Key Takeaways",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWGN4R0ZENkprdm41VGY1ajU2YWVtRExMcFlFaVByaGJfX0MzWjN2SzMza0lXQnVVMFpWNVc3SGd6bzVOTkd3UUNlTEF5QzJCNHhNVDBsNkpBX05ISncyRkoyYnRMT1J4STRHZXRfZ004WFNGYllDTEtVTVNwMnBIYmJybEZnQkFSRWtrRHhlYmF1eDBLeE1aS0tRaDVYTE5FclRqUjVYN0d5MzZaeE14bXNJaXlYNjdULVRLTWFJX2tUT0RIbnNZcA?oc=5",
+        "published": "Mon, 16 Nov 2026 05:12:00 GMT",
+        "published_iso": "2026-11-16T05:12:00Z",
+        "age": "18h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-17 00:03 UTC"
+      },
+      {
         "title": "Rupee rises 6 paise to 94.13 against US dollar in early trade",
         "source": "The New Indian Express",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1I1RUxiN2UyOFQ2anNOME4xeGtoTHExSDNKV2MzV0ZiQlczSWNGZnhIbXRiX2tGeThqY0NkLXN5TWJhb2labjFBM2Y0QVlFanBrUEJaVzhib3IxUWVNaWtBdjN4cF81OGsxQVBTUFJja0tlVVIyNlBzOHp6ZVdLZ3RWcUYyQ0l2dzlldDhIb21TeGtBNmxqTC1mYVFhZU1RMzRWX1JZNkJ1aE1IY3hDNDdjV0rSAcIBQVVfeXFMTV9CdFd3QTBxamhWb2hVNHpxTDdOOFZMVGhSLW90aFVxbmVjMHB6cUhqZVpfalVudTdabWlKdXBEbVhaMVNfdl90b0VuaUtpVjBTQ2padHBSa2lnaGpTVmJRMmE3TEFqbzlET0FGTkxYbkxHaEFsd2hJYUttRVZLNTg0SHhxaEVaSDc1NXJWTHY1R1NuZGNfMm14bWQyd3ludFNDSHVWRkQzU0ZnNk9uVnY4VXJOYzJXTThqOFJXN0ZmaFE?oc=5",
@@ -1057,6 +1037,26 @@
         "age": "7h ago",
         "priority": 1,
         "fetched_at": "2026-11-16 15:16 UTC"
+      },
+      {
+        "title": "India stocks higher at close of trade; Nifty 50 up 0.58%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUVfU0RvaTc4VTk3MjZ0VmtLdTI4RmpiTXZuZ2JCTTMtaWIxRmhraFFDSkJBNTl1a1VMZEF6ZTlBNkpPYWpYM0xJb0ZvUVk5T3AwdXhoUDYxVGF1MTNVVWY4WjU5a1YxN3RBRzhNWGNNbFJRQ0dVbEwxOHhibF90OUtMWjYwTUYtcG9qeFNBelUxaEFXLW5VQmlaWlAwRkhlX2tORHVEYmk5UlpFTDB3?oc=5",
+        "published": "Mon, 16 Nov 2026 10:34:42 GMT",
+        "published_iso": "2026-11-16T10:34:42Z",
+        "age": "23h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-17 10:24 UTC"
+      },
+      {
+        "title": "Kaynes Technology (NSE:KAYNES) Q2 FY27: Order Book at \u20b9106,252 Million",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMFM3cXhVZFBtVWtTUFlVNzRmNEM3U0tqYjBwM3ppbEJxWWg0MWppZHQxM0RTdmc0VkR2VXRyeXZybnZuRFE3TUxEVDh4ajRURkNjZlliZDRheG9vOExRRmNFWjR5VDlKSllLLVRqTHczNXA1ZkIzMVQ1aFEtSU9icHBhd1QxOGxJTGRxWC1IZTc1OGhFcXBDNUo1ckg3bzkxbzhHMEp0UExaSFZtVTlBWG9EbnRvNnhZN1VweS1naTlWc1NnVTA2bWw5aV8zaTA?oc=5",
+        "published": "Mon, 16 Nov 2026 11:00:00 GMT",
+        "published_iso": "2026-11-16T11:00:00Z",
+        "age": "23h ago",
+        "priority": 1,
+        "fetched_at": "2026-11-17 10:24 UTC"
       }
     ]
   },
@@ -1067,10 +1067,10 @@
     "bear_points": []
   },
   "model_info": {
-    "training_days": 6225,
+    "training_days": 6226,
     "features_used": 27,
     "tech_features": 19,
     "macro_features": 8,
-    "recent_1y_accuracy": 46.03
+    "recent_1y_accuracy": 48.41
   }
 }
